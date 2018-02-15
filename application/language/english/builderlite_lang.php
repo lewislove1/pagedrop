@@ -5,8 +5,8 @@
 
 
 //shared items across the entire app
-$lang['alternative_page_title'] = "Site Builder Lite";
-$lang['newsite_default_title'] = "My New Site";
+$lang['alternative_page_title'] = "Page Drop";
+$lang['newsite_default_title'] = "New Landing Page";
 $lang['modal_close'] = "Close";
 $lang['modal_areyousure'] = "Are you sure?";
 $lang['modal_cancelclose'] = "Cancel & Close";
@@ -15,7 +15,7 @@ $lang['back'] = "back";
 $lang['cancel'] = "Cancel";
 $lang['imsure'] = "Yes, I'm sure";
 
-$lang['loading_site_data'] = "Loading site data...";
+$lang['loading_site_data'] = "Loading page data...";
 $lang['loading_saving_data'] = "Saving data...";
 
 
@@ -28,16 +28,16 @@ $lang['nav_users'] = "Users";
 $lang['nav_settings'] = "Settings";
 $lang['nav_myaccount'] = "My Account";
 $lang['nav_logout'] = "Logout";
-$lang['nav_goback_sites'] = "Back to Sites";
+$lang['nav_goback_sites'] = "Back to Pages";
 $lang['nav_goback_users'] = "Back to Users";
 
 
 // views/auth/login.php
-$lang['login_page_title'] = "Login | Site Builder Lite";
+$lang['login_page_title'] = "Login | Page Drop";
 
 
 //sites/sites.php
-$lang['sites_page_title'] = "Sites | Site Builder Lite";
+$lang['sites_page_title'] = "Sites | Page Drop";
 $lang['sites_header'] = "Sites";
 $lang['sites_createnewsite'] = "Create New Site";
 $lang['sites_filterbyuser'] = "Filter By User";
