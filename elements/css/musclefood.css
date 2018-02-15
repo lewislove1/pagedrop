@@ -1,0 +1,159 @@
+/*!
+ * Bootstrap v3.3.1 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*!
+ * Bootstrap v3.3.1 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+/*!
+ * Flat UI Pro v1.3.2 (http://designmodo.com/flat)
+ * Copyright 2013-2014 Designmodo, Inc.
+ */
+/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+/*!
+ *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+
+body{
+  margin: 0;
+    background-color:white;
+    font-size: 11px;
+    font-family: arial, helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: Maxima-Lig;
+}
+strong {
+    font-weight: bold;
+    font-family: Maxima-Lig;
+}
+.col {
+	padding: 0;
+}
+.col1-layout .col-main {
+    width: 100%;
+    margin: 0;
+}
+.row {
+    font-family: Maxima-Lig;
+    font-size: 1rem;
+}
+.features {
+    text-align: center;
+    padding: 1rem;
+}
+.breadcrumbs {
+    display: none;
+}
+.features i {
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
+}
+.blue-background {
+    background: #006699;
+    color: #fff;
+}
+.fto-offer-wrap-ny {
+    max-width: none;
+}
+.fto-offer-wrap-ny img {
+    /* width: 27%; */
+    width: 100%;
+    outline: #FFFFFF 5px solid;
+    float: left;
+    /* max-width: 150px; */
+    /* max-height: 150px; */
+    max-width: none;
+    max-height: none;
+    margin: 2% 0% 2% 0%;
+}
+.fto-offer-txt-wrap-ny {
+    /* max-width: 355px; */
+    /* width: 66%; */
+    width: 100%;
+    max-height: 100%;
+    float: right;
+    padding: 2%;
+    background: #FFFFFF;
+    min-height: 120px;
+}
+.col2-review {
+    text-decoration: none;
+}
+.btn {
+    white-space: normal;
+}
+.btn-success {
+    background-color: #5caf3a;
+    border-color: #5caf3a;
+    font-family: Maxima-bol;
+}
+.btn:visited {
+    color: #fff;
+}
+.nutritionals-callout {
+    top: 0px;
+    left: -15px;
+    right: auto;
+    bottom: auto;
+    width: 115%;
+    max-width: none;
+    height: max-content;
+    border-radius: 0%;
+    box-shadow: none;
+    margin-left: 0px;
+}
+@media screen and (max-width: 530px) { .nutritionals-callout { width: 125%; } }
+.row-margin {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.row-margin-top {
+    margin-top: 50px;
+}
+.nutrition-table {
+    table-layout: fixed;
+    width: 100%;
+}
+@media only screen and (max-width: 750px) {
+.hide-in-mobile-view {
+    display: none;
+}
+}
+@media only screen and (min-width: 750px) {
+.hide-in-desktop {
+    visibility: hidden;
+    display: none;
+}
+}
+#header-image:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0px -30px 40px -15px rgba(255,255,255,1), inset 0px 100px 60px -25px rgba(255,255,255,1);
+}
+#header-image-mobile:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0px -30px 40px -15px rgba(255,255,255,1), inset 0px 50px 60px -25px rgba(255,255,255,1);
+}
+.o2-prices {
+    margin-top: 15px;
+}
