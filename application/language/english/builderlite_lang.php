@@ -43,7 +43,7 @@ $lang['sites_createnewsite'] = "Create New Site";
 $lang['sites_filterbyuser'] = "Filter By User";
 $lang['sites_filterbyuserall'] = "All";
 
-$lang['sites_sortby'] = "Sory by";
+$lang['sites_sortby'] = "Sort by";
 $lang['sites_sortby_creationdate'] = "Creation date";
 $lang['sites_sortby_lastupdated'] = "Last updated";
 $lang['sites_sortby_numberofpages'] = "Number of pages";

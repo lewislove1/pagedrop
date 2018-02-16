@@ -1,0 +1,1862 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*----------fill my fridge ---------*/
+
+.bdy-co-head-fill {  color: #006699;
+    font-family: Maxima-Bol;
+    font-size: 2.5em;
+    letter-spacing: 0.02em;
+    line-height: 0.89em;
+    padding: 2%;}
+
+/* black friday */
+	.arrow-bf { padding: 1%; margin: 0 5px; display: inline-block;}
+.arrow-bf img { max-width:16px; margin-top: 3px; -webkit-animation: mover 1s infinite  alternate; animation: moveit 1s infinite  alternate;}
+@-webkit-keyframes moveit { 0% { transform: translateY(0); } 100% { transform: translateY(3px); }}
+@keyframes moveit {  0% { transform: translateY(0); } 100% { transform: translateY(3px); }}
+
+
+/*----------146566329 - bdaychicken ---------*/
+.bdy-co-head { color: #006699; font-family: Maxima-Bol;  font-size: 3.2em; letter-spacing: -0.08em; line-height: 0.8em; padding:2%;}
+span.min-order-bday { font-size: 0.5em; letter-spacing: -0.03em; color: #d54c01; font-family: maxima-Med;}
+	.dashed-code-box-bday { font-size: 26px; width: 96%; float: left; line-height: 30px; text-align: center; margin-top: 10px; margin-bottom: 5px; border: #9E0B0F 2px dashed; padding: 2%;
+    position: relative; z-index: 1;}
+	.header-txt-bday { color: #006699; font-family: Maxima-Bol; font-size: 5.2em; letter-spacing: -0.08em; line-height: 0.8em; padding: 3% 0 0%; margin: 0 auto -20px; text-align: center; position: relative; z-index: 100;}
+	.price-bday-wrap { display: flex; justify-content: center; align-content: flex-start; line-height: 1em;}
+	.usuallyprice-bday { font-size: 0.6em; font-family: maxima-Lig; letter-spacing: -0.07em;  line-height: 1.7em; color: #111111; margin-top: 0px;}
+	.today-price-bday { font-size: 1em; letter-spacing: -0.06em;color: #61be38;}
+	.coy-offer { margin: 0 auto; text-align: center; float: none;}
+	.coy-bday { display: inline-block; text-align: right; padding-right: 2%; color: #006699; font-size: 2.8em; letter-spacing: -0.08em;}
+	.boy-dropdown { display: inline-block; text-align: center;}
+	select.qty-coy-bday { height: 30px;  border: #669999 2px solid; font-family: Arial, Helvetica, sans-serif; font-size: 18px; margin-top: -5%;}
+	.choff-leftcol-countdown.bday-chik { margin-right: 0 !important; width: 49%; display: inline-block;}
+	.lorraine-bday {font-family: maxima-Med; font-size: 1.8em;display: inline-block;padding: 3% 0 2%;}
+	@media screen and (max-width: 710px) {
+		.coy-bday { display: block;text-align: center; font-size: 5vw;}
+		.lorraine-bday { font-family: maxima-Med;font-size: 3.8vw; text-align:center;}
+		.boy-dropdown {display: block;}
+		select.qty-coy-bday {margin-top:0;}
+		.bdy-co-head { font-size: 5.3vw;}
+		span.min-order-bday {font-size: 2.8vw;}
+		.dashed-code-box-bday { width: 80%; float: none; margin: 0 auto; font-size: 5vw;}
+		.header-txt-bday { color: #006699; font-family: Maxima-Bol; font-size: 5.2em; font-size: 7vw; letter-spacing: -0.08em; line-height: 0.8em; padding: 5% 0 0%; margin: 0 auto; position: relative; text-align: center;}
+	.price-bday-wrap { display: flex; justify-content: center; align-content: flex-start; line-height: 1em;}
+	.usuallyprice-bday { font-size: 0.6em; font-family: maxima-Lig; letter-spacing: -0.07em;  line-height: 1.7em; color: #111111; margin-top: 0px;}
+	.today-price-bday { font-size: 1em; letter-spacing: -0.06em;color: #61be38;}
+	}
+
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/
+/*--------------------COPIED OVER STYLES ------------------*/
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/
+
+
+
+
+.lp-logos-wrap {
+		max-width:463px;
+		margin-left:2%;
+		margin-bottom:2%;
+		margin-top:-3%;
+}
+
+
+.lp-nutritionals-content li {
+    outline: 1px solid #4F8ABE;
+    text-align: center;
+    width: 48%;
+    float: left;
+    margin: 1%;
+    font-size: 1.5em;
+    color: #4F8ABE;
+}
+
+ul.lp-nutritionals-wrap {
+    width: 85%;
+    clear: both;
+    float: none;
+    margin: 2% auto 20px;
+}
+
+
+
+.lp-list-spacer {
+    margin-bottom: 5%;
+    margin-top: -4%;
+
+}
+
+
+.great-deals-tab {
+    width: 86% !important;
+    margin-left: 6%;
+	font-size: 19px !important;
+}
+
+
+
+.fp-list1 {
+    font-size: 15px;
+
+    text-align: center;
+    list-style-position: inside !important;
+    list-style-type: circle;
+    list-style-image: url(https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/20669-Peri-Peri-Hamper/20669-tick-for-mobile-view.png);
+    line-height: 38px;
+    margin-top: -1%;
+}
+.add-to-basket-wrap .radio-list-wrap { width: 30%; text-align: center; margin: 1% 1.5% 3%;}
+.add-to-basket-wrap .radio-list-wrap .radio-list { padding: 3px; width: 96% !important;}
+.double-col-holder { width:100%; float:none; clear:both;}
+.lp-first-col { width:50%; float:left; margin-top:1%;}
+.lp-second-col { width:50%; float:right;}
+.content-holder { padding:1% 2%;}
+@media only screen and (max-width: 570px) { .add-to-basket-wrap .radio-list-wrap { width: 97%;}
+.fp-list LI {margin: 2.5% 0;}
+.lp-logos-wrap {
+
+		margin-bottom:2%;
+		margin-top:-3%;
+}
+}
+@media screen and (max-width: 600px)
+{.fp-list LI {font-weight:bold; list-style-type: none; text-align: center;}
+.fp-list1 {font-size: 15px;
+    text-align: center;
+    list-style-position: inside !important;
+    list-style-type: circle;
+    list-style-image: url(https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/20669-Peri-Peri-Hamper/20669-tick-for-mobile-view.png);
+    line-height: 39px;
+    margin-bottom: 4%;
+    margin-top: 3%;
+    font-weight: normal;
+}
+.lp-first-col { width:100%; float:none; clear:both; margin-top:6%;}
+.lp-second-col { width:100%; float:none; clear:both;}
+.content-holder { padding: 0% 5%; margin-top: -5px;}
+	}
+
+
+
+.fto-offer-wrap.gta-winner { background:#fff url('https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/21036-hidden-hamper/21036-exclusive-bg.png') right -10% no-repeat scroll; }
+.fto-offer-wrap.gta-winner .fto-fine-details {}
+.fto-offer-wrap.gta-winner img { outline:#4c7991 5px solid;}
+.fto-offer-wrap.gta-winner .fto-offer-txt-wrap { background:none !important;}
+.exclusive-hdr { text-align:center;}
+
+.fto-offer-wrap.dpd-delivery { outline:1px solid #a00; background-color:#fff; width:100%;}
+	.fto-offer-wrap.dpd-delivery IMG { width:98%; height:98%; max-width:98%; max-height:98%;}
+.fto-offer-wrap.dpd-delivery .fto-fine-details { background:linear-gradient(#d80027, #a70027);}
+.fto-offer-shadow { background: none !important; border-top: #bbbbbb 1px solid; height: 1px; width: 97.5%; max-width: 100% !important; margin-left: 1.5%;}
+.fto-offer-free-ml { background: #64c54a ; padding: 2%; font-size: 18px !Important; line-height: 16px !important; color: #ffffff !important; width: 65%; width: fit-content; position: relative; margin: 0 auto; z-index: 100; text-align:center; font-size:18px;}
+.fto-offer-shadow.dpd-delivery { border-top: #a00 1px solid !important;}
+.dpd-delivery-bullets-wrap { padding-top:5px; padding: 2%; outline: 1px solid #c00; margin-top: 10px;}
+.dpd-delivery-bullets { width:50%; float:left; font-size:12px;}
+.fto-also-includes.one-pound { max-width: 545px;
+width: 100%;
+height: 35px;
+float: left;
+margin-bottom: 10px;
+margin-top: 5px;
+background-position: left; background:url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/21036-hidden-hamper/21063-1pound-divider.png") no-repeat top left;}
+.landing-customer-social { text-align:center;}
+
+.small-upsell-holder2 { width:80%; margin:0 10%;}
+.twenty-percent-holder { width:23%; margin:1%; float:left;}
+.upsells-small { width:100%; outline:1px solid #4F8ABE; padding:0.5% 0.5% 10px;}
+.upsells-small .more-deals-img { width:96%; padding:2%; float:none;}
+.upsells-small .more-deals-choose { float:none; font:bold 14px/18px Arial, Helvetica, sans-serif; background:none; width:100%; margin-left:0;}
+.upsells-small .more-deals-choose SELECT { margin-top:0;}
+.upsells-small .more-deals-content { width:96%; min-height:56px; margin-left:0;}
+	.upsells-small .more-deals-content H3 { text-align:center; margin-bottom:0;}
+.upsells-small .upsell-price-wrap { float:none; clear:both;}
+.upsells-small .price { text-align:center; font-size:21px; color:#007700; font-weight:bold; margin-left:0; }
+.upsells-small .sml-upsell-ratings { width:90%; margin:0 auto; text-align:center;}
+.ratings .rating-box { margin:0 auto !important;}
+@media screen and (max-width: 750px)
+{
+.fp-list1 {font-size: 15px;
+    text-align: center;
+    list-style-position: inside !important;
+    list-style-type: circle;
+    list-style-image: url(https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/20669-Peri-Peri-Hamper/20669-tick-for-mobile-view.png);
+    line-height: 39px;
+    margin-bottom: 4%;
+    margin-top: 3%;
+    font-weight: normal;
+}}
+.fto-offer-wrap.gta-winner img { padding-bottom:3% !important;}
+.dpd-delivery-bullets { width:100%; float:none; clear:both;}
+.small-upsell-holder { width:100%; margin:0;}
+.twenty-percent-holder { width:23%; margin:1%; float:left;}
+
+/*.twenty-percent-holder:first-child { width:100%; float:none; clear:both; margin-top:20px;}
+.upsells-small .more-deals-choose SELECT { margin-top:0; display:block; margin:0 auto;}*/
+.upsells-small .review-left, .upsells-small .review-right { width:50%; margin-right:0px; text-align:center; clear:none !important; float:left; }
+
+
+
+
+
+.fp-prod-title { font:bold 20px/22px Arial, Helvetica, San-serif; color:#4F8ABE; margin:0; margin:16px 0 0; padding-bottom:14px;}
+	/*.fp-prod-title A { text-decoration:none !important; color:#4F8ABE; width:100%;}*/
+	.fp-open .fp-prod-title { margin:0 0 2%;}
+.fp-prod-holder { width:99%; position:relative; background-color:#fff; border:1px solid #dddddd;}
+.fp-prod-image { width:30%; float:left; background-color:#FFF; box-shadow:2px 2px 4px rgba(0,0,0,0.4); padding:0.75%}
+	.fp-prod-image IMG { width:100%; }
+.fp-prod-content { width:65%; float:left; margin-left:3%;}
+.fp-prod-txt P { font:12px/22px Arial, Helvetica, Sans-serif; padding-top:1%;}
+.fp-prod-select { width:13%; margin-top:15px; float:left; text-align:center;}
+	.fp-prod-select P { text-align:center; font:bold 18px/24px Arial, Helvetica, sans-serif; color:#116B92;}
+	.fp-qty { font-size:18px; padding:1%;}
+.fp-prod-nutritionals { width:93%; background-color:#fff; padding:1% 3%; position:relative; bottom:10%; background-color:#fff;}
+.fp-prod-nutrionals.detail { width:100%; display:inline; list-style-image:url("http://www.musclefood.com/skin/frontend/musclefood/shop/images/7331-tick.png");}
+	.fp-prod-nutrionals.detail LI, UL#response-nav LI UL.fp-prod-nutrionals.detail LI  { width:23%; margin-left:3.75%; float:left; color:#333; background:none; font:bold 12px/16px Arial, Helvetica, Sans-serif;}
+.fp-code-box { width:85%; max-width:822px; padding:1% 3%; border-radius:6px; border:3px solid #ff7c35; margin:2% auto;}
+	.fp-code-box P { text-align:center; font:bold 18px/20px Arial, Helvetica, Sans-serif; font-weight:bold; color:#fff; margin:0;}
+	.fp-code-box P SPAN { color:#fff;}
+	.three-col-holder #response-nav { padding:0 !important; width:100%; outline: none !important; border-right: none !important;border-left: none !important; border-top: none !important; border-bottom: none !important;}
+		.three-col-holder UL#response-nav LI { width:100%; padding:0 !important;}
+		.three-col-holder UL#response-nav LI A { width:96%; padding:1% 2%; /*border-top:none; border-bottom:none;*/ float:none;}
+		.three-col-holder UL#response-nav LI A:hover { background-color:#d5e6ee !important;}
+		.three-col-holder UL#response-nav LI A.active:hover { background-color:#fff !important;}
+		.three-col-holder #response-nav SECTION { outline:none; float:none; padding-bottom:10px; }
+.full-width-title { width:100%;}
+	H3.full-width-title IMG { width:100%;}
+	.lp-big-buy-now { float:left; width:50%; text-align:center;}
+	.add-to-basket-wrap .col2 { float:left; width:50%; text-align:center;}
+	.lp-code-box { margin:2% auto; border:2px solid #2666a0; border-radius:4px; padding:0.75%px; font:bold 15px/22px Arial, Helvetica, sans-serif;  max-width: 500px; width:100%; color:#4f8abe; text-align:center;}
+	.steps { width: 75%; margin: 0 auto;}
+	nav.unslider-nav {padding-top: 2%; padding-bottom: 2%;}
+	.fp-top-col4 {float: left; width: 30%; margin: 0 1.5%;}
+	.scroll-list { margin-left: 0; font-size: 13px; margin-bottom: 1em;}
+	ul.scroll-list li { margin-bottom: 5px; background-image: none; list-style-image: url(https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/20669-Peri-Peri-Hamper/20669-tick-for-mobile-view.png); padding-left: 0; list-style-position: inside;}
+	.lp-logo-list-holder { width: 100%; float: left; margin: 0% 0;}
+	.lp-logo-list-holder .lp-logo-list-img { width: 29%; float: left; padding-right: 3%;}
+	.lp-logo-list-txt { float: left; width: 62%; padding-top: 7%; font-size: 13px; line-height: 18px;}
+@media screen and (max-width: 750px) {
+	.lp-logo-list-holder { margin: 0% 0;}
+	.lp-logo-list-txt { padding-top: 2%;}
+	.lp-logo-list-txt { width: 60%;}
+	.fp-prod-title { font:14px/18px Arial, Helvetica, Sans-serif}
+	.fp-prod-txt P { font:12px/16px Arial, Helvetica, Sans-serif;}
+	.fp-prod-nutrionals.detail LI, .fp-prod-nutrionals.detail LI, UL#response-nav LI UL.fp-prod-nutrionals.detail LI { font:10px/14px Arial, Helvetica, Sans-serif; /*list-style-image:none;*/}
+	.fp-list { font-size:11px;}
+	.fp-code-box P { font:bold 14px/16px Arial, Helvetica, Sans-serif;}
+	.fp-bottom-col1, .fp-bottom-col2, .fp-bottom-col3 { float:none; clear:both; width:90%; margin:2% auto;}
+	.lp-big-buy-now { float:none; width:100%; text-align:center;}
+		.lp-big-buy-now INPUT.giant-submit2 { background-size:100% auto; width:100%; height:65px;}
+	.add-to-basket-wrap .col2 { float:none; width:100%; text-align:center;}
+	SELECT.qty { width:100%;}
+	.fp-prod-image { float:none; clear:both; width:65%; margin:1% auto;}
+	.fp-prod-content { float:none; clear:both; width:95%;}
+	.fp-prod-select { float:none; clear:both; width:95%; margin:5% auto 0;}
+		.fp-prod-select P { margin-bottom:0;}
+		.fp-qty { font-size:16px;}
+	.three-col-holder #response-nav section { max-height: 700px !important;}
+	.steps { width: 90% !important;}
+.scroll-list { font-size: 12px !important;}
+}
+@media screen and (max-width: 530px) {
+.lp-logo-list-txt { padding-top:5%; width: 68%; font-size:12px;}
+.twenty-percent-holder {
+    width: 48%;
+}}
+
+
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/
+/*----------143407763 - Free Hamper Landing Page  ---------*/
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/
+.lp-first-col-forimg { float:left; margin-top:1%; width:48%; overflow:hidden; text-align:center;}
+.bestfreeoffer-leftcolimg { width:96%;}
+.dashed-code-box { font-size:26px; width:96%; float:left; line-height:30px; text-align:center; margin-top:10px; margin-bottom:5px; border:#09C 2px dashed; padding:2%;}
+.rightcol-logowrap { width:100%; float:left; padding:5px 0; background-color:#e8e8e1;}
+	.rightcol-logowrap .logocol { width:23%; padding:0 1%; text-align:center; float:left; font-size:12px;}
+.bfo-leftcol-ny { color: #4b4a4a; float:left; font-size:14px; outline:1px solid #bbb; padding:2%; width:92%;}
+.bfo-smallsubmit {
+    background: rgba(0, 0, 0, 0) linear-gradient(#70c400, #569200) repeat scroll 0 0;
+    border: medium none;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 18px !important;
+    font-weight: bold;
+    height: 100%;
+    line-height: 26px;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    width: 100%;
+	padding:10px 0;}
+.bfo-mobile { display:none;}
+@media screen and (max-width: 600px) {
+.bfo-mobile { display:block;}
+.lp-first-col-forimg { /*float:left; margin-top:1%; width:100% !important; overflow:none;*/ display:none;}
+	.lp-first-col-forimg img { width:100%;}
+.bestfreeoffer-leftcolimg { width:100%;}
+.bfo-leftcol-ny { width:96%;}}
+
+
+
+/*----------143376057 - aprils great tasting meat tweaks ---------*/
+.agt-limited { padding: 1% 0 1%; margin: 0 auto;}
+	.agt-left { display: inline-block; width: 45%;}
+	.agt-bought { display: inline-block; width: 50%; float: right;}
+	.left-img-agt { float: left;}
+	.agt-header { float:left; padding:5% 0 0 2%;}
+	@media screen and (max-width: 750px){
+	.agt-limited {text-align: center;}
+	.left-img-agt { float: none;}
+		.agt-header { font-size:15px; float:none; text-align: center;}
+	}
+
+
+/*----------144095171 - grill and griddle ---------*/
+
+.eightyperc-upsell-holder { width: 80%; margin: 0 10%;}
+.twenty-percent-holder-gandg { width: 23%; margin: 1%; float: left;}
+@media screen and (max-width: 750px) {
+.eightyperc-upsell-holder { width: 100%;  margin: 0;}
+.twenty-percent-holder-gandg { width: 48%;}
+}
+
+/* taste the difference */
+.bottom-ctaimg-maysum-wrap { width: 100%; background-size:100%; }
+.bottom-ctaimg-maysum-wrap div { position: inherit; top:23%;}
+.bottom-ctaimg-maysum-wrap div .greenbuttonresp-maysum { padding: 20px 10px; width: 100%;  max-width: 375px;  margin: 0 auto; border-radius: 5px; background: #CC5A5C; text-align: center; color: #fff; margin: 0 auto; font-size: 21px; border: none; font-family: maxima-Med; text-transform: uppercase;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#70c400+0,569200+100 */
+background: #70c400; /* Old browsers */
+background: -moz-linear-gradient(top, #70c400 0%, #569200 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #70c400 0%,#569200 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #70c400 0%,#569200 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#70c400', endColorstr='#569200',GradientType=0 ); }
+
+.bottom-ctaimg-maysum-wrap div .greenbuttonresp-maysum a:hover, a:visited, a:link, a:active { text-decoration: none !important;}
+.bottom-ctaimg-maysum-wrap div p { position: relative; top: -25%; text-align: center; color: #006699; /*font-family: maxima-med !important;*/ font-size: 38px; line-height: 35px; margin-bottom: 0px; }
+.bottom-ctaimg-maysum-wrap div p span { font-size: 20px;}
+	.cta-hold-bg { background-repeat: repeat-y; padding: 5px 0; margin: 0 auto;}
+	.bottom-cta-box {    width: 100%; border: #4078ae 3px solid; background: #fff;  line-height: 45px;  margin: 0 auto;  border-radius: 4px; font-family: maxima-Bol; color: #e77836; padding: 1% 0%; font-size: 18px;  max-width: 375px;  line-height: 25px !important;}
+
+	  @media screen and (max-width: 575px) {
+		  .bottom-ctaimg-maysum-wrap div .greenbuttonresp-maysum  {font-size: 3.5vw !important; width: 80%;}
+		.bottom-ctaimg-maysum-wrap div p {font-size: 5.3vw !important;}
+.bottom-ctaimg-maysum-wrap div p span { font-size: 3.5vw !important;}
+		 .bottom-cta-box {font-size: 3.5vw !important; width: 80%;}
+}
+
+
+/*----------144575199 - Live Clean Tidy Up ---------*/
+.lc-bullets-inline-blue-wrap { float:left;}
+.lc-bullets-inline-blue li { float:left; color:#006699; margin-left: 4%; font-size: 14px; font-weight: bold; list-style-image: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/22439-Live-Clean-Category-Changes/22439-leaf.png"); list-style-position: inside;}
+.live-clean-bullets-2 { width:48% !important; margin-left:2%;}
+.live-clean-img { width:45% !important; margin-top:-15px !important;}
+@media screen and (max-width: 750px) {.live-clean-img { width:100% !important; margin-top:0px !important;}}
+@media screen and (max-width: 400px) {.live-clean-bullets-2 { width:98% !important;}}
+
+
+/*----------145017663 - Chicken offer - Landing Pages ---------*/
+.choff-leftcol-countdown { float:left; width:48%; margin-right:2%;}
+.choff-rightcol-logos { float:left; width:50%;}
+.choff-rightcol-logos .logocol { float:left; width:24%; padding:0 0.5% 0 0.5%;}
+	.choff-rightcol-logos .logocol { float:left; width:24%; padding:0 0.5% 0 0.5%;}
+		.choff-rightcol-logos .logocol img { width:100%;}
+.title-orange-resp {
+    background: #ee8246 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    height: auto !important;
+    line-height: none !important;
+    margin: 3px auto 0;
+    max-width: 935px;
+    padding:11px 25px;}
+.title-blue-resp {
+    background: #09c none repeat scroll 0 0;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    height: auto !important;
+    line-height: none !important;
+    margin: 3px auto 0;
+    max-width: 935px;
+    padding:11px 25px;}
+
+	.upsells-small { outline:#ccc 1px solid !important;}
+	.upsells-small .more-deals-content H3 { font-family:maxima-lig !important; font-weight:normal; font-size:16px; min-height:57px;}
+	.upsells-small .price { font-size:18px;}
+.bundle-error-wrap { padding:20px; font-size:16px; background:#fff; text-align:center;}
+	.bundle-error-wrap .bundle-ok-but { background:#ccc; border: medium none; cursor: pointer; height: 76px;
+text-decoration:none !important; display:block; font-size:18px; margin:20px auto 10px; width:100px; height:100%; cursor:pointer; border-radius:4px; overflow:hidden; color:#000; text-align:center; text-transform:uppercase; line-height:26px; }
+
+ .normally { color:#3b3b3b; font-size:14px; text-align:center; font-weight:bold;}
+ 	.normally span { text-decoration:line-through;}
+
+.choff-recurring-wrap { float:left; width:100%;}
+	.choff-recurring-leftcol { float:left; width:33%;}
+	.choff-recurring-midcol { float:left; width:33%;}
+	.choff-recurring-rightcol { float:left; width:33%;}
+.most-popular-tab { background:#09c; color:#fff; font-family: maxima-med; font-size:19px; padding:10px; margin:6px 0; text-align:center;}
+.most-popular-tab-red { background:#c9c9c9; color:#fff; font-family: maxima-med; font-size:19px; padding:10px; margin:6px 0; text-align:center;}
+.choff-recurring-img { margin:10px auto; outline:5px solid #fff; width:100%; max-width:230px;}
+.choff-radio-but { float:left; display:unset !important; margin:6px -15% 0 15%;}
+.choff-recurring-leftcol #ck-button label span { font-size:14px !important;}
+.choff-recurring-rightcol #ck-button label span { font-size:14px !important;}
+.mf-steps-fifty {
+    display: inline-block;
+    margin: 0 1%;
+    vertical-align: top;
+    width: 43.8%;
+	padding:10px 2%;
+	outline:1px solid #d0d0d0;
+	border-radius:5px;
+	margin-bottom:10px;
+	margin-top:40px;
+	min-height:75px;}
+.mf-steps-fifty .mf-steps-title { font-size:20px !important;}
+
+@media screen and (max-width: 750px){
+.recurring-wrap-panel { width:80%; margin-bottom:20px; height:auto !important;}
+.upsells-small .more-deals-content H3 { line-height:4.8vw;}
+.small-upsell-holder2 { width:100% !important; margin:0 !important;}
+.choff-leftcol-countdown { float:left; width:100% !important; margin-right:0% !important; }
+.choff-rightcol-logos { float:left; width:100% !important;}
+}
+@media screen and (max-width: 750px){
+.mf-three-steps-hold { margin:0 !important; width:98%;}
+.mf-steps-fifty { width:96%;}}
+
+
+/*----------144744539 - mays most wanted ---------*/
+.globalnav-lp { float: left; padding: 2% 0.5%; width: 31%; font-family: maxima-Lig; font-size: 17px; line-height: 17px; color: #fff;}
+	  .holder { max-width: 240px; margin: 0 auto;}
+	  .subselling-point { display: block; font-size: 11px;}
+    .img-review-left {float: left; padding-right: 2%;}
+	  img.rec-tick-lft {max-width: 19px; padding-right: 5px; padding-bottom: 2px;margin-top: -2px;}
+	  #navnoshow nav.unslider-nav {display:none !important;}
+	  @media only screen and (max-width:750px) {
+		  .holder { max-width: auto; text-align: center;}
+		  .globalnav-lp { width:100%;}
+		  .choff-recurring-leftcol { width:100%;}
+		  .choff-recurring-midcol { width:100%; margin:15px 0 !important;}
+		  .choff-recurring-rightcol { width:100%;}
+	  }
+
+/*----------RECURRING OPTIONS FROM TOP OF PAGE ---------*/
+#ck-button { margin:4px; background-color:#EFEFEF; border-radius:4px; border:1px solid #D0D0D0; overflow:auto; width:90%; cursor:pointer;}
+#ck-button { margin:4px; background-color:#EFEFEF; border-radius:4px; border:1px solid #D0D0D0; overflow:auto;}
+#ck-button:hover { margin:4px; background-color:#EFEFEF; border-radius:4px; border:1px solid #6BA600; overflow:auto; color:#6ba600; cursor:pointer !important;}
+#ck-button label { width:4.0em;}
+#ck-button label:hover { cursor:pointer;}
+#ck-button label span { text-align:center; padding:5px 0px; display:block; width:100%;}
+#ck-button label:hover span { cursor:pointer;}
+#ck-button label input { /*position:absolute;*/display: none; top:-20px;}
+#ck-button input:checked + span { background-color:#6ba600;color:#fff; -webkit-transition: 0.2s; -moz-transition: 0.2s; -o-transition: 0.2s; transition: 0.2s;}
+#ck-button label .mostpopoption { text-align:center; padding:5px 0px; display:block; width:100%;}
+#ck-button input:checked + .mostpopoption { background-color:#ade2f4; color:#444; -webkit-transition: 0.2s; -moz-transition: 0.2s; -o-transition: 0.2s; transition: 0.2s;}
+#ck-button input:checked + .mostpopoption .most-popular-tab-red { background-color:#6ba600; color:#fff; -webkit-transition: 0.2s; -moz-transition: 0.2s; -o-transition: 0.2s; transition: 0.2s;}
+.price .smaller { font-size:12px; font-weight:normal;}
+
+
+/*----------144124259 EXIT POP ---------*/
+
+#dotm-ajax-success {
+    background:#fff !important; font-size:12px !important;
+     left: 50% !important;
+    margin-left: -160px !important;
+	margin-top:-120px !important;
+    position: fixed !important;
+	left: 50% !important;
+	top:50% !important;
+	width:320px;
+	z-index:100000;
+-webkit-box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.54);
+-moz-box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.54);
+box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.54);}
+
+.exit-pop-wrap { padding:20px; background:#fff;
+-webkit-box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.54);
+-moz-box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.54);
+box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.54);}
+	.exit-pop-title { font-size:18px; color:#000; font-weight:bold;}
+	.exit-pop-desc { font-size:12px; color:#000;}
+	.exit-pop-but { color:#fff !important; width:100% !important; text-align:center; border-radius:5px; padding:6px !important;
+	    background: -webkit-linear-gradient(#70c400, #569200) !important; /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#70c400, #569200) !important; /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#70c400, #569200) !important; /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#70c400, #569200) !important;}
+	.exit-pop-smiley { float:right; margin:0 0 0 3px;}
+.exit-cross { width:35px; height:35px; position:relative; right:15px; top:-15px; float:right; cursor:pointer; float:right;}
+
+
+/*----------144795375 - brazilian steaks ---------*/
+
+#cy-button { background-color: #EFEFEF; border-radius: 4px; border: 1px solid #D0D0D0; overflow: auto; width: 30%; display: inline-block; margin-left: 3px;}
+#cy-button:hover { background-color:#EFEFEF; border-radius:4px; border:1px solid #6BA600; overflow:auto; color:#6ba600;}
+#cy-button label { width:4.0em;}
+#cy-button label span { text-align:center; padding:5px 0px; display:block; width:100%;}
+#cy-button label input { /*position:absolute;*/display: none;top:-20px;}
+#cy-button input:checked + span { background-color:#6ba600;color:#fff;}
+	  .hamper-choose-br {margin: 0 auto; text-align:center;}
+
+@media screen and (max-width: 530px) {#cy-button {  width: 96%; display: block; margin-bottom: 10px;margin: 0px auto 10px; text-align:center;}}
+
+
+/*---------- 145017663 - Chicken offer - Landing Pages -----------*/
+.hamper-list-pop-wrap { background-color: #e4eff4; border: 1px solid #4f8abe; border-radius: 3%; box-shadow: 0 0 14px rgba(0, 0, 0, 0.8); position: absolute; z-index: 100;}
+.hamper-list { font-size:14px; padding:15px; text-align:center; color:#444 !important;}
+.hamper-pop-title { font-weight:bold; font-size:18px; background:#b0dfef; color:#444 !important; text-align:center; padding:10px 0; margin:20px 0 0; width:100%; border-top:#4f8abe 1px solid; border-bottom:#4f8abe 1px solid;}
+
+
+/*----------145681625 - tonightsoffer ---------*/
+.hdc-ctatext {text-align: center;color: #006699; font-size: 38px;line-height: 35px; margin-bottom: 0px;}
+.hdc-ctatext-small {text-align: center; color: #006699; font-size: 20px; line-height: 35px; margin-bottom: 0px;}
+ @media screen and (max-width:575px) {
+.hdc-ctatext { font-size: 5.3vw !important;}
+.hdc-ctatext-small { font-size: 3.5vw !important;}
+}
+
+
+/*----------142265907 - new recurring hamper offer ---------*/
+h2.description-rec-more { float: left; font-size: 14px; font-weight: bold; padding-left: 1%; width: 100%; background: none repeat scroll 0 0 #E4EFF4; border: 1px solid #D1E1E9; color: #4B4A4A; font-family: maxima-Lig; height: 28px; line-height: 29px; margin: 10px 0 10px 0px; text-transform: uppercase;}
+	h2.prodrec-titles { background: none repeat scroll 0 0 #E4EFF4; border: 1px solid #D1E1E9; color: #4B4A4A; float: left; font-family: maxima-Lig; font-size: 14px; font-weight: bold; height: 28px; line-height: 29px; margin: 20px 0 10px;  padding-left: 1%;  text-transform: uppercase; width: 99%;}
+	.col11-rec {float: left; width: 16%; padding-right: 1%;}
+	.col21-rec { float: left;  padding: 0 1.5% 0.5% 0;  width: 50%;}
+.col31-rec { float: left;width: 30%;}
+	.nutrition-row-rec-desc { border-radius: 5px 5px 5px 5px;float: left;  font-size: 11px; height: 20px; margin-bottom: 2px; padding-left: 4%; padding-right: 4%x;  width: 92%;}
+	.col1-rec{ color: #116B92; float: left; text-align: left;  width: 45%;}
+	.col2-rec{ color: #116B92; float: left; text-align: left;  width: 25%;  height: 85px;}
+	.col3-rec{ color: #116B92; float: left; text-align: right; width: 30%;}
+	.col31-rec .nutrition-row-rec .col1-rec{ color: #111111 !important; font-family: maxima-Lig !important;}
+	.col31-rec .nutrition-row-rec .col2-rec{ color: #111111 !important; font-family: maxima-Lig !important;}
+	.col31-rec .nutrition-row-rec .col3-rec{ color: #111111 !important; font-family: maxima-Lig !important;}
+	.nutrition-row-rec { background: none repeat scroll 0 0 #F1F7F9; border-radius: 5px 5px 5px 5px; float: left;  font-size: 12px; height: 20px; margin-bottom: 2px; padding-left: 4%; padding-right: 4%; width: 92%;}
+#description-lft-recurring { display: block; clear: left;  width: 47%;}
+	#new-recurring-wrap p strong {font-family: maxima-Lig !Important;}
+	.tm-nm-rec-wrap { display: block; float: right; clear: right; width: 50%;}
+	.response-nav-wrap-rec { padding: 1% 0.5%; width: 99%; margin-top: 20px; outline: 0px;}
+	ul#response-nav { padding: 2%;  width: 97%; border-radius: 5px; background: #d1e2ea;}
+	#new-recurring-wrap .fto-offer-shadow-apr { float: left; background: none !important; border-top: #bbbbbb 1px solid;  height: 1px; width: 97.5%; margin: 4% 0 1% 0;}
+	#productimage-rec { max-width: 47%; float:left;}
+	.black-topcust { font-size: 18px; padding: 2% 0; font-family: maxima-Lig;}
+	.top-customer-reviews { width: 60%;  float: left; padding: 0 3% 0 0;}
+	.recent-cust-reviews {  width: 37%; float: left;}
+	.morevers { width: 19%; float: left; padding: 0.5%;}
+	h1.hamp-title { font-family: maxima-Lig;}
+	.normally-recurring2 { color: #535659; font-size: 17px; padding: 0.5% 0;}
+    .normally-recurring2-bk { color: #535659; font-size: 17px; margin-top:33px; padding: 0.0% 0;}
+	.normally-recurring2 span { font-size: 17px;}
+	.deal-recurring2 { color: #007700; font-size: 25px; padding: 0.5% 0; line-height: 27px;}
+	.deal-recurring2 span {font-size: 17px;}
+	.saving-recurring2 { color: #d54c01; font-size: 17px; padding: 0.5% 0;}
+	.saving-recurring2 span { font-size: 17px;}
+	.tmh-lis li {font-size: 15px; list-style-type: disc !important; font-family: maxima-lig;  text-align: left;  margin: 0 auto;}
+	ul.top-buls-rec { font-size: 15px;; list-style-type: disc; line-height: 23px;font-family: maxima-lig;  text-align: left;  margin: 0 auto; width: 89%; padding-top: 2%;}
+	ul.tmh-lis { font-size: 15px; list-style-type: disc; font-family: maxima-lig; text-align: left; margin: 0 auto; width: 89%;}
+	.row31-rec { font-size: 15px; line-height: 21px;}
+	.blue-pick-hold { width: 95%; background: #e4eff4; border-radius: 5px; padding: 2%;  border: 1px solid #D1E1E9;float: left;margin: 5px 0 15px;
+    text-align: center;}
+.blue-pick-hold-review { width: 95%; background: #e4eff4; border-radius: 5px; padding: 2%;  border: 1px solid #D1E1E9;float: left;margin: 5px 0 15px;
+    text-align: center;}
+.blue-pick-hold-review-2 { width: 50%; margin-left:10px; background: #e4eff4; border-radius: 5px; padding: 2%;  border: 1px solid #D1E1E9;float: left; margin: 5px 0 15px;
+    text-align: center;}
+	.innerwhite-rec {width: 95%; background: #fff; border-radius: 5px; padding: 2%; float: left; margin: 5px 0 15px;}
+	.col3-basketbutton { float: left; width: 65%;}
+	.tab-section-style-rec { padding:15px; margin-top:-1px;}
+.tab-section-style-rec p { font-size:14px !important; font-family: Maxima-lig; line-height: 18px !important;}
+.recurring-tabs-wrap { width:100%; text-align:center; cursor:pointer;}
+.recurring-label {font-family: Maxima-lig; display: inline-block;font-family: maxima-Med;text-align: center;color: #fff;font-size: 16px; background: #f4af7c !important; border-radius: 4px;
+    cursor: pointer;  text-decoration:none; width:45%;}
+input:checked + .recurring-label {font-family: Maxima-lig; display: inline-block;font-family: maxima-Med;text-align: center;color: #fff;font-size: 16px; background: #e7711b !important;;  border-radius: 4px;
+    cursor: pointer;  text-decoration:none; width:45%;}
+.recurring-label:hover { text-decoration:none;}
+	.nlan-star-rating-wrap-rec {unicode-bidi: bidi-override;color: #c5c5c5;font-size: 25px;height: 25px; width: 177px;margin: 0 auto;position: relative; padding: 0;  float: left;}
+	.rec-p {line-height: 23px;font-size: 15px !important;}
+	.toggle-container .rec-p {font-size: 15px !important;}
+	.qty-col { color: #4B4A4A; font-weight: bold; float: left; clear: left; text-transform: uppercase; top: 0; line-height: 20px; margin-top: 2.5px; font-size: 13px; padding: 6px;}
+	.dropdown-col-rec { float: left; text-align: left; width: 10%; padding: 6px;}
+	.top-cus-reviews-bar-rec { float: left; background: none !important; border-top: #bbbbbb 1px solid; height: 1px; width: 100%; margin: 1% 0 1% 0;}
+.top-cus-reviews-bar-rec-bottom { float: left; background: none !important; border-top: #bbbbbb 1px solid; height: 1px; width: 50%; margin: 1% 0 1% 0;}
+.top-cus-reviews-bar-rec-bottom-2 { float: left; background: none !important; border-top: #bbbbbb 1px solid; height: 1px; width: 50%; margin: 1% 0 1% 0;}
+	.recurring-lg-star { unicode-bidi: bidi-override; color: #c5c5c5;font-size: 18px;height: 25px;width: 90px;margin: 0 auto;position: relative; padding: 0; float: left;}
+	.recurring-lg-txt { font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;padding-left: 3%;float: left;text-align: left;font-style: normal;color: #4B4A4A;text-decoration: underline;font-size: 17px;line-height: 24px;}
+    .recurring-lg-txt-bk { font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;padding-left: 3%;float: left;text-align: left;font-style: normal;color: #4B4A4A;font-size: 14px;line-height: 24px;}
+	.rec-sh-list { font-size: 13px; list-style: disc inside url(https://s3-eu-west-1.amazonaws.com/musclefooduk/images/136551185-tick/136551185-tick.png);  text-align: center; line-height: 33px;}
+	.rec-sh-list li { /*margin: 0 0 6px; padding-left: 1em;*/}
+	.nlan-reviews-rec { padding: 2.5% 0;font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;width: 100%;padding-left: 0%;float: left;text-align: left; color: #007700;font-size: 10px;  line-height: 22px;}
+	.rec-submit {font-size: 24px;}
+	.dt-reviews-rec-hold {padding: 2% 0;margin-left: -1.5%;}
+	 .col-sh1, .col-sh2, .col-sh3 { float: left; width: 30%; margin: 0 1.5%; display: inline-block; font-family: maxima-Lig; text-align: center; color: #111; font-size: 16px; background: #F1F7F9 !important; border-radius: 4px; text-decoration: none;  text-align: center;  width: 30%; margin: 0 1.5%;}
+	.col2-review-rec { font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif; font-family: maxima-Lig; padding-left: 3%; float: left; text-align: left; font-style: normal; color: #4B4A4A; text-decoration: underline; font-size: 15px; line-height: 24px;}
+	.button-ninety { width:90% !important;}
+	.recurringpointer-holder { float: left; width: 165px;}
+	 .rec-badge { background-color: #f78e1e!important; padding-top: 1%; padding-left: 2%; padding-bottom: 1%; line-height: 14px; font-size: 12px; color: #fff;max-width: 150px;border-radius: 5px;}
+	#recpoint {     position: relative; background-color: #f78e1e!important; padding-top: 5px; padding-left: 8px; padding-bottom: 5px; line-height: 14px; font-size: 12px; color: #fff; width: 150px; border-radius: 5px;}
+#recpoint:after, #recpoint::after {position: absolute;top: -8.5px; left: 149px; content: ''; width: 0; height: 0; border-right: solid 10px #ffffff; border-bottom: solid 20px transparent; border-top: solid 20px transparent;}
+	.onehundredcust-rec {font-size: 12px; color: #AB0F10; display: inline-block; z-index: 1; font-family:maxima-med;}
+
+	@media only screen and (max-width: 1014px) { .rec-sh-list {font-size: 1.2vw;}
+	}
+	@media only screen and (max-width: 750px) { .top-customer-reviews { width: 96%; float: none; margin: 0 auto; padding: 0 2% 0 0;}
+	}
+	@media only screen and (max-width: 710px) { .button-ninety { width:100% !important;}
+	}
+	@media only screen and (min-width: 575px) {
+			.show-in-mobile-viewrec { display: none;}
+	}
+	@media screen and (max-width: 575px) {
+		.col2-review-rec { font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif; font-family: maxima-Lig; padding-left: 3%; float: left; text-align: left; font-style: normal; color: #4B4A4A; text-decoration: underline; font-size: 11px; line-height: 24px;}
+		.nlan-reviews-rec {width:100%}
+		.product-img-rec-wrap {width:100%; float:none;}
+		.tm-nm-rec-wrap { width: 98%; margin: 0 auto;}
+		#productimage-rec { max-width: 96%;float: none; margin: 0 auto; margin-top: 4%;}
+		#description-lft-recurring {display: block; clear: left; width: 96%; margin: 0 auto;}
+		.col31-rec { float: none; width: 100%; margin: 0 auto;}
+		.col21-rec { float: right; padding: 0.5%; width: 66%;}
+		.col11-rec {float: left;width: 30%;padding-right: 2%;}
+
+		.rec-p { line-height: 20px; font-size: 13px;}
+		.row31-rec { font-size: 13px; line-height: 20px;}
+		.tmh-lis li { font-size: 13px; line-height: 20px;}
+		ul.tmh-lis { font-size: 13px; line-height: 20px;}
+			ul.top-buls-rec {line-height: 20px;font-size: 13px;}
+		h2.prodrec-titles {width: 96%; margin: 20px auto;}
+		.bundle-wrap { width: 96%; margin: 0 auto;}
+		h2.prodrec-titles { width: 96%; margin: 20px auto;float: none;}
+		.blue-pick-hold { width: 93%;}
+		h1.hamp-title {font-size: 25px;}
+			.rec-submit { font-size: 5vw;}
+			.col3-basketbutton { margin-left: 3%;}
+		.reviews-wrap .description-ny {font-size: 13px; line-height: 20px !Important;;}
+
+			.deal-recurring2 { color: #007700; font-size: 18px; padding: 0.5% 0; line-height: 22px;}
+	}
+	@media screen and (max-width: 400px) {.col2-review-rec {font-size:10px;}
+	}
+
+
+
+/*----------145662839 - 5kg Chicken Page - YES PLEASE Replica ---------*/
+.trustpilot-5kg-wrap { float:left; width:100%;}
+	.trustpilot-5kg-left { float:left; width:50%;}
+	.trustpilot-5kg-right { float:left; width:50%;}
+
+@media only screen and (min-width:710px) {	.trustpilot-5kg-left2 { display:none;}}
+@media only screen and (max-width:710px) {
+	.trustpilot-5kg-left { display:none;}
+	.trustpilot-5kg-left2 { width:100%; display:block; text-align:center;}
+	.trustpilot-5kg-right { width:80%; margin:0 10%;}}
+
+
+.nutritian-breakdown-new {
+    background: #e4eff4 none repeat scroll 0 0;
+    border-radius: 5px;
+    display: block;
+    float: right;
+    margin-top: 20px;
+    padding: 10px;
+    width: 90%;}
+
+
+/*----------146189199 - o2 page ---------*/
+
+	  .ni-text-hold { padding-top: 2%;}
+	  #recpoint.ohtwo-tag { position: relative; padding-top: 5px; width: 90px; font-family: maxima-lig;border-radius: 0px;}
+	  #recpoint.ohtwo-tag:after, #recpoint.ohtwo-tag::after { position: absolute; top: -8.5px; left: 89px; content: ''; width: 0;height: 0;border-right: solid 10px #ffffff ;border-bottom: solid 20px transparent; border-top: solid 20px transparent;}
+
+/*----------146368561 - love good food ---------*/
+
+input.options-radio { display: inline-block; margin-top: -1%; text-align: center; margin-right: 10px;}
+	 .rec-wrap-head-lgf { font-size: 20px; height: 50px; padding: 10px 0;background: #ededed; line-height: 80%;}
+	 .ups-pop-wrap-lgf {max-width: 280px;}
+	 .green-lgf {    height: 40px; cursor: pointer; outline: medium none; width: 100%; border-radius: 6px; overflow: hidden; border: none; text-decoration: none !important; display: inline-block; width: 99.5%; cursor: pointer; border-radius: 4px; overflow: hidden; box-shadow: 0 2px 2px rgba(0,0,0,0.4); color: #FFF; text-align: center; font-weight: bold; text-transform: uppercase; line-height: 26px; font-size: 1.8vw; font-size: 16px; background: -webkit-linear-gradient(#70c400, #569200); background: -o-linear-gradient(#70c400, #569200); background: -moz-linear-gradient(#70c400, #569200); background: linear-gradient(#70c400, #569200); margin-bottom: 10px;}
+	 .gray-lgf { background: -webkit-linear-gradient( #757a82, #c9c9c9) !important; background: -o-linear-gradient(#757a82, #c9c9c9) !important; background: -moz-linear-gradient(#757a82, #c9c9c9) !important; background: linear-gradient(#757a82, #c9c9c9) !important;}
+	 .pop-ups-p { font-size: 2em; font-family: maxima-lig; line-height: 1.3em; text-align: center; color: #046898; margin-bottom: 0.3em;}
+	 p.pop-ups-p2 { font-size: 1.8em; font-family: maxima-lig; line-height: 1.3em; text-align: center;}
+	 .pop-ups-img-lgf {float: left; padding-right: 2%;}
+	 .pop-ups-wrap-lgf {padding: 1%; max-width: 280px; margin: 0 auto;}
+
+
+
+
+/*----------137663573 - PRIORITY - Streamlined Voucher Claim ---------*/
+.slv-wrap { outline: #cccccc 1px solid; width: 100%; max-width: 1000px; overflow: hidden; font-family: maxima-Med; margin-top:20px;}
+.slv-col1 { width: 39%; float: left; padding: 15px 2%; color: #333; font-family: maxima-Med; border-right: 1px solid #ccc;}
+.slv-col1 .col-ny-list li { line-height: 25px; margin-bottom: 15px; padding-top: 5px; font-family: maxima-Lig;}
+.slv-col1 p { font-size: 15px; font-family: maxima-Lig; }
+.slv-col1 h1 { font-size: 32px; font-weight: bold; color: #333; margin-bottom: 30px; }
+.slv-col1 h1 span { color: #669900;}
+.slv-col1 h3 { font-size: 14px; font-weight: bold; color: #0087ba; margin-top: 10px;}
+.slv-col1 h2 strong { color: #cc0000;}
+.slv-col2 { width: 56%; float: left; position: relative; overflow: hidden; font-family: maxima;}
+.shadow { top: 0; left: 0; position: absolute; margin: -5px 0; padding-bottom: 10px; width: 100%; height: 100%; pointer-events: none;
+	webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;}
+.slv-tabs-wrap { overflow: hidden; max-width: 800px; padding: 20px 0 0 0; margin: 0 auto; text-align: center;}
+.slv-tabs-wrap .ch-title { text-transform: uppercase; font-size: 14px; font-family: maxima-Med; font-weight: bold; text-align:left;}
+.slv-col2 section { display: none; padding: 0px 0 0;}
+.slv-col2 input { display: none;}
+.slv-choose-left { float:left; width:34%; padding: 6px 1% 0 3%;}
+.slv-label { display: inline-block; margin: 0 0.8% 2px 0.8%; padding: 6px 1%; font-weight: normal; text-align: center; border-radius: 20px; border: #ddd 1px solid; font-size: 14px; background: #f7f7f7; font-family: maxima-Med; width:10%; float:none;}
+.slv-label:before { color: #555; }
+/*.slv-label[for*='1']:before { content: '\f1cb'; }
+.slv-label[for*='2']:before { content: '\f17d'; }
+.slv-label[for*='3']:before { content: '\f16b'; }
+.slv-label[for*='4']:before { content: '\f1a9'; }*/
+.slv-label:hover { color: #888; cursor: pointer;}
+input:checked + .slv-label { background: #0087ba; color: #fff; border-radius: 20px; border: none;}
+#tab1:checked ~ #slv-content1, #tab2:checked ~ #slv-content2, #tab3:checked ~ #slv-content3, #tab4:checked ~ #slv-content4 { display: block; text-align: left;}
+.slv-price-wrap { width:40%; float:left;}
+@media screen and (max-width: 540px) {.slv-choose-left { padding:6px 3% !important; width:94%;}
+.slv-label { padding: 6px 1% !important; width:41% !important; float:none !important;}
+}
+/* slvTable.com */
+.slvTable { display: table; width: 100%; float: left;}
+.slvTableRow { display: table-row;}
+.slvTableHeading { background-color: #EEE; display: table-header-group;}
+.slvTableCell, .slvTableHead { display: table-cell; }
+.slvprice { font-size: 15px; font-family: Maxima-Lig;}
+.slvprice-vouch { font-size: 15px; color: #d54c01; font-family: Maxima-Lig;}
+.slvprice-total { font-size: 15px; color: #007700; font-family: Maxima-Lig;}
+.slvprice-youpay {font-size: 15px;color: #007700;font-family: Maxima-Lig;}
+.slvwas {font-size: 15px;font-family: Maxima-Lig;}
+.slvwas span { text-decoration: line-through; font-size: 15px; font-family: Maxima-Lig;}
+.slvTableHeading { background-color: #EEE; display: table-header-group; font-weight: bold;}
+.slvTableFoot { background-color: #EEE; display: table-footer-group; font-weight: bold; }
+.slvTableBody { display: table-row-group;}
+/* slvTable.com END */
+.slvButton { border-radius: 5px; padding: 15px 1% 10px; text-transform: uppercase; color: #fff; font-weight: bold; line-height: 26px; font-weight:bold; font-family: maxima-Med;  text-align: center; margin: 10px 0px 10px 2%; font-size: 23px; float:right; width:56%; text-align:center !important;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#70c400+0,569200+100 */
+	background: #70c400; /* Old browsers */
+	background: -moz-linear-gradient(top, #70c400 0%, #569200 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #70c400 0%, #569200 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #70c400 0%, #569200 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#70c400', endColorstr='#569200', GradientType=0 ); /* IE6*/
+	-webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.4);
+	box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.4);
+}
+.slvProductWrap { float: left; padding: 15px 3%;}
+.slvProductWrap .slvProduct { width: 19%; margin: 0 0.5%; float: left;}
+.slvProductWrap .slvProduct img { width: 100%;}
+.vc-rightcol-intro { font-size: 15px; font-family: Maxima-Lig; width:58%; float:right; margin-left:2%;}
+.chooseham-hidedesk { display: none; }
+.chooseham-showdesk { display: block; font-size:15px;}
+.intro-price-wrap { margin: 15px 3% 0; float:left;}
+
+@media screen and (max-width: 700px) {
+.slv-wrap { outline:none !important; margin-top:0px;}
+.slv-col1 h1 { padding: 0 25px;}
+.slvProductWrap .slvProduct { width: 24%; }
+.slv-col1 { width: 100%; padding: 15px 0 0;}
+.slv-col2 { width: 100%;}
+.slv-col1 p { padding: 0 25px;}
+.shadow { border-left:none !important;}
+.col-ny-list { padding: 25px 25px 0; font-family: Maxima-Lig;}
+.chooseham-hidedesk { display: block; float: left;}
+.chooseham-showdesk { display: none;}
+.slv-col1 h1 { font-size:25px; margin-bottom:15px;}
+.slv-tabs-wrap { padding: 5px 0 0;}
+.slv-choose-left { padding: 6px 25px 0 !important; width:100% !important;}
+
+}
+
+@media screen and (max-width: 530px) {
+.slv-tabs-wrap .ch-title { display:none;}
+.slv-label { padding: 5px 10px;}
+.slv-col1 p { padding: 0px 25px;}
+.slv-col1 p { padding: 0px 25px;}
+.slvProductWrap .slvProduct { width: 32%;}
+.slvButwrap .slvButton { position: unset; margin-top: 10px;}
+.slvTable { width: 100%;}
+.slvButwrap { width: 100%; float: left;}
+.slvButton { font-size:18px !important; }
+}
+
+.black-wrap { background:#000;}
+.livehealthy-wrap { text-align:center; background:#446870; background: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/137663573-PRIORITY-Streamlined-Voucher-Claim/137663573-form-bg.jpg"); background-position:center; background-repeat:no-repeat;}
+
+#om-signup-block-1 { overflow:hidden !important; top:30px;}
+#om-section-block-wrapper-1 { overflow:hidden !important; height:455px !important;}
+.iframe-large { display:block; float:none; overflow:hidden; margin:0 auto; min-height: 397px; padding:8% 0; border:none; min-width:370px; }
+.iframe-med { display:none;}
+.iframe-small { display:none;}
+
+@media screen and (max-width: 640px) {
+	.iframe-large { display:none;}
+	.iframe-med { display:block; min-width:370px !important; float:none; overflow:hidden; margin:0 auto; min-height: 387px; padding:20% 0; border:none }
+	.iframe-small { display:none;}
+	#om-signup-block-1 { width:370px !important;}
+	/*input { width:350px;}*/
+	#fields_email { width:350px;}
+}
+@media screen and (max-width: 390px) {
+	.iframe-large { display:none;}
+	.iframe-med { display:none;}
+	.iframe-small { display:block; min-width:290px !important; float:none; overflow:hidden; margin:0 auto; min-height: 387px; padding:20% 0; border:none }
+	#om-signup-block-1 { width:300px !important;}
+}
+
+/*----------147796585 - global nav 26/06 ---------*/
+.globalnav-lp-home { float: left; padding: 2% 0.5% 0px; width: 31%; font-family: maxima-Lig; font-size: 17px; line-height: 17px; color: #000;}
+.globalnav-lp-home .subselling-point { display: block; font-size: 11px; color:#737373; margin-left:25px;}
+
+@media only screen and (max-width:750px) {
+	.globalnav-lp-home { width:100%;}
+		.globalnav-lp-home .holder { max-width:98% !important; margin:5px auto 0; font-size:14px;} }
+
+/*----------147467975 - july favourites selection------------*/
+ul.col-list-bul.withticks-jfs li { background-size: 1em; background-repeat: no-repeat; background-position: 0 7px;  padding-left: 1.8em; line-height: 32px; background-image: url(https://s3-eu-west-1.amazonaws.com/musclefooduk/images/20614-green-ticks-bullet-points.png); margin: 0 auto; list-style-type: none;}
+
+/*----------148451877 - new customer offer------------*/
+.nc-page-wrapper { width:100%;}
+.nc-main-hdr { width:100%; position:relative; background:url('https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/148451877-new-customer-offer/145451877-new-customer-offer-hdr-desktop2.jpg') left top scroll no-repeat;}
+.nc-hdr-text-box { max-width:360px; /*margin:5% auto 5% 5%;*/ padding:4% 5%; position:relative; left:0; top:0; display:block; text-align:center;}
+.nc-hdr-text-box-inner { background-color:rgba(255,255,255,0.8); min-height:190px; padding:5%; position: relative;}
+.nc-hdr-title { text-align: left; color: #333; font-family: Maxima-Lig; font-size: 36px; text-align: left;}
+.nc-hdr-title SPAN.focus { display:block; font-size:88px; color:#D54C01; font-family:Maxima-Med; line-height: 76px;}
+.cta50off {	position: absolute; bottom: 15px; left: 15px; }
+.nc-text-box { width:95%; margin:1.5% auto}
+.nc-text-box-large p {font-family:Maxima-Med; font-size: 20px; text-align: center; margin-bottom: 0; line-height: 22px;}
+.nc-text-box-med p {font-family:Maxima-Lig; font-size: 16px; text-align: center; margin-bottom: 0;}
+.nc-claim-text {text-align: center; line-height: 21px; }
+
+.vouchers-holder { width:100%; float:none; clear:both;}
+.small-voucher-panel { width:17.2%; margin-right:1%; float:left; background-color:#4F8ABE; padding:1%;}
+	.small-voucher-panel:nth-child(5) { margin-right:0 !important;}
+.small-voucher-value { font-family: maxima-Lig; text-align:center; font-size:3em; color:#fff; margin-bottom: 0;}
+.small-voucher-text { font-family: maxima-Lig; text-align:center; font-size:1em; color:#fff;}
+.small-voucher-code-holder { background-color:#fff; border-radius:4px;}
+.small-voucher-code { text-align:center; font-family: maxima-Lig; font-size:2em; line-height:2; margin-bottom:0 !important;}
+.resBreak {display: none;}
+
+@media screen and (max-width : 1224px) {
+	.resBreak {display: inline;}
+}
+@media screen and (max-width: 750px) {
+.nc-page-wrapper { margin:0 0 0 -1%; width:102%;}
+.nc-main-hdr { background-position:top center;}
+.nc-hdr-text-box { width:90%;}
+.small-voucher-panel { width:80%; margin:3% auto; float:none; clear:both; display:block;}
+/*.nc-hdr-title SPAN.focus { font-size:67px;}*/
+.small-voucher-panel:nth-child(5) { margin-right:auto !important;}
+.small-voucher-value { margin-bottom:0;}
+.small-voucher-code { font-size:3em; line-height:1.5;}
+.small-voucher-panel { padding:2%;}
+.small-voucher-text { font-size:1.5em;}
+.nc-text-box-large p { font-size:18px; line-height: 20px;}
+.nc-text-box-med p { font-size:14px;}
+p.disclaimer { font-size:12px;}
+.nc-hdr-title { text-align: center; }
+.cta50off {	position: absolute; bottom: 15px; left: 50%; margin-left: -134px;}
+.resBreak {display: inline;}
+}
+@media only screen and (max-width : 480px) {
+.nc-hdr-title SPAN.focus { display:block; font-size:72px; color:#D54C01; font-family:Maxima-Med; line-height: 74px;}
+.nc-hdr-title { text-align: left; color: #333; font-family: Maxima-Lig; font-size: 28px; text-align: center;}
+.nc-hdr-text-box-inner {min-height:160px;}
+.nc-hdr-text-box { max-width:none; }
+.small-voucher-panel { width:90%; margin:3% auto; float:none; clear:both; display:block;}
+}
+@media only screen and (max-width : 320px) {
+.nc-hdr-title SPAN.focus { display:block; font-size:62px; color:#D54C01; font-family:Maxima-Med; line-height: 64px;}
+.nc-hdr-text-box-inner {min-height:160px;}
+.nc-hdr-text-box { max-width:none; }
+.small-voucher-panel { width:90%; margin:3% auto; float:none; clear:both; display:block;}
+}
+
+
+
+
+/*----------146960459 - bday free -----------*/
+	.bday-rec-options { display: inline-block; margin: 0 1%; vertical-align: top; width: 43.7%; padding: 10px 2%; outline: 1px solid #d0d0d0; border-radius: 5px; margin-bottom: 10px; margin-top: 40px; min-height: 75px;}
+
+	@media screen and (max-width:750px) {
+		.bday-rec-options {width: 96%;}
+	}
+
+
+/*----------148201959 - Grocery Industry Article - Second Page 07.07.17 -----------*/
+.slv-overlay-wrap { position:relative; overflow:hidden; margin:0 0 25px 0;}
+	.slv-hamper-overlay { background-image: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/136689735-build-pizza/136689735-overlay-black.png"); height:100%; width:100%; position:absolute; top:0;}
+		.slv-hamper-overlay img { width:19%; margin:0 0.5%; float:left;}
+		.slv-hamper-overlaylist { display:none;}
+		@media only screen and (max-width : 400px) {
+			.slv-hamper-overlay { position:initial !important; background:#0087ba !important; opacity:0.7;}
+			.slv-hamper-overlay img { display:none !important;}
+			.slv-hamper-overlaylist { display:block; color:#fff; padding:10px;}
+			.slv-hamper-overlaylist ul li { width:100%; font-size:12px;}}
+
+
+/*----------150708569 - september great tasting meats -----------*/
+.radio-list-wrap.sgtm-tiered { width: 47% !important; float: left;}
+	  .add-to-basket-wrap.clearfix-tier.sept-holder-gt {width: 90%;margin: 0 auto; text-align: center; float: none;}
+	  @media screen and (max-width: 750px) {.radio-list-wrap.sgtm-tiered { width: 96% !important; float: left;}  }
+
+
+/*----------151337831 - xmas page -----------*/
+
+	#gorumet-xmas-wrap { font-family: maxima-lig !important;}
+	/*.xmas-slider { background: url(https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/151337831-xmas-hub/151337831-mainpic.jpg) no-repeat center center; width: 100%;  height: 370px; position: relative;  background-size: 110%; background-position-y: 47%;}*/
+	h2.ny.header-xmas-p { padding: 2.5% 0;}
+	.hero-xmas-offer { max-width: 90%; margin: 0 auto;}
+	.hero-xms-txt { width: 31%; float: left; padding: 1%; margin-bottom: 2%; }
+.hero-xms-txt h4 { text-transform: uppercase; font-size: 16px; text-align: center; font-family: maxima-Bol; margin: 15px 0 10px;}
+	.hero-xms-txt p { text-align: center; font-size: 14px; padding: 2%;}
+	.xmas-cta-hero  { background: #a8a8a8; max-width: 40%; margin: 0 auto; padding: 2%; text-align: center; color: #fff; font-size: 14px; -moz-transition: all .2s ease-in; -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in; transition: all .2s ease-in;}
+	.xmas-cta-hero:hover {background: #dcbb9e;}
+	.xmas-prod-carousel { background-color: #eaeaea; width: 96%; text-align: center; padding: 2%; margin-top: 15px;}
+	.xmas-car-inner-wrap { max-width: 95%; margin: 0 auto;}
+	.xmas-prod-wrap-car { float: left; width: 15.46%; padding: 0.6%; font-size: 12px;}
+	.xmas-prod-wrap-car img { margin-bottom: 5px; opacity: 0.95;}
+	.xmas-slider-txt {text-align: center; width: 70%; margin: 0 auto;}
+	.xmas-inner-slider { width: 100%; z-index: 100;}
+	.xmas-inner-slider img { margin-top:16%;}
+	.magazine-logos-holder-xmas { text-align: center; max-width: 89%; margin: 0 auto; }
+	.red-wrap-xmas-seveteen-x.gc { font-size: 1.6em; color: #fad4b2; padding: 1.5% 0;}
+	.red-wrap-xmas-seveteen-x span { font-family: maxima-bol; text-transform: uppercase;}
+	.xmas-cta-hero a  { text-decoration:none; }
+
+	@media screen and (max-width:976px) {
+		.hero-xms-txt p { min-height: 70px;}
+	}
+	@media screen and (max-width:750px) {
+	.hero-xms-txt h4 { font-size: 1.3em;}
+	.hero-xmas-offer { max-width: 95%; margin: 0 auto;}
+	.hero-xms-txt { width: 48%; float: left;  padding: 2% 1%; margin-bottom: 0%; }
+	.hero-xms-txt p { min-height: 60px; font-size: 12px;}
+	.xmas-cta-hero { max-width: 80%; margin-bottom: 6px;}
+	.xmas-prod-wrap-car { float: left; width: 30.13%; padding: 1.6%; font-size: 12px;}
+	.xmas-car-inner-wrap { max-width: 88%; margin: 0 auto;}
+	/*.xmas-slider {  height: 530px;  background-size: 130%;}*/
+	.red-wrap-xmas-seveteen-x.gc { font-size: 1.2em;}
+	/*.magazine-logos-holder-xmas { margin-top: 0px;}*/
+	h2.ny.header-xmas-p { padding: 3% 0%; font-size: 16px !important;}
+		.xmas-inner-slider img {  margin-top: 20%;}
+		.hero-xms-txt h4 { font-size: 1.2em; }
+	}
+	@media screen and (max-width:640px) {
+	/*.xmas-slider { height: 430px; background-size: 130%; background-position-y: 0%;}*/
+	}
+	@media screen and (max-width:430px) {
+	/*.xmas-slider {  height: 330px;}*/
+	}
+	.reviews-inner-x {  padding: 10px;}
+	.socialimg-xmas-wrap-x.clearer { max-width: 85%;}
+	.reviewer-xmas-x { text-align: left; margin-top: 10px; min-height: 82px;}
+	span.hashtag-xmas-x { color: #2a8abb;  font-family: maxima-med;}
+	.socialaccount-xmas-x img { max-width: 50px !important; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; float: left;}
+	.red-wrap-xmas-seveteen-x { width: 100%;   background-color: #bb2026; text-align: center;}
+	.reviews-x { border: #CCCCCC 1px solid;text-align: center; float: left;margin-right: 1%; width: 23.7%; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
+	.social-holder-xmas-gx { margin: 0 auto; text-align: center; max-width: 90%;}
+	.socialname-x {     float: left; font-size: 0.78rem; font-family: maxima-med; text-align: left; line-height: 1.3rem; padding-left: 4%; margin-top: 2%;}
+	.socialname-x span { color: #8a8a8a; font-size: 13px; font-family: maxima-lig; margin-top: -10px;}
+
+
+  /* 151584412 - CHICKEN MINCE FREEBIE (Ubiquitous Options Box Shadow Animation) */
+  .recurring-wrap-panel.freebie { width:36%;}
+
+  .freebieoption { display: block; font-size: 18px; background: #fff; padding: 10px; margin-bottom:10px; background: #EFEFEF; color: #444; font-family: maxima-med; -webkit-transition: 0.2s; -moz-transition: 0.2s; -o-transition: 0.2s; transition: 0.2s;
+  }
+
+  .option-active { -webkit-transition: 0.2s; -moz-transition: 0.2s; -o-transition: 0.2s; transition: 0.2s;}
+
+  .option-active .freebieoption { background: #6ba600; color: #fff;}
+
+  .radio-list-freebie { padding: 1.5%; }
+
+  @media screen and (max-width: 750px) {
+  .recurring-wrap-panel.freebie { width:85%;}
+  }
+
+
+/*----------151799048 - double value oct -----------*/
+@media only screen and (max-width:770px) { span#extra-offers { display: block; height: 40px; margin-top: -40px; visibility: hidden;}}
+
+/*----------- Age Verification ------------*/
+.age-verification-wrapper-lp { clear: both!important; margin: 0 auto!important; border: 2px solid #eb340a!important; border-radius: 6px!important; width: 380px!important; padding: 15px!important; align-content: left!important; margin-bottom: 2%!important; }
+.age-form-wrapper { float: left; }
+.age-verification-lp { float: left; margin-right: 10px!important; }
+.ageverify.ageverify-lp { float: left!important; }
+.age-logo { float:left; width:45px; padding-right:15px; height:auto;}
+.upsells-small .more-deals-img.age18 { position: relative; }
+.upsells-small .more-deals-img.age18::after { content: url(https://s3-eu-west-1.amazonaws.com/musclefooduk/images/151757954-age-verification/151757954-18cert-prod.png); position: absolute; top: 14px; right: 14px;}
+.age-select { clear:both;padding-top: 5px; text-align: left;}
+.age-select-title { color: #eb340a;}
+
+@media only screen and (max-width:550px) {
+  .age-verification-wrapper-lp { width: 80%!important; align-content: center!important; text-align: center!important;}
+  .age-logo { width:65px; float: none; display: block; margin:0 auto; padding:0 0 10px 0;}
+  .age-select { width:100%; text-align: center;}
+  .age-form-wrapper { float: none; align-content: center; text-align: center; }
+  .age-select-title { width: 100%; display: block;}
+  .age-verification-lp { float: none!important; margin-right: 0!important; text-align: center!important; vertical-align: middle!important; margin-bottom: 5px!important; }
+  .ageverify.ageverify.ageverify-lp { display: block!important; width: 100%!important; text-align: center!important;}
+}
+
+
+/* 152717584 - 1p penny */
+.twomo-ctatext { text-align: center; color: #006699; font-size: 27px;  line-height: 31px; margin-bottom: 0px;}
+
+/* 152780511 - bf main */
+
+		  #recpoint.ohtwo-tag.abm-fg { width: 120px;}
+		  #recpoint.ohtwo-tag.abm-fg:after, #recpoint.ohtwo-tag.abm-fg::after { left: 123px;}
+	   .header-img { padding: 2% 0;}
+.top-header-wrap {  width: 100%;  background-size: 100%;}
+.add-to-basket-header { z-index: 999; position: absolute; bottom: -26px; width: 100%; left: -1px; padding-bottom: 20px;  margin-bottom: 20px;}
+.cta-discount-text {  font-size: 13px; line-height: 10px; font-family: maxima-Lig;   color: #4078ae;}
+		.add-to-basket-header { /*width: 100%; margin-top: -2%; z-index: 1000; text-align: center;*/}
+		.atb-fyf {     margin: -2% auto; z-index: 1000;  max-width: 80%;}
+		.header-cta-box { width: 39%; border: #4078ae 3px solid; background: #fff;  margin: 0 auto; border-radius: 4px; font-family: maxima-Bol;  padding: 5.5px 0; color: #e77836; font-size: 18px; max-width: 335px; font-size: 17px; line-height: 26px; max-height: 39px; float: left;     text-align: center; min-width: 49%;}
+		a.proceed-to-checkout {min-width: 49%; max-height: 22px !important; float: left; margin-left: 1%;}
+		INPUT.giant-submit2header {     background: #67b400; border: medium none;  cursor: pointer; text-decoration: none !important; display: inline-block; width: 100%; cursor: pointer; max-height: 45px; border-radius: 4px; overflow: hidden; color: #FFF; text-align: center; font-weight: bold;
+    text-transform: uppercase; font-size: 24px; min-height: 55px; -webkit-appearance: none; -moz-appearance: none; appearance: none;}
+		@media screen and (max-width: 900px) { .atb-fyf {max-width: 80%;} }
+		@media screen and (max-width: 900px) { .atb-fyf {max-width: 90%;} .copyBreak {display: none;} }
+		@media screen and (max-width: 705px) { .atb-fyf {max-width: 99%;} .copyBreak {display: inline;} }
+		@media screen and (max-width: 640px) {
+			.atb-fyf {max-width: 75%;}
+			a.proceed-to-checkout {     min-width: 100%;}
+			.add-to-basket-header { margin-bottom: 40px;}
+			.header-cta-box { width: 96%; margin-left: 1%;     font-size: 2.9vw !important; min-width: auto;  max-width: none; line-height: 23px;}
+			.cta-discount-text {font-size: 2.9vw !important;}
+			INPUT.giant-submit2header { text-align: center;   width: 98%;  margin: 1% auto; cursor: pointer; max-height: 45px; font-size: 3.8vw;  min-height: 44px;  font-family: maxima-med !important;}
+    .add-to-basket-header { position: absolute; bottom: -15px; width: 100%; left: -1px;}
+    .cta-discount-text {font-size:13px; line-height: 10px; font-family: maxima-Lig; color: #4078ae;}
+		.header-cta-box a, .header-cta-box a:visited, .header-cta-box a:hover, .header-cta-box a:active {text-decoration: none !Important;}}
+    @media screen and (max-width: 640px) {
+		.add-to-basket-header { position: relative; width: 100%;  margin-top: -50px; margin-bottom: 42px;}
+  }
+.globalnav-price { padding: 2% 0.4%; width: 24%; font-family: maxima-Med; float:left; text-align: center; border-right: 1px solid #fff; font-size: 24px; line-height: 17px; margin: 0 auto; color: #686868;}
+				.logo-price-comp { text-align: center; margin: 0 auto;}
+				.globalnav-pricewrap { display: block; font-size: 15px; TEXT-ALIGN: CENTER;}
+				.globalnav-pricewrap.mf-price-best:after, .global-nav-lp.mf-price-best::after {  position: absolute; top: 95px; left: 80px; content: ''; width: 0; height: 0; outline: 2px white; border-style: solid; border-width: 20px 20px 0 20px;  border-color: #dae7f0 transparent transparent transparent;}
+		  .globalnav-pricewrap.mf-price-tag { font-size: 20px; margin-top: -2px; color: #006699;}
+					@media screen and (max-width: 750px) {
+						.globalnav-price { width:100%; border-right: 0px solid #ddd; float:none; }
+				}
+	   .left-submit { background: url(https://s3-eu-west-1.amazonaws.com/musclefood/landing-pages/9925-landing/9818-button.png) no-repeat scroll left top rgba(0, 0, 0, 0); border: medium none; cursor: pointer; height: 76px; text-decoration: none !important; display: block; margin: 0 auto; width: 95.6%; height: 39px; cursor: pointer; border-radius: 4px; overflow: hidden; color: #FFF; text-align: center; font-weight: bold; text-transform: uppercase; line-height: 26px; font-size: 19px; background: #67b400 !important; -webkit-appearance: none; -moz-appearance: none;appearance: none;}
+  .globalnav-lp.bg-bf .holder {  max-width: none !important;}
+.globalnav-lp.bg-bf { padding: 2% 0% !important; background: url(https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/152784477-bf-free-hamper/152784477-background-img.png); background-position-y: 0; width: 100% !important;  margin: 0 auto !important; float: none !important;}
+	   /*.bg-bf {  background: url(https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/152784477-bf-free-hamper/152784477-background-img.png); background-position-y: 0;}*/
+	   .bf-adding-2bask { background-color: #959595; color: #fff; text-align: center; padding: 2%; font-size: 15px; letter-spacing: 0.2px;}
+	   @media screen and (max-width: 750px) {
+		   .timer-right {  margin-left: 7px; width: 92% !important;}
+	   /*.globalnav-lp.bg-bf .holder span { font-size: 11px !important;}*/
+		   .globalnav-lp.bg-bf { font-size: 11px !important; margin: 2% 0; background-color: #222 !Important;}
+		   .bf-adding-2bask {font-size:12px;}
+		   .bg-bf { background: #222 !important;}
+	   }
+@media screen and (max-width: 450px) {
+	.bf-adding-2bask {font-size:3.2vw;}
+	.arrow-bf { margin: 0 !important;}
+}
+
+	   @media screen and (max-width: 750px) {
+	   .top-headimg-bf { margin-bottom:15px;}
+	   }
+
+
+/*----------151337831 - new customer -----------*/
+
+	#gorumet-nc-wrap { font-family: maxima-lig !important;}
+	/*.xmas-slider { background: url(https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/151337831-xmas-hub/151337831-mainpic.jpg) no-repeat center center; width: 100%;  height: 370px; position: relative;  background-size: 110%; background-position-y: 47%;}*/
+	h2.ny.header-nc-p { padding: 2.5% 0;}
+	.hero-nc-offer { max-width: 90%; margin: 0 auto;}
+	.hero-nc-txt { width: 31%; float: left; padding: 1%; margin-bottom: 2%; }
+.hero-nc-txt h4 { text-transform: uppercase; font-size: 16px; text-align: center; font-family: maxima-Bol; margin: 15px 0 10px;}
+	.hero-nc-txt p { text-align: center; font-size: 14px; padding: 2%;}
+	.nc-cta-hero  { background: #60b000; max-width: 40%; margin: 0 auto; padding: 2%; text-align: center; color: #fff; font-size: 14px; -moz-transition: all .2s ease-in; -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in; transition: all .2s ease-in;}
+	.nc-cta-hero:hover {background: #3e6f02;}
+	.nc-prod-carousel { background-color: #eaeaea; width: 96%; text-align: center; padding: 2%; margin-top: 15px;}
+	.nc-car-inner-wrap { max-width: 95%; margin: 0 auto;}
+	.nc-prod-wrap-car { float: left; width: 15.46%; padding: 0.6%; font-size: 12px;}
+	.nc-prod-wrap-car img { margin-bottom: 5px; opacity: 0.95;}
+	.nc-slider-txt {text-align: center; width: 70%; margin: 0 auto;}
+	.nc-inner-slider { width: 100%; z-index: 100;}
+	.nc-inner-slider img { margin-top:16%;}
+	.magazine-logos-holder-nc { text-align: center; max-width: 89%; margin: 0 auto; }
+	.red-wrap-nc-seveteen-x.gc { font-size: 1.6em; color: #fad4b2; padding: 1.5% 0;}
+	.red-wrap-nc-seveteen-x span { font-family: maxima-bol; text-transform: uppercase;}
+	.nc-cta-hero a  { text-decoration:none; }
+
+	@media screen and (max-width:976px) {
+		.hero-nc-txt p { min-height: 70px;}
+	}
+	@media screen and (max-width:750px) {
+	.hero-nc-txt h4 { font-size: 1.6em;}
+	.hero-nc-offer { max-width: 95%; margin: 0 auto;}
+	.hero-nc-txt { width: 100%;  padding: 2% 1%; margin-bottom: 0%; }
+	.hero-nc-txt p { min-height: 60px; font-size: 15px; margin-bottom: 6px;}
+	.nc-cta-hero { max-width: 80%; margin-bottom: 2px;}
+	.nc-prod-wrap-car { float: left; width: 30.13%; padding: 1.6%; font-size: 12px;}
+	.nc-car-inner-wrap { max-width: 88%; margin: 0 auto;}
+	/*.xmas-slider {  height: 530px;  background-size: 130%;}*/
+	.red-wrap-nc-seveteen-x.gc { font-size: 1.2em;}
+	/*.magazine-logos-holder-xmas { margin-top: 0px;}*/
+	h2.ny.header-nc-p { padding: 3% 0%; font-size: 16px !important;}
+		.nc-inner-slider img {  margin-top: 20%;}
+		.hero-nc-txt h4 { font-size: 1.2em; }
+	}
+	@media screen and (max-width:640px) {
+	/*.xmas-slider { height: 430px; background-size: 130%; background-position-y: 0%;}*/
+	}
+	@media screen and (max-width:430px) {
+	/*.xmas-slider {  height: 330px;}*/
+	}
+
+/* bf collapsing */
+
+div.accordion {background-color: #222222;color: #fff;cursor: pointer;padding: 18px;width: 100%;border: none;text-align: left;outline: none;font-size: 15px;transition: 0.4s;margin-bottom:5px;position:relative;box-sizing: border-box;background-image:url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/152279594-buildyourown-xmas/152279594-openclose.png");background-repeat: no-repeat;background-position: 97% 50%;background-size: 28px;font-size: 20px; }
+/** review stars for accoridon **/
+      div.star-rating-title {color: #ffcc00;padding: 0;position: absolute;z-index: 1;display: inline-block; overflow: hidden;}
+	.mobInfoContent { padding: 2% 1% 4%;}
+	.mobInfoContent .fto-offer-shadow-ny { margin-left:0; width:100%}
+	.mobInfoContent .fto-offer-wrap-ny { max-width: 100%; padding: 2% 0%;}
+	.review-img-wrap { width: 31%; margin-left: 1%;  margin-bottom: 2%;}
+
+/**  show recurring on mobile **/
+      @media screen and (max-width: 750px) {
+      .accordion-mob  .recurring-wrap-panel-apr {width: 98%; box-shadow: none;padding:0;margin-top:0;margin-bottom:0;}
+     .accordion-mob .recurring-byob-wrap img {display:none;}
+     .accordion-mob .option-active-apr{border:none;outline:none;box-shadow: none;}
+     .accordion-mob #child1 .small-print-rec, #child2 .small-print-rec {display:none;}
+    .accordion-mob  .tiered-price{display:none;}
+     .accordion-mob .bday-rec-options:nth-child(2){display:none;}
+      }
+	  @media screen and (max-width: 400px) {
+		   .countdownlh { line-height: 24px !important;}
+	   }
+
+/*153242756 restyling collapsibles*/
+
+	.accordion.blue { background-color: #006699 !important; padding: 16px; background-image: url(https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/136640927-build-your-own-bundle/136640927-open-close.png);}
+
+/*----------153688941 - new year landing page -----------*/
+
+.padding-top-ny { min-height: 45px !Important;}
+	.newyear-normally span { text-decoration: line-through;}
+	.bluepalebg { background: #eff3f7;}
+	.cta-boxshadow {    -webkit-box-shadow: 0px 0 5px 0px rgba(0,0,0,0.09); -moz-box-shadow: 0px 0 5px 0px rgba(0,0,0,0.09); box-shadow: 0px 0 5px 0px rgba(0,0,0,0.09);}
+	.padding-top-ny {margin-top: 10px;}
+	.quantity-dropdown {text-align: center;overflow: hidden;}
+	.qty-wrap { display: inline-block; text-transform: uppercase; margin-top: -16px; padding: 0 3% 4% 0%; font-size: 15px; font-family: maxima-med; color: #6f6f6f !important;}
+	.bg-dropdown {     background: url(https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/153688941-ny-hamper/153688941-bluedropdown.png) no-repeat 96% 0;  margin: 0 auto; width: 30%; display: inline-block; height: 28px;}
+.bg-dropdown select {  background: transparent; border: none; font-size: 14px; height: 29px; padding: 5px; width: 152px; -webkit-appearance: none; -moz-appearance: none; appearance: none;}
+.roundedcorners { -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
+.colorblue    { background-color: #edf3f7; border: 1px solid #dce9ef;}
+.colorblue select    { color: #424242;}
+	 .newyear-price { text-align: center; font-size: 21px; color: #447eba; margin-bottom: 20px; font-weight: bold; margin-left: 0; text-transform: uppercase;}
+	.newyear-normally { color: #c43646; font-size: 13px; text-transform: uppercase; text-align: center; font-weight: bold; margin-bottom: 2px;}
+	.wrapper-ny .header-wrap {overflow-x: hidden !important;}
+	.small-upsell-holder.wrapper2k18 {width: 94.5%;margin: 0 auto 3%;}
+	.tpcarousel-wrap { padding: 4% 0 1%;}
+	.product-breakdown-twoeight { padding: 5% 0; border-bottom: 1px solid #e2eaf4;}
+	.product-breakdown-twoeight ul { font-size: 12px; text-align: center; line-height: 18px;}
+	.product-breakdown-twoeight ul dd { font-family: maxima-med; margin: 14px 0 5px;}
+	.code-box-wrap { width: 46%; float: left; margin-top: 4px;}
+	.twenty-percent-holder-gandg.whitebgny { background: #fff;}
+	.upsells-twoeight { padding: 2% 2% 4%;  padding-left: 0%; padding-right: 0%; margin: 26px 0 0; background: #eff3f7; width: 100%;}
+	.upsells-twoeight h2 {text-align: center;  widtH: 90%; color: #4a4a4a; PADDING-LEFT: 4%; font-size: 18px; margin: 2% 0 2%;}
+	.separator2k18 {   height: 1px;  background: #d7e3ee; width: 94%; margin: 0 auto; margin-bottom: 20px;}
+	.upsells-small.ny2k18 { outline: 1px solid #dee8f2 !important; padding: 2%; background: white; padding-bottom: 15px !important;}
+.code-box-twoeight img { position: absolute;  left: 7%; top: -20%;}
+	.price-comp-twoeight {width:20%; float:left;}
+.prod-img-twoeight img {max-width: 154px;}
+	a.cta218 { text-decoration: none !important;}
+
+.ctaurgency-twoeight { position: relative; z-index: 100; display: block; width: 70%; margin: -13% auto 15px; border: 1px solid transparent; border-radius: 0px; }
+.urgencyred-timer { z-index: 100; margin-bottom: 10px; /* position: absolute; */ }
+.timer-twoeight { width: 90%; margin-right: auto; margin-left: auto; text-align: center; padding-top: 1%; padding-bottom: 1%; border-style: solid; border-width: 3px; border-color: rgba(201, 63, 80, 1);
+    border-radius: 6px; background: rgba(205, 66, 83, 1); color: #fff; font-size: 14px; text-shadow: 1px 1px 6px rgba(0, 0, 0, .5);font-family: maxima-lig; }
+.triang-twoeight { width: 0; height: 0; margin: 0 auto; border-style: solid; border-width: 10px 10px 0 10px; border-color: rgba(205, 66, 83, 1) transparent transparent transparent; }
+.timer-twoeight { width: 90%; margin-right: auto; margin-left: auto; text-align: center; padding-top: 1%; padding-bottom: 1%; border-style: solid; border-width: 3px; border-color: rgba(201, 63, 80, 1);
+    border-radius: 6px; background: rgba(205, 66, 83, 1); color: #fff; font-size: 14px; text-shadow: 1px 1px 6px rgba(0, 0, 0, .5);font-family: maxima-lig; }
+.triang-twoeight { width: 0; height: 0; margin: 0 auto; border-style: solid; border-width: 10px 10px 0 10px; border-color: rgba(205, 66, 83, 1) transparent transparent transparent; }
+
+.cta-wrapper-twoeight {     margin-top: 11px; margin-bottom: 0px; padding: 3.2%;  border-color: transparent;  border-radius: 3px; background: #fff;}
+
+.timer-twoeightg { width: 90%; margin-right: auto; margin-left: auto; text-align: center; padding-top: 1%; padding-bottom: 1%; border-style: solid; border-width: 3px; border-color:#2b8d18;
+    border-radius: 6px; background: #208a0b; color: #fff; font-size: 14px; text-shadow: 1px 1px 6px rgba(0, 0, 0, .5);font-family: maxima-lig; }
+.triang-twoeightg { width: 0; height: 0; margin: 0 auto; border-style: solid; border-width: 10px 10px 0 10px; border-color: #2b8d18 transparent transparent transparent; }
+.timer-twoeightg { width: 90%; margin-right: auto; margin-left: auto; text-align: center; padding-top: 1%; padding-bottom: 1%; border-style: solid; border-width: 3px; border-color: #2b8d18;
+    border-radius: 6px; background: #208a0b; color: #fff; font-size: 14px; text-shadow: 1px 1px 6px rgba(0, 0, 0, .5);font-family: maxima-lig; }
+.triang-twoeightg { width: 0; height: 0; margin: 0 auto; border-style: solid; border-width: 10px 10px 0 10px; border-color: #2b8d18 transparent transparent transparent; }
+
+.cta-wrapper-twoeightg {     margin-top: 11px; margin-bottom: 0px; padding: 3.2%;  border-color: transparent;  border-radius: 3px; background: #fff;}
+
+input.herobut { width: 51%; border: 1px solid #eff3f7; -webkit-appearance: none;  -moz-appearance: none; appearance: none;  float: right; margin-top: 2px;}
+.ctabutton { border: 0; cursor: pointer; text-align: center;/* display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex;*/ width: 40%; min-height: 60px; margin-right: auto; font-weight:bold; /*margin-left: auto; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;*/ color: #fff !important; border-radius: 5px; font-family: maxima-Med; !important; background: #67b400 !important; font-size: 1.5em;  text-transform: uppercase; -webkit-appearance: none; -moz-appearance: none; appearance: none;}
+.ctabutton2 { border: 0; cursor: pointer; text-align: center;/* display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex;*/ width: 40%; min-height: 60px; margin-right: auto; font-weight:bold; /*margin-left: auto; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;*/ color: #fff !important; border-radius: 5px; font-family: maxima-Med; !important; background: #b60101 !important; font-size: 1.3em;  text-transform: uppercase; -webkit-appearance: none; -moz-appearance: none; appearance: none;}
+.trustpilot-logowrap {padding: 0 3%; margin-bottom: -20px; margin-top: 0px !important;}
+.trustpilot-218 {     width: 13%; margin-top: 1.5%; /*margin-left: 15px; margin-right: 20px;*/ float: left;  margin-left: 2%; margin-right: 1%; height: 130px;}
+.logos-218 {  width: 83%; box-sizing: border-box; float: left;}
+.logos-218-sub { float: left; width: 12.5% !important; padding: 0.2%; box-sizing: border-box; }
+	.logos-218-sub img {min-width: 100px !important;}
+.ticks-ny-eighteen.clearer { background: #eff3f7;  padding: 0;  margin: 0; width: 100%;}
+ul.ticks-twoeight { padding: 4% 0 3%;}
+.ticks-twoeight li { background-image: url(//s3-eu-west-1.amazonaws.com/musclefooduk/images/20614-green-ticks-bullet-points.png); /*font-family: maxima-lig; font-size: 14px;*/ background-size: 1em; background-repeat: no-repeat; background-position: 0px 0px; padding-left: 27px; padding-right: 1.5em; line-height: 20px; color: #4b4b4b;}
+.maintxt-wrapper { display: block; margin-right: auto; margin-left: auto; padding: 3%; }
+	.maintxt-wrapper.extra-text { margin-bottom: 15px; border-bottom: 1px solid #f5f5f5; background: #fdfdfe; }
+.headertxt-twoeight { color: #4a4a4a; font-size: 19px; padding: 0% 4%; line-height: 34px; text-align: center; }
+.product-row-twoeight { padding: 2px 31px 1px;}
+.leftprod-row { padding-bottom: 25px; width: 48%; border-width: 1.4px; margin: 2% 0 2% 0; border-color: #e1eaf4; border-bottom-style: solid; float: left; box-sizing: border-box; }
+.product-row-twoeight>div:nth-child(1) {margin-right: 3%;}
+.prod-img-twoeight { width: 40%; float: left;}
+.prod-desc-wrap-twoeight {    width: 60%; float: left; left: 0px; top: 0px; right: 0px; padding-left: 0px;}
+.prod-description-twoeight { left: 0px; top: 0px; right: 0px; padding-left: 0px; }
+.prodhead-twoeight { margin-top: 0px; margin-bottom: 0px; color: #4a4a4a; font-size: 16.5px; line-height: 25px; font-weight: 400; text-align: left; }
+.starreview-wraptwoeight { padding-top: 10px; padding-bottom: 10px;}
+.star-wrap { color: #f7e53b; font-size: 21px; text-align: left; display: inline-block; margin-right: 3%;}
+.reviewblock-twoeight { color: #528bc0; font-size: 15px; text-decoration: underline; display: inline-block;}
+.prod-description-txt { color: #535353; font-size: 13px; font-weight: 400; text-align: left; }
+.prodsecondrow-twoeight {padding-top: 8px;}
+.logos-wrap { float: left; width: 40%; }
+.product-icons-holder.cent-logo { margin-top: 15px; margin-left: -11%; float: none; text-align: center !important; }
+	.product-icons-holder.cent-logo>div {float: none !important;}
+.ingredients-dropdown.clearer { float: right; width: 60%; padding: 2% 0; position: relative; box-sizing: border-box; }
+.nutr-block-twoeight { border: 1px solid #bdd1e5; border-radius: 3px; }
+.ibut-twoeight { width: 22px; height: 22px; margin-top: 7px; margin-left: 19px; float: left; }
+.nutritional-p { width: 70%; padding-top: 8px; padding-bottom: 8px; padding-left: 14px; float: left; text-align: center; font-size: 14px; font-family: maxima-med; color: #518ac0; }
+.ctamidpage-block {margin-bottom: 3%; /* width: 68%; */ text-align: center;}
+.timer-twoeight.midpage {width: 60%; /* margin-bottom: 10px; */}
+.chilled-delivery-twoeight {     width: 95%; /* display: block; */ margin-right: auto; margin-left: auto; padding: 0.5%; margin-top: 20px; box-sizing: border-box; border: 1px solid #bdd1e5; border-radius: 4px; background: #f1f5f8; }
+.del-img { float: left; margin-left: 1%; width: 39%; padding: 0.5% 1%; box-sizing: border-box; }
+.delivery-text {  float: left; width: 60%; padding: 3% 2.5% 3% 2%;box-sizing: border-box;}
+.chilled-del-txt { color: #4a4a4a; font-size: 16px; line-height: 28px; text-align: left; margin-top: -5px; }
+.footer-price {padding: 0px 0 20px; /* border-bottom: 1px solid #ddd; */}
+.footer-pcmeals { color: #9b9b9b; font-size: 28px; font-weight: 400; text-align: center; }
+.footer-wasprice { margin-top: 1px; padding-top: 0px; text-align: center; color: #4a4a4a; font-size: 18px; line-height: 18px; font-weight: 400; }
+.footer-nowprice { margin-top: 0px; text-align: center; letter-spacing: -6px; text-transform: uppercase; font-family: maxima-bol; font-size: 73px; color: #518ac0; }
+.tcs-twoeight { border-top: 1px solid #ddd; padding-top: 40px; padding: 4% 0 0; }
+	.tcs-twoeight p { width: 70%; text-align: center; margin: 0 auto; color: #9c9c9c; line-height: 23px; font-size: 12px;}
+.nutritionals-callout-twoeight { position: absolute; min-width: 300px; z-index: 100; width: 20%;  margin-top: 6px; padding: 3.2%; border: 1px solid #bed2e5; background-color: #ffffff; border-radius: 3px; }
+	.nutritionals-callout-twoeight>div p {display: none !important;}
+.nutrition-table-twoeight TH { background-color: #d9e5f0; color: #616365; border-bottom: 1px solid #E4EFF4; padding: 8px 10px; font: inherit; white-space: nowrap; font-family: maxima-med; }
+.nutrition-table-twoeight TD { background-color: #f5f8fc; border-top: 1px solid #fff; border-bottom: 2px solid #fff; padding: 8px 10px; font: inherit; color: #4b4b4b !important; }
+.nutritionals-callout-twoeight>div:nth-child(2) {display: none !important;}
+table.nutrition-table-twoeight { background-color: #E4EFF4; border: none; font: bold 11px/13px maxima-lig !important; color: #fff; }
+.supermarket-comp { width: 95%; margin-right: auto; margin-left: auto; padding: 3%; box-sizing: border-box; border: 1px solid #bdd1e5; border-radius: 4px;  background: #fdfdfe; }
+.price-comp-twoeight {  text-align: center; margin: 0 auto !important;  box-sizing: border-box;}
+	.price-comp-twoeight div {     font-size: 18px; color: #404040; margin-top: 5px;}
+	.price-comp-twoeight img { width: 100% !important; max-width: 120px; display: inline-block !important; text-align: center !important; transform-style: flat !important;}
+	.rowtwoeight> div:nth-child(1) {border-left: 0px !important;}
+	.rollover-twoeight { position: relative; text-align: center; width: 20%; overflow: hidden; }
+.rollover-twoeight:hover {overflow: visible !important;}
+.rollover-twoeight img { width: 100%; padding: 0px;  max-width: none; min-width: auto !important; margin: 0 auto; }
+.rollover-twoeight>div { background-color: rgba(255, 255, 255, 0.97); z-index: 2000; opacity: 0; position: absolute; /*width: 100px;*/ height: auto; top: 10px; left: 0; -webkit-transition: opacity 0.4s linear; color: #5a5a5a; }
+.rollover-twoeight:hover>div { display: block; opacity: 1.0; }
+.rollover-twoeight>div div { padding: 8px; font-size: 11px; position: relative; line-height: 17px; max-width: 300px; text-align: center; }
+	.ticks-twoeight.rowtwoeight { text-align: center;}
+	.viewall-items { display:none; border: 1px solid #bdd1e5; border-radius: 3px; width: 83%; padding: 3%; margin: 0 auto;text-align: center;font-size: 4.1vw; font-family: maxima-med; color: #518ac0;
+		margin: 1% auto 4%; }
+	.main-prod-wrapper {position : relative;}
+	.ticks-static { padding: 2% 2% 1%; padding-left: 0%; padding-right: 0%; margin: 0 0%; background: #eff3f7; width: 100%;}
+	.ticks-static-twoeight.rowtwoeight { text-align: center; width: 100%;}
+	ul.ticksstatic-twoeight { display: inline-block; width: 29%; margin-left: 0; font-size: 15px; text-align: left; margin-bottom: 1em; color: #4b4b4b;}
+	.ticksstatic-twoeight li {  background-image: url(//s3-eu-west-1.amazonaws.com/musclefooduk/images/20614-green-ticks-bullet-points.png);background-size: 1em; background-repeat: no-repeat; background-position: 0 8px; padding-left: 1.7em; padding-right: 1.5em; line-height: 33px;}
+ul.ticksstatic-twoeight-prod { display: inline-block; width: 100%; margin-left: 0; font-size: 12px !important; text-align: left; margin-bottom: 1em; color: #4b4b4b;}
+	.ticksstatic-twoeightprod li {  background-image: url(//s3-eu-west-1.amazonaws.com/musclefooduk/images/20614-green-ticks-bullet-points.png);background-size: 1em; background-repeat: no-repeat; background-position: 0 8px; padding-left: 1.7em; padding-right: 1.5em; line-height: 33px; }
+	.price-comp-twoeight.dt { float: left; width: 25%; border-left: 1px solid #ddd;}
+	.price-comp-twoeight-rot img { width: 100% !important; max-width: 120px; display: inline-block !important; text-align: center !important; transform-style: flat !important;}
+	.price-comp-twoeight-rot { text-align: center; margin: 0 auto !important; box-sizing: border-box;}
+	.supermarket-comp.mob.show-in-mobile-view2 { margin-top: 0%;}
+	.qtytimer-ny { display:inline-block !important;}
+	.code-box-wrap { width: 47%; float: left; margin-top: 2px;  padding-right: 2%; margin-top: 3px;}
+	.code-box-tcs {  font-size: 10px; font-family: maxima-lig; color: grey; text-transform: uppercase; width: 155px; position: absolute;  TOP: -37%;  left: 50%; margin-left: -77px;}
+	.code-box-twoeight { background: #f8f8f8;min-height: 50px; border: #ebebeb 3.8px dashed; border-image: url(https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/153688941-ny-hamper/153688941-codebox.png) 2.5 round !important; -moz-border-image: url(https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/153688941-ny-hamper/153688941-codebox.png) 2.5 round !important; -webkit-border-image: url(https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/153688941-ny-hamper/153688941-codebox.png) 2.5 round !important; margin: 0 auto; font-family: maxima-med; font-size: 1.2em; line-height: 45px; text-align: center; color: #c93f50;}
+	.ctamidpage-block { margin-bottom: 1%; width: 70%; margin: 0 auto; text-align: center;}
+	.midpage-wrap.clearer { margin-top: 17px; margin-bottom: 11px;}
+	.code-box-wrap { width: 47%; position: relative; float: left; margin-top: 2px; padding-right: 2%; margin-top: 3px;}
+	.midpage-wrap .code-box-wrap .code-box-tcs { font-size: 10px; font-family: maxima-lig; color: grey; text-transform: uppercase; TOP: -37%;  width: 155px; position: absolute; left: 50%; margin-left: -77px;}
+	.midpage-wrap .code-box-wrap .code-box-twoeight img { position: absolute; left: 7%; top: -19%;}
+	input.wider-footer { width: 70%;}
+
+		@media screen and (max-width:1014px) {
+			.nutritionals-callout-twoeight {  bottom: 57px; right: 0;}
+}
+
+	@media screen and (max-width:970px) {
+		.prodhead-twoeight { font-size: 15.5px;}
+		.nutritional-p { font-size: 13px;}
+		.prod-img-twoeight img { max-width: 90%;}
+		.star-wrap { color: #f7e53b; font-size: 19px;}
+		ul.ticksstatic-twoeight { font-size: 13px;}
+	}
+		@media screen and (max-width:775px) {
+			.nutritional-p { font-size: 11px;}
+			.star-wrap { color: #f7e53b; font-size: 17px;}
+			.reviewblock-twoeight { font-size: 13px;}
+
+	}
+	@media screen and (max-width:775px) {
+		ul.ticksstatic-twoeight { font-size: 12px;}
+
+	}
+	@media screen and (max-width:720px) {
+		.view-wrapperdiv.active { background: #f6f8fa;}
+		.main-prod-wrapper.active:after {height: 3em; background: linear-gradient(to bottom, rgba(239,243,247, 0), rgba(239, 243, 247, 0.55) 90%);}
+		.hidemob-wrap .product-row-twoeight:nth-child(8) > div:nth-child(2) {border: none;}
+		.bg-dropdown select { font-size: 16px;}
+		.bg-dropdown { width: 35%;}
+		.newyear-normally { font-size: 12px; margin-bottom: 1px;}
+		.newyear-price { font-size: 19px; margin-bottom: 15px;}
+		input.wider-footer { width: 86%; margin: 3.5% 0 5%;}
+		.upsells-small.ny2k18 {padding:0%;}
+		.upsells-twoeight { padding: 16px 0 26px 0;}
+		.urgencyred-timer.himb.hide-in-mobile-view { display: none;}
+		/*.midpage-wrap .code-box-wrap .code-box-tcs { left:27%;}*/
+		.timer-twoeight { width: 96%;}
+		.triang-twoeight {  margin: 0 auto;  width: 0; height: 0; border-style: solid; border-width: 0 10px 10px 10px; border-color: transparent transparent #cd4252 transparent;  order: 1;}
+		a.cta218.cb.mpb { padding: 0;}
+		.ctamidpage-block {  padding-top: 10px !important; width: 96%; display: flex; flex-direction: column;}
+		.urgencyred-timer {     order: 2; display: flex; flex-direction: column; padding-top:3%;}
+		.timer-twoeight { order: 2;}
+		.midpage-wrap.clearer {     margin: 0 auto; text-align: center; width: 90%;}
+		.logos-left { max-width: 100px; margin-top: 24px; width: 9%; text-align: center;}
+		.code-box-wrap { width: 95%; float: none; padding-right: 0%; margin: 2% auto;}
+		.cta218.cb { text-decoration: none !important; padding: 0 0 0 2.5%;}
+
+		.trustpilot-logowrap { padding: 0 3%; margin-bottom: -10px; margin-top: 10px !important;}
+		.rollover-twoeight>div { background-color: rgb(207, 219, 231); z-index: 2000; opacity: 0; position: absolute; width: 65px; height: auto; top: 69px; left: 0; -webkit-transition: opacity 0.4s linear; color: #5a5a5a;}
+		.rollover-twoeight>div div {     padding: 4px; font-size: 9px;}
+		.nutritionals-callout-twoeight { width: 122% !important; padding: 3% !important; min-width: 91%; bottom: 50px; right: 0%;}
+		.ticks-ny-eighteen.clearer.show-in-mobile-view2 {  padding: 1%; width: 98%; border-bottom: 1px solid #e1eaf4 !important;}
+		div#ticks-owl-carousel { margin: 5px 0 5px !important;}
+		.logos-218 {  width: 59%; box-sizing: border-box; float: left; padding: 2%;}
+		.rollover-twoeight { position: relative; text-align: center; width: 50%; overflow: hidden;}
+		.rollover-twoeight img { width: 100%; padding: 0px;  max-width: none !important; min-width: auto !important; margin: 0 auto;}
+		.rollover-twoeight { position: relative; text-align: center; width: 29% !important; margin-left: 4%; overflow: hidden;}
+		.trustpilot-218 { width: 38%; float: left; margin-top: 9%;}
+		#owl-price-carousel .owl-stage { padding-left: 0px !important;}
+		#owl-price-carousel .item { border-right: 1px solid #ddd;}
+		#ticks-owl-carousel .owl-stage { padding-left: 5px !important;}
+		.supermarket-comp { width: 100%; padding: 3% 0%;border: 0px; border-radius: 0px;  background: #fdfdfe;}
+		.view-wrapperdiv { background: #eff3f7; padding: 0.2% 0 0.5%; margin-bottom: 20px; border-bottom: 1px solid #e2eaf4;}
+		.viewall-items { display: block; width: 79%; background: #fff;}
+		.hidemob-wrap {display:none;}
+		.chilled-delivery-twoeight { width: 90%; padding: 1%; box-sizing: border-box;}
+		.del-img { float: none; width: 100%;}
+		.delivery-text { float: none; width: 100%; text-align: center;}
+		.chilled-del-txt { font-size: 13.5px; line-height: 22px;}
+.headerimg-twoeight { position: static; margin-top: -144px; background-size: 100%; width: 100%; height: 350px; position: relative; background-size: 115%; background-position-y: 16%; }
+a.ctabutton.w-button.herobut {width: 95%;}
+/*ul.ticks-twoeight { float: left; width: 100%; font-size: 15px; padding: 2%; color: #4b4b4b; }*/
+		.prod-desc-wrap-twoeight { width: 69%; float: left; padding-left: 4%;}
+.maintxt-wrapper.extra-text {margin-bottom: 0px;}
+.headertxt-twoeight { color: #4a4a4a; font-size: 17px; padding: 0% 4%; line-height: 29px; text-align: center; }
+.product-row-twoeight {padding: 0 3% 0 3% !important;}
+.leftprod-row { width: 100%; padding-top: 5%; border-width: 1.4px; margin: 0%; padding-bottom: 4%; }
+.prod-img-twoeight { width: 26%; float: left; }
+prod-desc-wrap-twoeight { width: 67%; float: left; padding-left: 4%; }
+.product-row-twoeight>div:nth-child(1) {margin-right: 0%;}
+.prodhead-twoeight {  margin-top: 0px;  margin-bottom: 0px; font-size: 17px; line-height: 25px;}
+.product-icons-holder.cent-logo>div { margin: 0px;}
+.starreview-wraptwoeight { padding-top: 10px; font-size: 10px !important; padding-bottom: 10px; }
+.star-wrap { font-size: 16px; }
+.reviewblock-twoeight { color: #528bc0; font-size: 16px; text-decoration: underline; }
+.prod-description-txt { font-size: 13.5px; }
+.prodsecondrow-twoeight {padding-top: 8px;}
+.logos-wrap {  float: left;   margin-top: -9%; width: 26%;}
+.product-icons-holder.cent-logo { margin-top: 15px; padding: 0; /* text-align: center !important; */ }
+.ingredients-dropdown.clearer { float: right; margin-right: 19px; width: 65%;  position: relative;  padding: 1% 0; box-sizing: border-box;}
+.ctaurgency-twoeight { position: relative; z-index: 100; display: block; width: 91%;  margin: -14% auto 15px; border: 1px solid transparent; border-radius: 0px;}
+.cta-wrapper-twoeight { padding: 5% 2% 2%;}
+		.code-box-twoeight img { left: 12%; top: -20%;}
+a.ctabutton.w-button.herobut {width: 95%;}
+.tcs-twoeight p { width: 90%; font-size: 11px; line-height: 21px; }
+.nutr-block-twoeight { border: 1px solid #bdd1e5; border-radius: 3px; }
+.ibut-twoeight { width: 22px; height: 22px; margin-top: 7px; margin-left: 19px; float: left; }
+.nutritional-p { width: 70%; padding-top: 8px; padding-bottom: 8px; padding-left: 13px; float: left; text-align: center; font-size: 13px; font-family: maxima-med; color: #518ac0; }
+.timer-twoeight.midpage { width: 86%; /* margin-bottom: 10px; */ padding: 1%; }
+.footer-nowprice { letter-spacing: -4px; font-size: 10vw; line-height: 10vw;}
+.footer-wasprice {line-height: 44px;}
+.ctabutton {min-height: 55px;  width: 86%;}
+.headertxt-twoeight { font-size: 15px; line-height: 29px; }
+.leftprod-row {width: 100%;}
+input.herobut {  width: 96%; min-height: 62px; float: none;}
+		.cta218:hover {text-decoration: none !important;}
+		.main-prod-wrapper:after {content  : ""; position : absolute;  z-index: 1;  bottom: 0; left: 0; pointer-events: none; width: 100%; height: 5em; background : linear-gradient(to bottom,  rgba(239,243,247, 0),  rgba(239,243,247, 1) 90%); }
+		.product-icons-holder.show-in-mobile-view2 {  margin: 12px 9px 1px 0;}
+	}
+
+	@media screen and (max-width:600px) {
+		.hide-in-mobile-view-ny {display:none !Important;}
+		.prodhead-twoeight { font-size: 3.99vw;line-height: 25px;}
+		.ingredients-dropdown.clearer { margin-right: 19px; width: 65%;}
+		.footer-nowprice { letter-spacing: -4px;  font-size: 12vw; line-height: 10vw;}
+		.footer-pcmeals { font-size: 6vw; line-height: 5vw;}
+	}
+	@media screen and (max-width:374px) {
+		.trustpilot-218 {  width: 40%; margin-bottom: -29px;}
+		.logos-218 { width: 57%;}
+		.starreview-wraptwoeight { padding-top: 3px; padding-bottom: 7px;}
+		.star-wrap { font-size: 14px;}
+		.reviewblock-twoeight { font-size: 13px;}
+			.nutritional-p { font-size: 3.4vw;}
+		.prodhead-twoeight { font-size: 4.09vw;}
+		.prod-description-txt { font-size: 11.5px;}
+		.ingredients-dropdown.clearer { margin-right: 7px; width: 68%;}
+	}
+    @media screen and (min-width:750px) {
+		div#ticks-owl-carousel { margin: 4px 0 4px !important;}
+}
+.price-comparisontab { background-color: #e7ecf0; border-radius: 11px; margin-top: 7px; border: 1px solid #c7dae3; margin: 3.5%;}
+		   .mf-table.special-price { background: #fefefe; border-top-left-radius: 11px; border-top-right-radius: 11px; padding-bottom: 10px; padding-bottom: 7px; border-bottom: 1px solid #c8dbe3;}
+		   .supmark-tab { padding: 1.5% 4.5%; /* margin-bottom: 10px; */ display: block; box-sizing: border-box;}
+		   .imgwrap { float: left; width: 50%; text-align: center;}
+		   .price-txt { display: inline-block; width: 46%; text-align: center; padding: 0.5%;}
+		   .mf-table img { width: 100%; max-width: 91px; /* float: left; */}
+		   .price-txt.mf { font-family: maxima-med; color: #3a9bcc; font-size: 19px;}
+		   .imgwrap.mf img { margin-top: 10px;}
+		   .price-txt.mf {  font-size: 19px; margin-top: 10px; }
+		   .imgwrap.mf img {max-width: 110px; margin-top: 4px !important;}
+		   @media screen and (max-width:720px) {
+		   .price-txt.mf {font-size:17px;}
+		   .price-comparisontab { max-width: 90%; margin: 4% auto; border: 1px solid #c7dae3;}
+		   }
+
+/*----------153694800 - twice as nice -----------*/
+
+.exo-timer-NYpink {     text-align: center; color: #fff;  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.27);  padding: 20px 10px 15px 10px; box-sizing: border-box;  width: 98%; z-index: 100; margin: 1.2% auto;  min-height: 87px;  background-color: #d04c5d;  border-radius: 6px;  background-image: url(https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/153694800-ny-twice-as-nice/153694800-pinkheader.jpg);   background-position-y: -15px; background-size: 147px; background-repeat: no-repeat;}
+.exo-timer-NYpink span.exo-timer-LrgText { font-size: 16px;  font-family: maxima-Med;}
+.exo-timer-NYpink span.exo-timer-SmlText { font-size: 14px;font-family: maxima-lig;}
+.exo-timer-NYpink img { width:6%; margin-left:4%; float:left	}
+.exo-timer-NYpink > article { width:86%;float:right;margin-right:4% }
+	.product-breakdown-twohamp {  font-size: 1.5em;}
+	.percentage-wrapper { width: 72%; margin: 0 auto;}
+	.header-wrap.withurgency { margin-top:-10px !important;}
+
+@media screen and (max-width:720px) {
+	.header-wrap.tan { margin-top: -10px;}
+	.product-breakdown-twohamp {  font-size: 18px;}
+.percentage-wrapper { width: 95%; margin: 0 auto;}
+.exo-timer-NYpink { padding: 11px 5px 8px 5px; line-height: 17px; background-image: none !Important;  min-height: auto; margin-top: 12px;}
+	.exo-timer-NYpink span.exo-timer-SmlText {  font-size: 12px !important; line-height: 19px;}
+	.exo-timer-NYpink span.exo-timer-LrgText { font-size: 14px; }
+	span.exo-timer-SmlText { font-size: 13px !important;}
+}
+
+/*----------153682417 - ny chicken -----------*/
+
+
+	.img100.XtraLarge { width:80%!important}
+.head-img-twoeight.xtraHigh {margin-top:-11%}
+	.logos-left.xtra img { float: right;}
+	.logos-left.right.xtra img { float: left;}
+	.white-chick {background:#fff !Important; padding-top: 0px !important;}
+	.footer-price.clearer.bluepalebg.chickpage { padding-top: 4%;}
+	.upsells-twoeight span.hide-in-mobile-view { font-size: 15px;}
+		.supermarket-comp.chick {padding:0%;}
+	.priceperkg.dt.mf img { min-width: 130px; margin-top: -5px;}
+	.priceperkg.dt.mf { background: #d3e7f1; /*border-right: 6px solid #006699;*/}
+	.priceperkg.dt { float: left; width: 20%; padding: 2.6%; box-sizing: border-box; text-align: center;  border-left: 1px solid #f0f0f1;}
+	.priceperkg img { width: 100% !important; max-width: 118px; display: inline-block !important; text-align: center !important; margin: 0 auto; transform-style: flat !important;}
+	.priceperkg div { font-size: 18px;  color: #404040;  margin-top: 5px; text-align: center;}
+	span.mfprice-chick {    font-size: 1.31em; text-transform: uppercase; font-family: maxima-bol; color: #006699;}
+	span.smallerpricechick { display: block; font-size: 12px;}
+	span.smallerpricechick.mf { font-size: 16px; color: #006699;}
+	.del-img-chick.show-in-mobile-view2.chick { padding: 0%; margin-left: auto; box-sizing: border-box; padding: 3% 3% 0%;}
+	.price-comparisontab.clearer.chick { margin: -2% auto 5%;}
+	.price-txt span { font-size: 11px; margin-left: 10px;vertical-align: middle;}
+	.pricecomp-newchick { margin: 1% 0;}
+	.plschilled-twoeight.long { width: 42%;}
+	@media screen and (max-width:890px) {
+	.priceperkg.dt.mf img { min-width: inherit;margin-top: inherit;}
+	}
+@media screen and (max-width:720px) {
+	.plschilled-twoeight.long { width: 62%;}
+	.del-img-chick.show-in-mobile-view2.chick { padding:0%; }
+.head-img-twoeight.MobResize {width: 107%!important; }
+input.NYwideBttn { width: 85% !important; }
+	span.mfprice-chicksmall { margin-left: 7px !important;}
+.ctaurgency-twoeight.clearer.chickpage { display: flex !important;  flex-direction: column;}
+.footer-price.clearer.bluepalebg.chickpage { padding-top: 9%;}
+}
+@media screen and (max-width:450px) {
+  .head-img-twoeight.xtraHigh {margin-top:-5%;}
+	}
+
+/*----------154047336 - fyf jan -----------*/
+
+	  @keyframes showFyf { from {opacity: 0;} to {opacity: 1;}}
+	  .toggle-box-fyf > label:last-child {border-bottom:0px;}
+.container-fyf { -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -o-transition: all 0.3s ease; -ms-transition: all 0.3s ease; transition: all 0.3s ease; }
+	.toggle-box-fyf {display: none;}
+	.toggle-box-fyf + label { cursor: pointer; display: block; width: 95%; margin: 0 auto; border-bottom: 1px solid #d9d9d9; font-weight: bold; margin: 32px auto;}
+	.toggle-box-fyf + label + div {display:none; margin-bottom: 10px;}
+	.toggle-box-fyf:checked + label + div { display:block; animation: showFyf 650ms ease-in-out both; }
+	.toggle-box-fyf + label:after { display: inline-block; content: "+"; float: right; font-family: maxima-bol;  padding: 0px 20px 14px 0px;}
+	.toggle-box-fyf:checked + label:after {content: "\2212";}
+	  p.fyftoggle-title { font-size: 17px; display: inline-block;}
+	  .fyftoggle-inner p { padding: 0 55px 0px 25px; font-size: 13px; margin-top: -9px;}
+	   .chilled-delivery-twoeight.clearer.nooutside { background: none; border: none;  margin-top: 0px;}
+	  h2.faq-h2 { text-align: center; widtH: 100%; color: #4a4a4a; font-size: 18px; margin: 0% 0 5%;}
+	  .logofyfseen {max-width:449px;}
+	  @media screen and (max-width:720px) {
+		  h2.faq-h2 { margin: 3% 0 7%;}
+	  .toggle-box-fyf + label { margin: 10px 10px 10px;}
+	  p.fyftoggle-title { font-size: 0.9em; font-family: maxima-lig; display: inline-block;}
+    .toggle-box-fyf + label:after {padding: 0px 10px 14px;}
+	  .fyftoggle-inner p { padding: 10px 10px 0px 10px; font-size: 12px;}
+		  .chilled-delivery-twoeight.clearer.nooutside {   width: 95%; }
+	  }
+@media screen and (max-width:350px) {
+	p.fyftoggle-title { font-size: 0.7em;}
+	  }
+
+
+/* 154115984 - new year v2 */
+h2.header-text.tan { width: 100%; margin-top: -5px; line-height: 1.35em !important;  background: #fbfbfd;}
+		.head-img-twoeight.secondoffer { margin-top: 0px;}
+		.head-img-twoeight.nomargin { margin-bottom: 0%;}
+		img.freesash { width: 100%;}
+		.plschilled-twoeight.free { background: none; width: 50%; margin: -20px auto;}
+		@media screen and (max-width: 720px) {
+		.plschilled-twoeight.free { width: 72%; margin: -16px auto;}
+		}
+
+/* 154310729 - dm pages */
+.free-hamp { padding: 2% 0 0%; max-width: 88%; text-align: center !important; margin: 0 auto;}
+	.chilled-del-txt.freham { text-align: center;}
+	.chilled-delivery-twoeight.clearer.freehamp { margin-top:3px;}
+
+/* New Year Free Hamper Offer - 154435412 */
+
+	span.txtline3.BreakLine { display:block!important; margin-top:1%!important;}
+	.mobShowFullHamp { margin-bottom:15px }
+	.mobShowFullHamp .main-prod-wrapper::after { display:none;}
+	.plschilled-twoeight.image-banner-holder { width:85%; background:none !important; margin-top:-5%;}
+
+	@media screen and (max-width:750px){
+		.plschilled-twoeight.image-banner-holder { margin-top:-8%; margin-left: -8%; width:110%;}
+	}
+
+	@media screen and (max-width:750px){
+		.head-img-twoeight.lessWideMob { width: 106% !important;margin-top:-2%}	}
+
+/* 154469710 - new-year-best-selling-1p-hamper */
+
+span.txtline3.blockny { display: block; margin-top: 0.5%!important;}
+
+	@media screen and (max-width:720px){
+	.ctaurgency-twoeight.clearer.flexny { display: flex !important; flex-direction: column;}
+}
+
+/* 154325071 – inactive customer hub page  */
+
+	.TrendingBG { background-image: url('https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/154325071-inactive-cust-hub/154325071-bluedots-BG.gif');background-size:100% auto;
+		background-position:top center; background-repeat: no-repeat;}
+	.holder-ah.NYcomeback span.boldheader-white {font-family: maxima-bol; display: inline-block;}
+	.holder-ah.NYcomeback span { letter-spacing: -3px; text-shadow: 6px 18px 18px rgba(0, 0, 0, .35);}
+	.holder-ah.NYcomeback { text-transform: uppercase; color: #fff; font-size: 4em;}
+	h1.header-txt-bday.ChangeZ { z-index:30;}
+	.nutritionals-callout-twoeight.HamperContents { min-width: auto; width: 100%!important; box-sizing: border-box;
+		text-align:center; }
+	.HamperContents span {	font-size: 19px; line-height: 24px;}
+	.HamperContents span.callout {font-family: maxima-bol; color:#61be38; font-size:1.5em; margin-left:4px}
+	.HamperContents ul { margin:10px 0 5px 0 }
+	.HamperContents li {font-size: 15px;line-height: 27px;}
+	.ingredients-dropdown.NyFreeHamper { width: 64%!important; margin: -2% auto 0!important; float: none!important;}
+	/*img.ibut-twoeight-nyHamp { width: 22px; max-width:10%;  margin-top: 7px;  margin-left: 3%; float: left;}*/
+	.nutritional-nyHamp { width: 96%; padding: 13px 2%; float: left; text-align: center;
+	font-size: 1.5em; font-family: maxima-med; color: #518ac0;}
+
+@media screen and (max-width:550px) {
+	.ingredients-dropdown.NyFreeHamper { width: 94%!important;}
+	.holder-ah.NYcomeback	{ font-size: 1.9em;  width: 85%; }
+	.HamperContents li { font-size: 14px; line-height: 23px;}
+	.holder-ah.NYcomeback span {  margin-top: 20px;margin-bottom: 15px; }
+	.blue-wrapper-ah.TrendingBG { margin-top: 1%;}
+	}
+
+
+/* 1153789299 NY wuntu + mumsnet pages + hsd  */
+
+.leftprod-row-2grid { padding-bottom: 25px;  width: 100%; border-width: 1.4px; border-left-width: 1.4px;  margin: 2% 0 2% 0;  border-color: #e1eaf4; border-left-color: rgb(225, 234, 244); border-bottom-style: solid; float: left; box-sizing: border-box; }
+.prodhead-twoeight-lrg {  margin-top: 0px; margin-bottom: 0px;  color: #4a4a4a;  font-size: 19px;  line-height: 25px; font-weight: 400; text-align: left; }
+.prod-img-leftcol-2grid { text-align: center;}
+.prod-img-leftcol-2grid, .logos-wrap-2grid { width: 30%; float:left; }
+.prod-img-leftcol-2grid img.img100 { max-width: 154px;}
+.prod-desc-wrap-rightcol-2grid { width: 64%; float: left; padding: 0 3%; }
+.ingredients-dropdown-2grid.clearer { float: left;  width: 66%; padding: 1% 3% 2% 3%; position: relative;  box-sizing: border-box; }
+input.NYwideBttn { width:60%!important;margin:auto;display:block;text-decoration: none}
+a input.NYwideBttn:hover { text-decoration:none;}
+ul.left-products-list-small li { list-style: disc; list-style-position: inside; margin-left: 4%; font-size:14px }
+img.wuntulogo { max-width:40%; width:150px;margin:1% auto -15px auto; display:block }
+img.hsd-logo { max-width: 40%;  width: auto; margin: 2% auto -20px auto; display: block; }
+
+@media screen and (max-width:750px) {
+
+img.hsd-logo { max-width: 60%; margin: 5% auto -15px auto;}
+.leftprod-row-2grid { width: 96%;  margin: 2%!important; }
+.prodhead-twoeight-lrg { font-size: 4.09vw; line-height: 25px; }
+span.txtline1 { letter-spacing: -1px;}
+span.txtline2.xtraSmall { letter-spacing: -2px!important; }
+span.txtline1.xtraSmall  { font-size: 0.49em;}
+.prod-img-leftcol-2grid  {  width: 26%;   float: left; }
+.prod-img-leftcol-2grid img.img100 {  max-width: 90%; }
+.prod-desc-wrap-rightcol-2grid { width: 69%; float:left; padding: 0 0 0 4%;}
+.ingredients-dropdown-2grid.clearer { margin-right: 7px; width: 68%; float:right; padding: 1% 0; }
+input.NYwideBttn { width: 85% !important; }
+
+}
+
+/* 154204897 Mystery box Jan  */
+
+.logo-wrap img { display: inline-block; margin-top: 10px;  width: 16.5%; padding-right: 0.1%;}
+.mysterybox-buttons { padding: 0% 0 1%; margin: 0 auto;}
+
+.Bluepadding { border-left: 10px #eff3f7 solid;
+border-right: 10px #eff3f7 solid; }
+.cta-wrapper-twoeight.RemoveWhite {  background:none!important }
+.Mb-jan-button { margin:0 auto; background: #f1f5f8; border-radius:4px; border: 1px solid #bdd1e5; overflow:auto;  width: 49.5%; display: inline-block; cursor: pointer; vertical-align: middle !important;}
+.Mb-jan-button:hover { border:1px solid #4e8abe; color:#4e8abe; background-color: rgba(255,255,255,.5);
+	cursor:pointer; box-shadow: 1px 1px 15px rgba(0, 0, 0, .1);}
+.Mb-jan-button input { display:none}
+.Mb-jan-button label { width:4.0em;}
+.Mb-jan-button label span { text-align:center; padding: 13px 0px; display:block; width:100%;}
+.Mb-jan-button input:checked + span { background: #ffffff; }
+.mBselect	{ padding-top:3% }
+.selectRecipient.mbJan { max-width: none; background: #4e8abe; }
+.selectRecipient.mbJan p { color: #fff; padding: 1.8%; font-size: 17px; text-align: center;}
+.Blueslider	{ background: #eff3f7; }
+.mysterybox span.txtline2.MBwhite, .mysterybox span.txtline4.MBwhite, .mysterybox div.plschilled-twoeight { color:#ffffff}
+.mysterybox span.txtline3.MBgrey { color:#dadada;}
+.header-wrap.mysterybox { background-color: #4e8abe; }
+.mysterybox div.plschilled-twoeight {	background: #2f6390; }
+.header-wrap.mysterybox h1.header-text { width:100%}
+
+@media screen and (max-width:750px) {
+.Mb-jan-button {width: 99%; margin-bottom: 3%;}
+.Bluepadding { border-left: 0px #eff3f7 solid;
+border-right: 0px #eff3f7 solid; }
+	}
+
+/* 154541680 - edit page sash */
+	.plschilled-twoeight.free.long { width: 60%; margin: -25px auto -32px;}
+	.exo-timer-NYpink.gift.clearer { background-image: url(https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/154541680-free-gift-hamper/154541680-pink-banner.jpg);}
+		@media screen and (max-width:720px) {
+		.plschilled-twoeight.free.long { width: 83%;margin: -20px auto -18px;}
+		}
+
+
+/* 154331844 - feb gta */
+	    .bluepalebg.clearer.trustpilotimg { text-align: center;  padding-bottom: 4%;}
+		.bluepalebg.clearer.trustpilotimg img { max-width: 246px;}
+		p.twomo-ctatext.febhamp { font-family: maxima-lig; font-weight: bold; color: #437dba; padding-bottom: 3%; width: 95%; margin: 0 auto;}
+		.twomo-ctatext.febhamp > span { font-family: maxima-lig; color: #6f6f6f;}
+		.feb-header { text-align: center; padding: 2% 0 2%; font-size: 19px;}
+		.feb-header:after { content: ''; width: 75px; height: 2px; background-color: #61be38; margin: 15px auto 0px; display: block;}
+		.header-text.animated {animation-duration: 1s; animation-fill-mode: both;}
+		@keyframes fadeInUp {
+  		from { opacity: 0; transform: translate3d(0, 100%, 0);}
+  		to { opacity: 1; transform: none;}
+		}
+		.fadeInUp { animation-name: fadeInUp;}
+
+/* 154666752 - styles left in page */
+
+.plschilled-twoeight.free.higher {  width: 60%; margin: -45px auto -5px; }
+	@media only screen and (max-width:720px){
+	.plschilled-twoeight.free.higher { width:80%;margin: -20px auto -10px;}
+	}
+
+
+/* Slow cooker page  - 154358228 */
+
+	.slowcook-headerFloat {  position: absolute; top: 7%; left: 4%; text-align: center; width: 50%; padding: 3% 4%; box-sizing: border-box; background-color:rgba(255,255,255,.8); box-shadow: 1px 1px 35px rgba(0, 0, 0, .1); }
+	.slowcook-headerFloat h1.header-text { margin:15px auto;}
+	.cta-wrapper-twoeight.RemoveWhite {  background:none!important }
+	.refer-float h1.Twolines { line-height:38px;letter-spacing:-1px }
+	.ticks-overlay-box h2 { font-size: 22px; font-weight: normal;margin: 10px 0 25px 0; }
+	input.NYwideBttn { width:60%!important; margin:auto; display:block}
+	p.slowCooker-overlay { text-align:center; padding:3% 6%; box-sizing:border-box; font-size:17px; line-height:23px }
+	.slowCooker { margin:25px 0;}
+	.wrapper-ny .recurringSpecialBanner.nyMargin, .wrapper-ny .upsells-twoeight.nyMargin { margin-top:0 }
+	.plus-divider { width:3%; line-height:146px; font-size:3.5em; display: inline-block;font-family: maxima-bol; }
+	.ticks-slowcooker { float: left; width: 25%; padding: 1%; box-sizing: border-box;
+		text-align: center; border-left: 1px solid #f0f0f1; }
+	.ticks-slowcooker img { width: 60px; max-width: 80%; display: block; margin: 0 auto 10px auto; height: 40px;}
+	.supermarket-comp.ticks-SC { padding: 1.5%; }
+	.header-text.Block { display:block; }
+	.supermarket-comp.noPad { padding: 0;}
+	.recurringSpecialBanner.nocolor { background:none;}
+	.ticks-overlay-box {  display: block; position: relative; background: rgba(255,255,255,0.85);
+    box-sizing: border-box; padding: 3%;  width: 42%; font-family: maxima-lig; z-index: 10;
+		float: right; margin-right: 4%;}
+	.ticks-overlay-box li { padding: 5px 0 10px 30px; background: url('https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/153174707-Recurring-Page-Edit/153174707-tick.svg') no-repeat 0% 30%;       	background-size: 22px;  font-size: 14px;}
+	img.slowcook-ticks-bg { position: absolute; top: 0; height: auto; width: 100%; z-index: 1; left: 0;}
+	h2.referral.highup { margin-top: 1%!important;}
+	h2 span.smaller-subheader { font-size:70%;}
+
+	@media screen and (max-width:750px) {
+	input.NYwideBttn { width: 85% !important; }
+	h2.referral.highup, h2.referral.MobFix { margin: 6% 1.5% 2% 1.5% !important;}
+	img.slowcook-ticks-bg { width:auto; height:100%}
+	.ticks-overlay-box { padding: 6% 4% 2% 4%;  width: 94%;	margin: -3% 3% 2% 3%;}
+	.ticks-overlay-box li { background-size: 17px; padding: 5px 0 5px 24px; float: left; width: 95%;
+    box-sizing: border-box; font-size: 80%;  line-height: 17px;}
+	.specialInfo { height: auto;}
+	.recurringSpecialBanner .img100 { max-height: 350px; position: relative; left: -25%; }
+	.spendBox.firstBox { margin: 10px 0;}
+	.spendBox img { max-width:100%}
+	.steps-text-wrap { width:80%;margin:auto;clear:both}
+	}
+	@media screen and (max-width:600px) {
+	.ticks-overlay-box h2 { font-size: 18px; margin: 12px 0 8px 0; text-align: center;}
+	.refer-float h1.Twolines { line-height:24px; }
+	.slowcook-headerFloat { width: 92%; padding: 3%;}
+	.slowcook-headerFloat > span { font-size:15px; }
+	.slowcook-headerFloat h1.header-text { margin: 10px auto 5px auto; font-size: 2.6em;}
+	.slowCooker { margin: 0 0 25px 0; padding-bottom: 11px; }
+	.referral-header-wrap img.SlowcookImg { margin-left: -30%;width:160%!important}
+	.plus-divider {	width:100%; text-align:center; line-height: .9em; }
+	}
+
+/* Curry page  - 154433339*/
+
+	img.Logofloat-header.curry { position: absolute; width: 100px; right: 2%; top: 4%; max-width: 15%;}
+	.refer-float.curry { width: 50%; padding: 3%; left: 22%;}
+	input.ctabutton.upsell-button {  width: 90%;min-height: 50px;font-size: 1.1em;}
+
+	@media only screen and (min-width:601px) {
+	.margin-bring-up { margin-top:-5% }
+	.ticks-overlay-box.curry { padding: 5% 3%; min-height: 420px; }
+	}
+		@media only screen and (max-width:500px) {
+	.refer-float.curry { width: 74%; left: 10%;}
+	input.ctabutton.upsell-button { font-size: .8em;}
+}
+/* welcome back offers – 154544311 */
+
+	.holder-ah.NYcomeback span.bold-twolines { font-family:maxima-bol; display:inline-block;
+	line-height: 1.1em; text-shadow: 2px 2px 23px rgba(0, 0, 0, .2); }
+	.usuallyprice-bday span.usually-price { text-transform:uppercase;color: #66b401; }
+	h1.header-txt-bday span.grey-header { color: #565656; }
+	.ingredients-dropdown.hero-content { width: 64% !important; margin:-20% auto 0!important; float: none !important;}
+	.relative-wrap { position:relative;}
+	img.Logofloat-header { position:absolute;width:100px;right:2%;top:4%;max-width: 15%;  }
+
+	@media screen and (max-width:720px) {
+	img.Logofloat-header { right: 8%; top:4% }
+	.firstmargin img.Logofloat-header { right: 2%; top:0 }
+	}
+
+	/* less than 5 fat– 154527418 */
+
+	.relative-wrap { position:relative;}
+	img.Logofloat-header.roundel { width: 120px; right: 10%; top: 1%;}
+	  .logo-moc { max-width: 40%; margin: 0 auto 1%;}
+		@media screen and (max-width:550px) {
+		.logo-moc { max-width: 55%; margin: 0 auto; margin-bottom: -5px;}
+		}
+
+
+
+/* ******154764867 ****** */
+.ingredient-breakdown-wrapper { width:100%;}
+	.ingredient-breakdown-wrapper H2 { width: 96%; background-color: #d9e5f0; color: #616365; font-family: maxima-med; font-weight: bold; padding: 8px 2%; font-size: 11px; margin-bottom: 0;}
+	.ingredient-breakdown { width:96%; font-family: maxima-lig; font-weight: normal; font-size:11px; line-height: 16px; padding: 8px 2%; }
+	.ingredient-breakdown STRONG { font-weight:bold; font-family: maxima-med;}
+
+	/* Payday page 154862547 */
+
+	.header-text.secondTitle { margin-top: -2%; width:100% }
+
+
+/* 154905249 BYOB newyear */
+
+	label.meal-wrap-panel .mealprices { width: 100%; padding: 5px 0px; font-size: 18px; }
+	.mealprices font { color:#009900; }
+
+
+/* WUNTU 154669459 – left column styles */
+	.two-main-cols-holder { width: 100%; position: relative; background-color: #eff3f7;}
+	.main-col-left { width: 33%; float: left; background-color:#fff;}
+	.main-col-right { width: 66%; float: right; background-color: #fff; margin-bottom: 2%;}
+  .left-col-inner { padding: 5%; background-color: #fff; margin-bottom: 4%;}
+  .left-col-inner-hilite { padding: 5%; margin: 5%; background-color: #f1f5f8; margin-bottom: 4%;}
+	.left-products-list-headings { font-size:16px; font-family: maxima-med; color:#006699; margin: 10px auto 10px;}
+
+@media screen and (max-width:750px){
+		.main-col-right, .main-col-left { width:100%;}
+}
+
+/*----------153688941 - new year landing page -----------*/
+.header-text {     position: relative; z-index: 10; display: block; margin: 0 auto; text-align: center; margin-top: 35px;  width: 78.8%; display: inline-block;}
+.header-text span {margin: -4px 0;}
+span.txtline1 { font-family: maxima-Bol; display: block; color: #44627d; text-transform: uppercase; }
+span.txtline2 { font-family: maxima-lig; display: block; font-size: 1.14em; letter-spacing: -3px; color: #518ac0; }
+span.txtline3 { font-family: maxima-lig; display: inline-block; font-size: 0.7em; letter-spacing: -1px; margin: -2% 1% 0 !important; vertical-align: middle !important; color: #565656; }
+span.txtline4 {     letter-spacing: -3px; text-transform: uppercase; font-family: maxima-bol; font-size: 1.8em; display: inline-block; color: #61be38; }
+.plschilled-twoeight {width: 35%; margin-top: 10px; margin: 0 auto; padding: 0.6%; background: #f28c24; color: #fff; font-size: 0.57em; margin-top: 6px; letter-spacing: -1px; }
+	.head-img-twoeight { width: 100%; float: none; clear: both; margin-bottom: 1%; margin-top: -7%;}
+	.head-img-twoeight2 { width: 100%; float: none; clear: both; margin-bottom: 1%; margin-top: -4%;}
+.head-img-twoeight3 { width: 100%; float: none; clear: both; margin-bottom: 1%; margin-top: -11%;}
+.logos-left { position: relative; display: inline-block; z-index: 10; vertical-align: top; max-width: 100px; margin-top: 24px; width: 10%; text-align: center;}
+	.logos-left.right { float: none !important; text-align: center;}
+	.logos-left img { width: 51%; display: inline-block;}
+	span.plus-extrahamp {  font-family: maxima-lig;  font-size: 1.1em; letter-spacing: -1.5px; display: inline-block; color: #567089; vertical-align: middle !important; margin-top: -14px;}
+	span.justprice { letter-spacing: -2px; text-transform: uppercase;  font-family: maxima-Med; font-size: 1.6em;  display: inline-block; color: #5fbe37;}
+
+	@media screen and (max-width:720px) {
+		.header-text { width: 77%; position: relative; z-index: 10; display: block; padding: 0 1%; margin: 0 auto; text-align: center; margin-top: 23px; display: inline-block;}
+		.logos-left img { width: 77%; padding-left: 7%; display: inline-block;}
+		.logos-left.right { float: none !important; text-align: center;}
+		.logos-left.right img {padding-left: 0;/* padding-right: 21px; */}
+	.header-text span { margin: 1px 0;}
+	.head-img-twoeight {  width: 112%;   float: none; margin-left: -6%; clear: both;  margin-bottom: 1%;   margin-top: -7%;}
+		.head-img-twoeight3 { width: 100%; float: none; clear: both; margin-bottom: 1%; margin-top: -11%;}
+
+	span.txtline1 {  font-size: 0.9em; text-transform: uppercase; line-height: 0.9em;}
+	span.txtline2 {  font-size: 0.9em; line-height: 0.9em;}
+	span.txtline3 { font-size: 0.6em;}
+	span.txtline4 { font-size: 1.5em; line-height: 1em;}
+	.plschilled-twoeight {  width: 65%; margin-top: 5px;}
+	span.plus-extrahamp { display: block; margin-top: 10px; font-size: 0.65em; text-transform: uppercase; letter-spacing: -1px;  margin-bottom: -3px; line-height:normal;}
+	span.justprice { letter-spacing: -2px;  text-transform: uppercase; font-family: maxima-Med; font-size: 1.1em;  display: inline-block; color: #5fbe37; line-height: normal;}
+	}
+
+	@media screen and (max-width:550px) {
+
+.plschilled-twoeight {    width: 65%; margin: -1% auto; padding: 1.3%; letter-spacing: -0.8px;font-size: 0.38em;}
+span.txtline1 { display: block; font-size: 0.65em; margin-bottom: -3px; line-height: normal;}
+span.txtline2 { font-size: 0.56em; letter-spacing: -1px; line-height: normal; }
+span.txtline3 {/* display: block; */ letter-spacing: -1px; margin: 0; font-size: 0.4em;  line-height: normal;/* margin-top: -0.5% !important; */}
+span.txtline4 { letter-spacing: -2px; font-size: 1.1em; margin-top: -5px; display: inline-block;  line-height: normal;}
+}
+		@media screen and (max-width: 321px) {
+			span.plus-extrahamp { font-size:0.6em;}
+		span.txtline4 { font-size: 1em;}
+		.plschilled-twoeight { width: 67%;  font-size: 0.35em;}
+		span.txtline2 {font-size: 0.4; letter-spacing: -1px;}
+	}
+
+
+  .ctaurgency-twoeight { position: relative; z-index: 100; display: block; width: 70%; margin: -13% auto 15px; border: 1px solid transparent; border-radius: 0px; }
+.urgencyred-timer { z-index: 100; margin-bottom: 10px; /* position: absolute; */ }
+.timer-twoeight { width: 90%; margin-right: auto; margin-left: auto; text-align: center; padding-top: 1%; padding-bottom: 1%; border-style: solid; border-width: 3px; border-color: rgba(201, 63, 80, 1);
+    border-radius: 6px; background: rgba(205, 66, 83, 1); color: #fff; font-size: 14px; text-shadow: 1px 1px 6px rgba(0, 0, 0, .5);font-family: maxima-lig; }
+.triang-twoeight { width: 0; height: 0; margin: 0 auto; border-style: solid; border-width: 10px 10px 0 10px; border-color: rgba(205, 66, 83, 1) transparent transparent transparent; }
+.timer-twoeight { width: 90%; margin-right: auto; margin-left: auto; text-align: center; padding-top: 1%; padding-bottom: 1%; border-style: solid; border-width: 3px; border-color: rgba(201, 63, 80, 1);
+    border-radius: 6px; background: rgba(205, 66, 83, 1); color: #fff; font-size: 14px; text-shadow: 1px 1px 6px rgba(0, 0, 0, .5);font-family: maxima-lig; }
+.triang-twoeight { width: 0; height: 0; margin: 0 auto; border-style: solid; border-width: 10px 10px 0 10px; border-color: rgba(205, 66, 83, 1) transparent transparent transparent; }
+
+.cta-wrapper-twoeight {     margin-top: 11px; margin-bottom: 0px; padding: 3.2%;  border-color: transparent;  border-radius: 3px; background: #fff;}
+.img100 { width:100%;}

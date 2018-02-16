@@ -1,0 +1,85 @@
+/*!
+ * Bootstrap v3.3.1 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*!
+ * Bootstrap v3.3.1 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+/*!
+ * Flat UI Pro v1.3.2 (http://designmodo.com/flat)
+ * Copyright 2013-2014 Designmodo, Inc.
+ */
+/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+/*!
+ *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+
+/*----------153688941 - new year landing page -----------*/
+.header-text {     position: relative; z-index: 10; display: block; margin: 0 auto; text-align: center; margin-top: 35px;  width: 78.8%; display: inline-block;}
+.header-text span {margin: -4px 0;}
+span.txtline1 { font-family: maxima-Bol; display: block; color: #44627d; text-transform: uppercase; }
+span.txtline2 { font-family: maxima-lig; display: block; font-size: 1.14em; letter-spacing: -3px; color: #518ac0; }
+span.txtline3 { font-family: maxima-lig; display: inline-block; font-size: 0.7em; letter-spacing: -1px; margin: -2% 1% 0 !important; vertical-align: middle !important; color: #565656; }
+span.txtline4 {     letter-spacing: -3px; text-transform: uppercase; font-family: maxima-bol; font-size: 1.8em; display: inline-block; color: #61be38; }
+.plschilled-twoeight {width: 35%; margin-top: 10px; margin: 0 auto; padding: 0.6%; background: #f28c24; color: #fff; font-size: 0.57em; margin-top: 6px; letter-spacing: -1px; }
+	.head-img-twoeight { width: 100%; float: none; clear: both; margin-bottom: 1%; margin-top: -7%;}
+	.head-img-twoeight2 { width: 100%; float: none; clear: both; margin-bottom: 1%; margin-top: -4%;}
+.head-img-twoeight3 { width: 100%; float: none; clear: both; margin-bottom: 1%; margin-top: -11%;}
+.logos-left { position: relative; display: inline-block; z-index: 10; vertical-align: top; max-width: 100px; margin-top: 24px; width: 10%; text-align: center;}
+	.logos-left.right { float: none !important; text-align: center;}
+	.logos-left img { width: 51%; display: inline-block;}
+	span.plus-extrahamp {  font-family: maxima-lig;  font-size: 1.1em; letter-spacing: -1.5px; display: inline-block; color: #567089; vertical-align: middle !important; margin-top: -14px;}
+	span.justprice { letter-spacing: -2px; text-transform: uppercase;  font-family: maxima-Med; font-size: 1.6em;  display: inline-block; color: #5fbe37;}
+
+	@media screen and (max-width:720px) {
+		.header-text { width: 77%; position: relative; z-index: 10; display: block; padding: 0 1%; margin: 0 auto; text-align: center; margin-top: 23px; display: inline-block;}
+		.logos-left img { width: 77%; padding-left: 7%; display: inline-block;}
+		.logos-left.right { float: none !important; text-align: center;}
+		.logos-left.right img {padding-left: 0;/* padding-right: 21px; */}
+	.header-text span { margin: 1px 0;}
+	.head-img-twoeight {  width: 112%;   float: none; margin-left: -6%; clear: both;  margin-bottom: 1%;   margin-top: -7%;}
+		.head-img-twoeight3 { width: 100%; float: none; clear: both; margin-bottom: 1%; margin-top: -11%;}
+
+	span.txtline1 {  font-size: 0.9em; text-transform: uppercase; line-height: 0.9em;}
+	span.txtline2 {  font-size: 0.9em; line-height: 0.9em;}
+	span.txtline3 { font-size: 0.6em;}
+	span.txtline4 { font-size: 1.5em; line-height: 1em;}
+	.plschilled-twoeight {  width: 65%; margin-top: 5px;}
+	span.plus-extrahamp { display: block; margin-top: 10px; font-size: 0.65em; text-transform: uppercase; letter-spacing: -1px;  margin-bottom: -3px; line-height:normal;}
+	span.justprice { letter-spacing: -2px;  text-transform: uppercase; font-family: maxima-Med; font-size: 1.1em;  display: inline-block; color: #5fbe37; line-height: normal;}
+	}
+
+	@media screen and (max-width:550px) {
+
+.plschilled-twoeight {    width: 65%; margin: -1% auto; padding: 1.3%; letter-spacing: -0.8px;font-size: 0.38em;}
+span.txtline1 { display: block; font-size: 0.65em; margin-bottom: -3px; line-height: normal;}
+span.txtline2 { font-size: 0.56em; letter-spacing: -1px; line-height: normal; }
+span.txtline3 {/* display: block; */ letter-spacing: -1px; margin: 0; font-size: 0.4em;  line-height: normal;/* margin-top: -0.5% !important; */}
+span.txtline4 { letter-spacing: -2px; font-size: 1.1em; margin-top: -5px; display: inline-block;  line-height: normal;}
+}
+		@media screen and (max-width: 321px) {
+			span.plus-extrahamp { font-size:0.6em;}
+		span.txtline4 { font-size: 1em;}
+		.plschilled-twoeight { width: 67%;  font-size: 0.35em;}
+		span.txtline2 {font-size: 0.4; letter-spacing: -1px;}
+	}
+
+
+  .ctaurgency-twoeight { position: relative; z-index: 100; display: block; width: 70%; margin: -13% auto 15px; border: 1px solid transparent; border-radius: 0px; }
+.urgencyred-timer { z-index: 100; margin-bottom: 10px; /* position: absolute; */ }
+.timer-twoeight { width: 90%; margin-right: auto; margin-left: auto; text-align: center; padding-top: 1%; padding-bottom: 1%; border-style: solid; border-width: 3px; border-color: rgba(201, 63, 80, 1);
+    border-radius: 6px; background: rgba(205, 66, 83, 1); color: #fff; font-size: 14px; text-shadow: 1px 1px 6px rgba(0, 0, 0, .5);font-family: maxima-lig; }
+.triang-twoeight { width: 0; height: 0; margin: 0 auto; border-style: solid; border-width: 10px 10px 0 10px; border-color: rgba(205, 66, 83, 1) transparent transparent transparent; }
+.timer-twoeight { width: 90%; margin-right: auto; margin-left: auto; text-align: center; padding-top: 1%; padding-bottom: 1%; border-style: solid; border-width: 3px; border-color: rgba(201, 63, 80, 1);
+    border-radius: 6px; background: rgba(205, 66, 83, 1); color: #fff; font-size: 14px; text-shadow: 1px 1px 6px rgba(0, 0, 0, .5);font-family: maxima-lig; }
+.triang-twoeight { width: 0; height: 0; margin: 0 auto; border-style: solid; border-width: 10px 10px 0 10px; border-color: rgba(205, 66, 83, 1) transparent transparent transparent; }
+
+.cta-wrapper-twoeight {     margin-top: 11px; margin-bottom: 0px; padding: 3.2%;  border-color: transparent;  border-radius: 3px; background: #fff;}
+.img100 { width:100%;}
