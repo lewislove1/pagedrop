@@ -1,0 +1,1253 @@
+
+div.mgt-developer-toolbar-tab-container ul.mgt-developer-toolbar-tab-container li.active a, div.mgt-developer-toolbar-tab-container ul.mgt-developer-toolbar-tab-container li a:hover { color: rgb(102, 102, 102); background: rgb(221, 221, 221); display: block; padding: 0px 20px; }
+* { margin: 0px; padding: 0px; }
+body { background: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/bkg_body.gif") 0px 0px repeat rgb(242, 242, 242); font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: 1.55; font-family: arial, helvetica, sans-serif; color: rgb(68, 68, 68); text-align: center; }
+img { border: 0px; vertical-align: top; }
+a { color: rgb(79, 129, 0); }
+a:hover { text-decoration: underline; }
+:focus { outline: 0px; }
+h1 { font-size: 2em; font-weight: normal; line-height: 1.15; }
+h2 { font-size: 1.5em; line-height: 1.25; margin-bottom: 0.45em; }
+h3 { font-size: 1.35em; line-height: 1.25; margin-bottom: 0.45em; }
+h4 { font-size: 1.05em; line-height: 1.35; margin-bottom: 0.45em; }
+h5 { font-size: 1.05em; line-height: 1.35; margin-bottom: 0.45em; }
+h6 { font-size: 1em; line-height: 1.35; margin-bottom: 1em; }
+form { display: inline; }
+fieldset { border: 0px; }
+legend { display: none; }
+table { border: 0px; border-spacing: 0px; empty-cells: show; font-size: 100%; }
+caption, th, td { vertical-align: top; text-align: left; font-weight: normal; }
+p { margin: 0px 0px 1em; }
+strong { font-weight: bold; }
+address { font-style: normal; line-height: 1.35; }
+cite { font-style: normal; }
+q, blockquote { quotes: none; }
+q::before, q::after { content: ""; }
+small { font-size: 1em; }
+big { font-size: 1.15em; }
+ul, ol { list-style: none; }
+.f-right, .right { float: right !important; }
+.wrapper { }
+.page { width: 960px; margin: 15px auto 0px; text-align: left; }
+.main-container { }
+.main { background: rgb(255, 255, 255); border-width: 0px 1px 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-right-color: rgb(187, 187, 187); border-left-color: rgb(187, 187, 187); border-image: initial; border-top-style: initial; border-top-color: initial; border-bottom-color: rgb(102, 102, 102); padding: 16px 16px 50px; min-height: 350px; }
+.col-main { width: 686px; padding: 0px 0px 1px; float: left; }
+.col1-layout .main { padding: 16px 30px 40px; }
+.col1-layout .col-main { }
+.col2-left-layout .col-main { float: right; }
+.col2-right-layout .col-main { }
+.col3-layout .col-main { width: 452px; }
+.col3-layout .col-wrapper .col-main { float: right; }
+input, select, textarea, button { font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 12px; line-height: 15px; font-family: Arial, Helvetica, sans-serif; vertical-align: middle; color: rgb(47, 47, 47); }
+input.input-text, select, textarea { background: rgb(255, 255, 255); border: 1px solid rgb(182, 182, 182); }
+input.input-text, textarea { padding: 2px; }
+select { padding: 1px; }
+select option { padding-right: 10px; }
+textarea { overflow: auto; }
+button.button { }
+button.button { overflow: visible; width: auto; border: 0px; padding: 0px; margin: 0px; background: transparent; cursor: pointer; }
+button.button span { float: left; height: 28px; padding: 0px 0px 0px 6px; font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; font-size: 11px; line-height: 25px; font-family: Tahoma, Verdana, Arial, sans-serif; text-transform: uppercase; text-align: center; white-space: nowrap; color: rgb(85, 85, 85); }
+button.button span span { background-position: 100% 0px; padding: 0px 15px 0px 9px; }
+.col-main button.button span span { background-position: 100% 0px; padding: 0px 15px 0px 9px; border: 1px solid rgb(126, 126, 126); border-radius: 5px; background-color: rgb(241, 241, 241); }
+.form-list li.control .input-box { clear: none; display: inline; width: auto; }
+.form-list .input-box { display: block; clear: both; width: 95%; }
+.form-list input.input-text { width: 100%; }
+.form-list li.wide .input-box { width: 100%; }
+.form-list li.wide input.input-text { width: 529px; }
+.form-list .input-range input.input-text { width: 74px; }
+.form-list .customer-name-prefix .input-box, .form-list .customer-name-suffix .input-box, .form-list .customer-name-prefix-suffix .input-box, .form-list .customer-name-prefix-middlename .input-box, .form-list .customer-name-middlename-suffix .input-box, .form-list .customer-name-prefix-middlename-suffix .input-box { width: auto; }
+.form-list .name-prefix input.input-text { width: 49px; }
+.form-list .name-suffix input.input-text { width: 49px; }
+.form-list .name-middlename input.input-text { width: 49px; }
+.form-list .customer-name-prefix-middlename-suffix .name-firstname input.input-text, .form-list .customer-name-prefix-middlename .name-firstname input.input-text { width: 124px; }
+.form-list .customer-name-prefix-middlename-suffix .name-lastname input.input-text { width: 189px; }
+.form-list .customer-name-prefix-suffix .name-firstname input.input-text, .form-list .customer-name-prefix-suffix .name-lastname input.input-text { width: 189px; }
+.form-list .customer-name-prefix-suffix .name-firstname input.input-text, .form-list .customer-name-prefix-suffix .name-lastname input.input-text { width: 189px; }
+.form-list .customer-name-prefix .name-firstname input.input-text, .form-list .customer-name-suffix .name-lastname input.input-text, .form-list .customer-name-middlename .name-firstname input.input-text, .form-list .customer-name-middlename-suffix .name-firstname input.input-text, .form-list .customer-name-middlename-suffix .name-lastname input.input-text { width: 189px; }
+.form-list .customer-dob input.input-text { display: block; width: 74px; }
+.form-list .customer-dob .dob-day input.input-text, .form-list .customer-dob .dob-month input.input-text { width: 46px; }
+.form-list .customer-dob .dob-year input.input-text { width: 134px; }
+.buttons-set button.button { float: right; margin-left: 5px; }
+.std .subtitle { padding: 0px; }
+.std ol.ol { list-style: decimal outside; padding-left: 1.5em; }
+.std ul.disc { list-style: disc outside; padding-left: 18px; margin: 0px 0px 10px; }
+.std dl dt { font-weight: bold; }
+.std dl dd { margin: 0px 0px 10px; }
+.logo { float: left; }
+.header-container { }
+.header { margin: 0px 0px 12px; }
+.header .logo { float: left; text-decoration: none !important; }
+.header .logo strong { position: absolute; top: -999em; left: -999em; width: 0px; height: 0px; font-size: 0px; line-height: 0; text-indent: -999em; overflow: hidden; }
+.header .top-promo { float: left; width: 117px; height: 30px; margin: 12px 10px 0px; background: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/bkg_top-promo.gif") 0px 0px no-repeat; text-indent: -999em; overflow: hidden; }
+.quick-access { background: rgb(68, 68, 68); color: rgb(255, 255, 255); padding: 7px 13px; text-align: right; }
+.quick-access .welcome-msg { display: inline; margin: 0px; color: rgb(255, 255, 255); }
+.quick-access .welcome-msg a { color: rgb(221, 221, 221); }
+.quick-access .form-language { float: left; }
+.quick-access .form-language label { font-weight: bold; padding-right: 5px; color: rgb(255, 255, 255); vertical-align: middle; }
+.quick-access .form-language select { padding: 0px; }
+.quick-access .form-language select.flags option { background-position: 4px 50%; background-repeat: no-repeat; padding-left: 25px; }
+.quick-access .links { padding-left: 8px; }
+.quick-access .links, .quick-access .links li { display: inline; }
+.quick-access .links li { padding: 0px 4px 0px 1px; }
+.quick-access .links a { color: rgb(221, 221, 221); }
+.quick-access .links a { padding: 0px 7px 0px 0px; background: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/bkg_pipe1.gif") 100% 50% no-repeat; }
+.quick-access .links li.last a { padding: 0px; background: none; }
+.form-search { float: right; }
+.form-search label { float: left; font-size: 12px; font-weight: bold; padding: 0px 5px 0px 0px; }
+.form-search input.input-text { float: left; width: 212px; margin-right: 5px; }
+.form-search button.button { float: left; }
+.form-search button.button span { height: 23px; background-image: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/bkg_btn-small.png"); line-height: 21px; }
+.form-search .search-autocomplete { z-index: 999; }
+.form-search .search-autocomplete ul { border: 1px solid rgb(153, 153, 153); background-color: rgb(249, 245, 240); }
+.form-search .search-autocomplete li { text-align: left; border-bottom: 1px solid rgb(244, 238, 231); padding: 2px 8px 1px; cursor: pointer; }
+.form-search .search-autocomplete li .amount { float: right; font-weight: bold; }
+.form-search .search-autocomplete li.odd { background-color: rgb(246, 246, 246); }
+.form-search .search-autocomplete li.selected { background-color: rgb(247, 143, 30); color: rgb(255, 255, 255); }
+.header-container .top-container { padding: 5px 12px; background: rgb(255, 255, 255); border-style: solid; border-color: rgb(187, 187, 187); border-image: initial; border-width: 0px 1px 1px; text-align: right; }
+.nav-container { }
+#nav li.active a { color: rgb(68, 68, 68); }
+#nav li.over, #nav li.active { margin: 0px 7px 10px 0px; border: 1px solid rgb(187, 187, 187); background: rgb(236, 236, 236); }
+#nav ul li, #nav ul li.active, #nav ul li.over { float: none; border: none; background: none; margin: 0px; padding: 0px 0px 1px; text-transform: none; }
+#nav ul li.active { margin: 0px; border: 0px; background: none; }
+.block .block-content li.item { border-bottom: 1px solid rgb(221, 221, 221); padding-bottom: 5px; margin-bottom: 5px; }
+.block .actions button.button { float: right; }
+.block button.button span { height: 23px; background-image: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/bkg_btn-small.png"); line-height: 20px; }
+.compare-table tr.first td .ratings { width: 69px; margin: 0px auto; }
+.block-login input.input-text { display: block; width: 167px; margin: 3px 0px; }
+.products-grid li.item { float: left; width: 171px; padding: 0px 0px 90px; }
+.col1-layout .products-grid, .page-empty .products-grid { width: 684px; margin: 0px auto; }
+.products-list li.item { padding: 12px 10px 10px; }
+.ratings { line-height: 1.2; margin: 4px 0px; }
+.ratings strong { float: left; margin: 0px 3px 0px 0px; }
+.ratings .rating-links { margin: 0px; }
+.ratings .rating-links .separator { margin: 0px 2px; }
+.ratings dt { }
+.ratings dd { }
+.ratings .rating-box { float: left; margin: 0px; }
+.ratings .amount { }
+.add-to-cart button.button { float: left; margin: -3px 0px 0px; }
+.col1-layout .product-view .product-shop { float: right; width: 576px; }
+.product-options dd input.input-text { width: 98%; }
+.product-tabs li.active a, .product-tabs li.active a:hover { background-color: rgb(102, 102, 102); font-weight: bold; color: rgb(255, 255, 255); }
+.mini-products-grid .ratings .rating-box { float: none; display: block; margin: 0px 0px 3px; }
+.product-view .box-tags .form-add .input-box { float: left; width: 305px; margin: 0px 5px 0px 0px; }
+.product-view .box-tags .form-add input.input-text { width: 299px; }
+.product-view .box-tags .form-add button.button span { height: 23px; background-image: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/bkg_btn-small.png"); line-height: 20px; }
+.product-view .box-reviews .form-add .form-list .input-box { width: 460px; }
+.product-view .box-reviews .form-add .form-list input.input-text, .product-view .box-reviews .form-add .form-list textarea { width: 454px; }
+.advanced-search .form-list .input-box, .advanced-search .form-list .input-range { float: left; clear: none; }
+.cms-home .main { padding: 8px; }
+.cart .crosssell li.item { margin: 0px 0px 8px; padding-bottom: 5px; border-bottom: 1px solid rgb(221, 221, 221); }
+.cart .discount .buttons-set button.button, .cart .shipping .buttons-set button.button { float: none; margin: 0px; }
+.cart .discount .buttons-set button.button span span, .cart .shipping .buttons-set button.button span span { padding: 0px 19px 0px 10px; }
+.cart .discount .input-box { width: 270px; }
+.cart .discount input.input-text { width: 264px; }
+.cart .shipping .form-list .input-box { width: 270px; }
+.cart .shipping .form-list input.input-text { width: 264px; }
+.gift-messages-form .item { margin: 0px 0px 10px; }
+.gift-messages-form .item .product-img-box { float: left; width: 75px; }
+.gift-messages-form .item .product-image { margin: 0px 0px 7px; }
+.gift-messages-form .item .number { margin: 0px; font-weight: bold; text-align: center; color: rgb(138, 137, 135); }
+.gift-messages-form .item .details { margin-left: 90px; }
+.gift-messages-form .item .details .product-name { font-size: 13px; font-weight: bold; margin: 0px 0px 10px; }
+.gift-messages-form .item .details .form-list .field { width: 255px; }
+.gift-messages-form .item .details .form-list .input-box { width: 240px; }
+.gift-messages-form .item .details .form-list input.input-text { width: 234px; }
+.gift-messages-form .item .details .form-list li.wide .input-box { width: 500px; }
+.gift-messages-form .item .details .form-list li.wide textarea { width: 494px; }
+.opc .buttons-set.disabled button.button { display: none; }
+.opc .active .step-title { background: rgb(228, 107, 0); border-color: rgb(255, 255, 255) rgb(228, 107, 0) rgb(228, 107, 0); padding-bottom: 5px; color: rgb(255, 255, 255); cursor: default; }
+.opc .active .step-title .number { }
+.opc .active .step-title h2 { color: rgb(255, 255, 255); }
+.opc .active .step-title a { display: none; }
+.checkout-progress li.active { border-top-color: rgb(233, 98, 0); color: rgb(233, 98, 0); }
+.multiple-checkout .gift-messages-form .item .details .form-list { width: 100%; overflow: hidden; }
+.multiple-checkout .gift-messages-form .item .details .form-list li { margin-right: -15px; }
+.multiple-checkout .gift-messages-form .item .details .form-list .field { width: 230px; }
+.multiple-checkout .gift-messages-form .item .details .form-list .input-box { width: 215px; }
+.multiple-checkout .gift-messages-form .item .details .form-list input.input-text { width: 209px; }
+.multiple-checkout .gift-messages-form .item .details .form-list li.wide .input-box { width: 445px; }
+.multiple-checkout .gift-messages-form .item .details .form-list li.wide textarea { width: 439px; }
+.dashboard .box-reviews li.item { margin: 0px 0px 7px; }
+.dashboard .box-reviews .ratings { margin: 7px 0px 0px; }
+.dashboard .box-tags li.item { margin: 0px 0px 7px; }
+.addresses-list li.item { padding: 0px 10px; margin: 0px 0px 12px; }
+.addresses-list .addresses-additional li.item { }
+.page-print .print-head .logo { float: left; }
+.my-wishlist .buttons-set button.button { float: none; }
+.product-review .product-img-box .ratings .rating-box { float: none; display: block; margin: 0px 0px 3px; }
+.footer-container { }
+.footer { margin: 15px 0px 40px; }
+.footer a { color: rgb(68, 68, 68); }
+.footer .f-left { width: 520px; }
+.footer .f-right { width: 429px; }
+.footer ul { display: inline; }
+.footer li { display: inline; background: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/bkg_pipe1.gif") 100% 50% no-repeat; padding: 0px 5px 0px 0px; margin: 0px 3px 0px 0px; }
+.footer .links li.last { background: none !important; padding-right: 0px !important; }
+.footer .bugs { margin: 0px; color: rgb(102, 102, 102); }
+.footer .bugs a { font-weight: bold; color: rgb(68, 68, 68); }
+.footer address { color: rgb(102, 102, 102); }
+.footer address a { color: rgb(68, 68, 68); }
+.footer .form-subscribe { margin: 8px 0px; }
+.footer .form-subscribe label, .footer .form-subscribe .input-box, .footer .form-subscribe button.button { float: left; }
+.footer .form-subscribe label { padding-top: 2px; font-weight: bold; color: rgb(85, 85, 85); }
+.footer .form-subscribe .input-box { width: 186px; margin: 0px 5px; }
+.footer .form-subscribe input.input-text { width: 180px; }
+.footer .form-subscribe button.button span { height: 23px; background-image: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/bkg_btn-small.png"); line-height: 20px; }
+.footer .footer-callout { display: block; margin: -10px 0px 10px; position: relative; }
+.footer .store-switcher { color: rgb(85, 85, 85); text-align: right; }
+.footer .store-switcher label { font-weight: bold; vertical-align: middle; }
+.footer .store-switcher select { padding: 0px; vertical-align: middle; }
+.footer-container .bottom-container { margin: 0px 0px 8px; text-align: right; }
+.clearer::after, .header-container::after, .header-container .top-container::after, .header::after, .top-bar::after, .quick-access::after, .form-search::after, #nav::after, .main::after, .footer::after, .footer .form-subscribe::after, .footer-container .bottom-container::after, .col-main::after, .col2-set::after, .col3-set::after, .col4-set::after, .search-autocomplete li::after, .block .block-content::after, .block .actions::after, .block li.item::after, .block-poll li::after, .block-layered-nav .currently li::after, .page-title::after, .products-grid::after, .products-list li.item::after, .box-account .box-head::after, .dashboard .box .box-title::after, .order-info ul::after, .box-reviews li.item::after, .box-tags li.item::after, .pager::after, .sorter::after, .ratings::after, .add-to-box::after, .add-to-cart::after, .product-essential::after, .product-collateral::after, .product-tabs::after, .product-view .product-img-box .more-views ul::after, .product-view .box-tags .form-add::after, .product-view .product-shop .short-description::after, .product-view .box-description::after, .product-options .options-list li::after, .product-options-bottom::after, .product-review::after, .cart::after, .cart-collaterals::after, .cart .crosssell li.item::after, .opc .step-title::after, .checkout-progress::after, .multiple-checkout .place-order::after, .group-select li::after, .form-list li::after, .form-list .field::after, .buttons-set::after, .page-print .print-head::after, .advanced-search-summary::after, .gift-messages-form .item::after, .send-friend .form-list li p::after { display: block; content: "."; clear: both; font-size: 0px; line-height: 0; height: 0px; overflow: hidden; }
+.clearfix { clear: both; margin: 0px; padding: 0px; height: 0px; }
+.widget .mini-products-images-list li.item { float: left; width: 77px; height: 77px; border: 0px !important; padding: 5px 9px !important; }
+.col-main .widget-new-products { margin: 7px 0px; }
+.col-main .widget-viewed { margin: 7px 0px; }
+.col-main .widget-compared { margin: 7px 0px; }
+.col-main .widget-product-link { display: block; font-size: 12px; text-align: right; margin: 7px 0px; }
+.col-main .widget-product-link a { background: url("../images/widgets/i_widget-link.gif") 100% 3px no-repeat; padding-right: 15px; }
+.col-main .widget-category-link { display: block; font-size: 12px; text-align: right; margin: 7px 0px; }
+.col-main .widget-category-link a { background: url("../images/widgets/i_widget-link.gif") 100% 3px no-repeat; padding-right: 15px; }
+.col-main .widget-cms-link { display: block; font-size: 12px; text-align: right; margin: 7px 0px; }
+.col-main .widget-cms-link a { background: url("../images/widgets/i_widget-link.gif") 100% 3px no-repeat; padding-right: 15px; }
+.new-form-wrap { box-sizing: border-box; padding: 10px; width: 100%; max-width: 600px; }
+.nfw-title { font-size: 18px; font-family: maxima-lig; font-weight: normal; color: rgb(68, 68, 68); text-align: center; width: 100%; max-width: 600px; }
+input.nfw-input { box-sizing: border-box; text-align: center; width: 100% !important; margin: 5px 0px !important; height: 35px !important; }
+.nfw-button { width: 100%; border-radius: 4px; text-align: center; margin-top: 5px; color: rgb(255, 255, 255); font-size: 14px; box-shadow: none; padding: 10px 0px; outline: none; max-width: 600px; background: rgb(103, 180, 0) !important; border: none !important; }
+.nfw-button:hover { cursor: pointer; background: rgb(96, 167, 0) !important; }
+.nfw-button-horizontal { display: inline-block; margin: 0px auto; width: 20% !important; }
+.nfw-text { font-size: 12px; font-family: maxima-lig; color: rgb(68, 68, 68); padding: 10px 0px; width: 100%; max-width: 600px; }
+.new-form-wrap-full { box-sizing: border-box; padding: 10px; width: 100%; text-align: center; }
+.new-form-wrap-full .nfw-title { font-size: 18px; font-family: maxima-lig; font-weight: normal; margin: 0px auto !important; }
+.new-form-wrap-full input.nfw-input-horizontal { margin: 5px 0px; box-sizing: border-box; width: 46%; display: inline-block; max-width: 250px; height: 35px; text-align: center; float: none !important; }
+.form-sub-text { margin: 0px auto; font-size: 10px; font-family: maxima-lig; font-weight: normal; }
+.footer-container #ouibounce-modal { position: fixed; z-index: 100001; top: 50% !important; left: 50% !important; background: none !important; margin-left: -320px !important; margin-top: -120px !important; }
+#ajaxlogin_form .form-list .input-box { width: 280px; }
+div.billingajax-confirm div.billingajax-checkout-img { float: left; margin-right: 5px; }
+div.billingajax-confirm .success-msg { background: none; font-family: Arial, Helvetica, sans-serif; font-weight: normal; color: rgb(75, 74, 74); text-align: left; padding: 8px !important; border: none !important; }
+div.billing-overlay { width: 100%; height: 100%; background: rgb(119, 119, 119); position: fixed; top: 0px; left: 0px; z-index: 198; }
+div.billingajax-confirm, div.billingajax-progress { border: none; text-align: center; z-index: 199; }
+div.billingajax-confirm { padding: 10px; }
+div.billingajax-progress, div.billingajax-confirm { border-radius: 5px; background: none !important; }
+div.billingajax-confirm, div.billingajax-progress { border: none; text-align: center; z-index: 199; }
+div.billingajax-confirm { padding: 10px; }
+div.billingajax-confirm h4 { font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; font-size: 18px; line-height: 20px; font-family: Arial, Helvetica, sans-serif; color: rgb(20, 125, 175); margin: 0px 0px 5px; background-color: rgb(255, 255, 255); text-align: left !important; }
+#billing_ajax_confirm.billingajax-confirm { max-width: 680px; max-height: 565px; }
+#mv_smartmenu_news #newsMenu_acc li.active a { font-weight: bold; }
+#mv_smartmenu_news #newsMenu_acc li.active ul li a { font-weight: normal; }
+#mv_smartmenu_news #newsMenu_acc li.active ul li.active a { font-weight: bold; }
+#mv_smartmenu_news #cate_collap li.active a { font-weight: bold; }
+#mv_smartmenu_news #cate_collap li.active ul li a { font-weight: normal; }
+#mv_smartmenu_news #cate_collap li.active ul li.active a { font-weight: bold; }
+.nav-container { background: url("../images/bkg_nav0.jpg") 50% 0px repeat-y scroll rgb(10, 38, 61); }
+.cmspro-view-details .box-reviews .form-list input.input-text { width: 187px; }
+#custommenu { position: relative; font-size: 12px; padding: 0px; width: 100%; border-radius: 2px; height: auto; margin: 0px auto; }
+:first-child + html #custommenu { z-index: 998; }
+div.menu { float: left; padding: 0px; margin: 0px; }
+div.menu a:link, div.menu a:visited { display: block; height: 40px; padding-left: 10px; padding-right: 10px; }
+div.menu a span { display: block; height: 28px; padding-right: 0px; padding-top: 12px; }
+div.menu a span:hover { cursor: pointer; }
+div.menu a, div.wp-custom-menu-popup a { text-decoration: none; display: block; cursor: pointer; height: auto; line-height: 13px; }
+.clearBoth { clear: both; height: 0px; overflow: hidden; }
+#custommenu { }
+div.menu a:link, div.menu a:visited { }
+div.menu a:hover { background: rgb(241, 241, 241); }
+div.menu a, div.wp-custom-menu-popup a { transition: all 0.1s linear; }
+div.menu .brand a, div.wp-custom-menu-popup .brand a { transition: all 0s linear; }
+div.menu.active a { background: rgb(241, 241, 241) !important; color: rgb(67, 67, 67) !important; }
+div.menu { font-weight: normal; font-size: 14px; }
+div.menu a:link, div.menu a:visited { color: rgb(255, 255, 255); }
+div.menu a:hover, div.menu.active a { color: rgb(0, 0, 0); }
+#custommenu-mobile #menu-content a.level1:hover { background: rgb(255, 255, 255); color: rgb(67, 67, 67) !important; }
+#menu-button, .parentMenu { display: inline-block; }
+html[xmlns] #menu-button { display: block; }
+html[xmlns] #menu-button { display: inline-block; }
+* html #menu-button, * html .parentMenu { height: 1%; }
+#custommenu-mobile { position: relative; margin: 0px auto; padding: 0px; z-index: 999; height: 40px; box-shadow: rgb(170, 170, 170) 0px 0px 4px; }
+#menu-button { float: none; margin: 0px; text-transform: uppercase; }
+#menu-button a:link, #menu-button a:visited { color: rgb(255, 255, 255); display: block; float: left; position: relative; }
+#menu-button a span::after { display: block; position: relative; content: ""; width: 0px; height: 0px; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 4px solid rgb(218, 218, 218); margin: 8px 0px 0px 5px; float: right; opacity: 0.7; }
+#menu-button:hover { cursor: pointer; }
+#menu-button:hover a::after { opacity: 1; }
+.menu-mobile div.column { float: none; padding: 5px; background: rgb(255, 255, 255); }
+.menu-mobile a.itemMenuName { display: block; text-align: left; }
+.menu-mobile div.menu-button, .menu-mobile div.menu-mobile { float: none; padding: 0px; margin: 0px; width: 100%; border-bottom: 1px solid rgb(255, 255, 255); }
+.menu-mobile div.column { float: none; width: 100%; padding: 0px; margin: 0px; }
+.menu-mobile a.level1:link, .menu-mobile a.level1:visited { margin-top: 0px; margin-bottom: 0px; padding: 10px; border-radius: 2px; color: rgb(0, 0, 0); }
+.menu-mobile a.level2:link, .menu-mobile a.level2:visited { padding: 10px; border-radius: 2px; }
+.menu-mobile a.level1:link, .menu-mobile a.level1:visited { color: rgb(85, 85, 85); }
+.menu-mobile a.level1:hover { background-color: rgb(241, 241, 241); }
+.menu-mobile .parent { background-color: rgb(255, 255, 255); }
+.menu-mobile .parentMenu { padding: 0px; display: block; text-align: left; border-bottom: 1px solid rgb(218, 218, 218); }
+.menu-mobile .parentMenu a:link, .menu-mobile .parentMenu a:visited { padding: 10px 0px 10px 10px; color: rgb(0, 0, 0); display: block; }
+.menu-mobile .parentMenu:hover { cursor: pointer; }
+.parentMenu { position: relative; }
+.parentMenu a { display: block; }
+#menu-button { cursor: pointer; }
+.menu-mobile div.level2 { margin-bottom: 0px; }
+#custommenu-mobile .button { cursor: pointer; position: absolute; right: 1%; top: 0px; display: block; width: 80px; height: 38px; background-color: transparent; background-repeat: no-repeat; background-position: 90% 50%; background-image: url("./plus.png"); }
+#custommenu-mobile .button.open { background-color: transparent; background-repeat: no-repeat; background-position: 90% 50%; background-image: url("./minus.png"); }
+#custommenu-mobile .level1 .button { background-image: url("./small-plus.png"); }
+#custommenu-mobile .level1 .button.open { background-image: url("./small-minus.png"); }
+#custommenu-mobile .parentMenu:hover a:link, #custommenu-mobile .parentMenu:hover a:visited, #custommenu-mobile .parentMenu:hover { background-color: rgb(255, 255, 255); }
+#custommenu-mobile .level0 { background-color: rgb(241, 241, 241); }
+#custommenu-mobile .level1 { background-color: rgb(251, 251, 251); }
+#custommenu-mobile .level2 { background-color: rgb(241, 241, 241); }
+#custommenu-mobile #menu-content { width: 75%; clear: both; }
+#custommenu-mobile a.level1 { padding-left: 8%; text-decoration: none; font-size: 15px; }
+#custommenu-mobile a.level0 { text-decoration: none; font-size: 15px; background-color: rgb(247, 247, 247); }
+#custommenu #popup3, #custommenu #popup124, #custommenu #popup7, #custommenu #popup42, #custommenu #popup125, #custommenu #popup10, #custommenu #popup9, #custommenu #popup153, #custommenu #popup155, #custommenu #popup168, #custommenu #popup172, #custommenu #popup190, #custommenu #popup160 { top: 41px !important; }
+.mobile-search-bar-wrapper { box-shadow: rgb(204, 204, 204) 0px 2px 2px; }
+.header-text { position: relative; z-index: 10; margin: 35px auto 0px; text-align: center; width: 78.8%; display: inline-block; }
+.header-text span { margin: -4px 0px; }
+span.txtline1 { font-family: maxima-Bol; display: block; color: rgb(68, 98, 125); text-transform: uppercase; }
+span.txtline2 { font-family: maxima-lig; display: block; font-size: 1.14em; letter-spacing: -3px; color: rgb(81, 138, 192); }
+span.txtline3 { font-family: maxima-lig; display: inline-block; font-size: 0.7em; letter-spacing: -1px; color: rgb(86, 86, 86); margin: -2% 1% 0px !important; vertical-align: middle !important; }
+span.txtline4 { letter-spacing: -3px; text-transform: uppercase; font-family: maxima-bol; font-size: 1.8em; display: inline-block; color: rgb(97, 190, 56); }
+.plschilled-twoeight { width: 35%; margin: 6px auto 0px; padding: 0.6%; background: rgb(242, 140, 36); color: rgb(255, 255, 255); font-size: 0.57em; letter-spacing: -1px; }
+.head-img-twoeight { width: 100%; float: none; clear: both; margin-bottom: 1%; margin-top: -7%; }
+.logos-left { position: relative; display: inline-block; z-index: 10; vertical-align: top; max-width: 100px; margin-top: 24px; width: 10%; text-align: center; }
+.logos-left.right { text-align: center; float: none !important; }
+.logos-left img { width: 51%; display: inline-block; }
+body { background: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/bg.jpg") repeat-x rgb(232, 232, 225); margin: 0px auto; text-align: left !important; }
+.main { border-width: 0px; border-style: none; border-color: initial; padding: 0px 0px 25px !important; }
+.clr { clear: both; }
+.page { max-width: 1000px; width: 100%; margin: 0px auto; background: rgb(255, 255, 255); padding-bottom: 20px; }
+.header-container { max-width: 1000px; width: 100%; height: 149px; float: left; }
+.nav-container { width: 98%; height: 40px; float: left; margin: 0px 2% 0px 1%; position: relative; background: rgb(242, 141, 3); }
+.quick-access { max-width: 550px; width: 55%; height: 149px; float: left; color: rgb(0, 0, 0); padding: 0px; text-align: right; background: none !important; }
+.col1 { max-width: 450px; width: 45%; float: left; }
+.row1 { max-width: 392px; width: 100%; height: 100%; margin-bottom: 15px; float: left; }
+.row2 { max-width: 382px; width: 100%; height: 40px; float: left; padding: 0px 0px 10px 10px; }
+#nav li.active { text-decoration: none; background: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/navbg-active.gif") right center repeat-x; color: rgb(255, 255, 255); border: none !important; }
+#nav li.active a { text-decoration: none; background: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/navbg-active.gif") right center repeat-x; border: none; color: rgb(255, 255, 255); }
+#nav li.over, #nav li.active { margin: 0px !important; }
+.quick-access .headerlifestylepic { float: left; height: 149px; width: 258px; }
+.quick-access .secure-shopping { color: rgb(74, 73, 73); font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; }
+.row1 .logo img { margin: 10px 0px 0px 10px; width: 100%; max-width: 326px; border: none !important; box-shadow: none !important; }
+#mini-basket #nutrition-wrap .nutrition-cell .col1 { width: 115px; height: 25px; line-height: 25px; padding-left: 10px; float: left; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(75, 74, 74); }
+.category-description.std { color: rgb(75, 74, 74); font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 21px; }
+.category-products .product-category-wrap .col1 { float: left; width: 120px; height: auto; }
+.category-products .product-category-wrap .col1 img { border: 5px solid rgb(255, 255, 255); box-shadow: rgb(166, 166, 166) 1px 1px 2px; }
+.category-products .product-category-wrap .col2 .row1 { color: rgb(17, 107, 146); font-size: 14px; float: left; height: 50px; position: relative; width: 430px; }
+.category-products .product-category-wrap .col2 .row1 .btn-view-offer { background: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/btn-view-product.jpg") 0px 0px no-repeat scroll transparent; height: 28px; left: 283px; position: absolute; top: 3px; width: 148px; }
+.category-products .product-category-wrap .col2 .row1 .offer { color: rgb(204, 0, 0); font-size: 12px; }
+.category-products .product-category-wrap .col2 .row2 { float: left; font-size: 11px; line-height: 15px; max-height: 55px; width: 450px; padding: 0px; margin-top: 10px; }
+.col1 .row2 { float: left; height: 40px; padding: 0px 0px 10px 10px; max-width: 382px; width: 100%; }
+#search { outline: rgb(209, 224, 237) solid 7px; color: rgb(193, 193, 193); float: left; font-size: 18px; height: 26px; padding: 0px 0px 0px 2%; max-width: 300px; width: 78%; outline-offset: 0px; border: none !important; margin-right: 1% !important; }
+.col1 .row2 .button { background: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/misc/145829433-search.png") 0px 0px no-repeat scroll transparent; border: medium none; cursor: pointer; float: left; margin-left: 3px; height: 40px; max-width: 45px; width: 100%; margin-top: -7px; }
+.form-search button.button span { height: 23px; line-height: 21px; width: 51px; background-image: url("") !important; }
+.form-search label { float: left; font-size: 12px; font-weight: bold; padding: 0px 5px 0px 0px; }
+.form-search { width: 100%; margin-top: 2.2%; margin-left: 2%; float: left !important; }
+button.button { }
+.footer-container { min-height: 320px; margin: 0px auto; width: 100%; }
+.footer { margin: 0px !important; }
+.footer-container #article { min-height: 320px; height: 100%; margin: 0px auto; max-width: 1000px; width: 100%; background: linear-gradient(rgb(142, 180, 199), rgb(94, 138, 163)); }
+#article .col { float: left; height: 100%; min-height: 255px; padding-top: 3px; width: 23%; }
+#article h3 { color: rgb(0, 37, 52); display: block; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; margin: 6px 0px; }
+#article .col .articlelink { color: rgb(0, 37, 52); display: block; font-family: Arial, Helvetica, sans-serif; font-size: 12px; height: 23px; line-height: 22px; padding-left: 30px; width: 215px; }
+#article h4 { color: rgb(255, 255, 255); display: block; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; margin: 6px 0px; padding-left: 30px; max-width: 215px; }
+#article .col .articlelink2 { color: rgb(255, 255, 255); display: block; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 22px; padding-left: 30px; max-width: 215px; }
+#article .col2 { float: left; height: 260px; padding-top: 10px; width: 31%; }
+#article .col2 #signup-form { background: none 0px 0px repeat scroll rgb(255, 255, 255); border-radius: 5px; box-shadow: rgb(51, 94, 114) 0px 0px 4px; font-family: Arial, Helvetica, sans-serif; font-size: 11px; padding: 10px; max-width: 180px; width: 80%; margin: 0px auto; }
+#article .col2 #signup-form img { width: 100% !important; }
+#article .col2 #signup-form .textfield { background: none 0px 0px repeat scroll rgb(199, 219, 228); border: medium none; border-radius: 5px; height: 25px; margin: 5px 0px; outline: none medium; padding-left: 10%; padding-right: 10%; max-width: 160px; width: 80%; }
+#article .col2 #signup-form .signup { background: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/button-sign-up.png") center top no-repeat scroll transparent; border: medium none; border-radius: 5px; height: 40px; margin: 5% 10%; outline: none medium; width: 80%; }
+#footer-row2-wrap { height: 43px; margin: 0px auto; width: 100%; }
+#footer-row2-wrap #footer-row2 { color: rgb(136, 177, 195); font-family: Arial, Helvetica, sans-serif; font-size: 39px; font-weight: lighter; height: 43px; line-height: 38px; width: 100%; background-color: rgb(255, 255, 255); margin: 0px auto !important; padding-right: 0px !important; max-width: 1000px !important; text-align: center !important; }
+#footer-row3-wrap { background: none 0px 0px repeat scroll rgb(230, 230, 223); min-height: 80px; margin: 0px auto; width: 100%; float: left; }
+#footer-row3-wrap #footer-row3 { color: rgb(75, 74, 74); font-family: Arial, Helvetica, sans-serif; position: relative; font-size: 12px; font-weight: lighter; min-height: 70px; line-height: 20px; padding-right: 50px; padding-top: 10px; text-align: right; right: -134px; max-width: 950px; width: 100%; height: 110px !important; margin: 30px auto -30px !important; }
+#footer-row4 { float: left; width: 100% !important; }
+.headerinfo-wrap { float: left; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; height: 149px; padding-right: 20px; text-align: right; width: 330px; line-height: 21px; }
+.headerlinks { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: lighter; height: 35px; line-height: 16px; text-align: right; padding-top: 6px; }
+.headerlinks a { color: black !important; text-decoration: underline !important; }
+.col-wrapper .col-main, .col2-left-layout .main .col-wrapper .col-main { color: rgb(75, 74, 74); float: left; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 21px; margin-top: 0px; padding: 0px 1%; }
+.col-wrapper .col-main { width: 58%; }
+.col2-left-layout .main .col-wrapper .col-main { width: 79.5%; }
+.col-wrapper #middlecol .ratings span img { border: none !important; box-shadow: none !important; }
+#middlecol-produkt #nutritian-breakdown .servings .col1 { color: rgb(255, 255, 255); float: left; font-size: 11px; height: 30px; line-height: 30px; padding-left: 10px; padding-right: 2%; width: 38%; }
+#middlecol-produkt #nutritian-breakdown .servings .col2 { color: rgb(255, 255, 255); float: left; font-size: 11px; height: 30px; line-height: 30px; width: 29%; }
+#middlecol-produkt #nutritian-breakdown .servings .col3 { color: rgb(255, 255, 255); float: left; font-size: 11px; height: 30px; line-height: 30px; width: 23%; }
+#middlecol-produkt #nutritian-breakdown .nutrient .col3 { float: left; font-size: 11px; line-height: 13px; padding: 8px 0px 0px 2%; width: 15%; }
+#middlecol-produkt #nutritian-breakdown .nutrient .col2 { float: left; font-size: 11px; line-height: 13px; padding: 8px 0px 0px 2%; width: 15%; }
+#middlecol-produkt #nutritian-breakdown .nutrient .col1 { float: left; font-size: 11px; line-height: 13px; padding: 8px 0px 0px 4%; width: 55%; }
+#middlecol-produkt #nutritian-breakdown .nutrient { background: none 0px 0px repeat scroll rgb(255, 255, 255); border-radius: 5px; float: left; font-weight: bold; min-height: 30px; margin-bottom: 2px; width: 100%; }
+#middlecol-produkt #nutritian-breakdown .servings { background: none 0px 0px repeat scroll rgb(141, 181, 199); border-radius: 5px; float: left; font-weight: bold; height: 30px; margin-bottom: 2px; width: 100%; }
+#middlecol-produkt #nutritian-breakdown { background: none 0px 0px repeat scroll rgb(228, 239, 244); border-radius: 5px; margin-top: 20px; display: block; width: 50%; padding: 10px; float: right; }
+ul#response-nav #nutritian-breakdown { background: none 0px 0px repeat scroll rgb(228, 239, 244); border-radius: 5px; display: block; width: 97%; float: right; padding: 1.5% !important; }
+#product-description #productserving .col1 { background: none 0px 0px repeat scroll rgb(255, 255, 255); border-radius: 3px; color: rgb(75, 74, 74); float: left; font-size: 12px; font-weight: normal; text-align: center; height: 28px; line-height: 28px; width: 49.5%; }
+#middlecol-produkt .bundle-wrap .col31 .nutrition-row-desc .col1 { color: rgb(17, 107, 146); float: left; text-align: left; width: 45%; }
+#middlecol-produkt .bundle-wrap .col31 .nutrition-row .col1 { float: left; font-weight: bold; text-align: left; width: 45%; }
+#content-wrap2 #middlecol .product-category-wrap .col1 { width: 120px; float: left; }
+#content-wrap2 #middlecol .product-category-wrap .col1 img { margin-left: 10px; margin-top: 5px; box-shadow: rgb(166, 166, 166) 0px 0px 2px; }
+#content-wrap2 #middlecol .product-category-wrap .col2 .row1 { width: 430px; height: 50px; float: left; color: rgb(17, 107, 146); position: relative; }
+#content-wrap2 #middlecol .product-category-wrap .col2 .row1 .offer { color: rgb(204, 0, 0); }
+#content-wrap2 #middlecol .product-category-wrap .col2 .row1 img { border: none; box-shadow: none; }
+#content-wrap2 #middlecol .product-category-wrap .col2 .row1 .btn-view-offer { background: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/btn-view-product.jpg") no-repeat; width: 148px; height: 28px; position: absolute; top: 3px; left: 283px; }
+#content-wrap2 #middlecol .product-category-wrap .col2 .row2 { width: 430px; max-height: 55px; float: left; font-size: 11px; line-height: 15px; border-radius: 5px; }
+.checkout-wrap input, .input-firstname input, .input-lastname input, .input-telephone input, .input-email input, .input-address input, .input-city input, .input-postcode input, .input-card-type select, .input-cc-number input, .select-expiration select, .varification input, .input-password input { border: 1px solid rgb(204, 204, 204); height: 25px; margin: 10px 0px; }
+.checkout-wrap .input-box { font-size: 14px; }
+.input-firstname, .input-lastname, .input-telephone, .input-email, .input-city, .input-postcode, .input-card-type, .input-cc-number, .input-password { float: left; width: 240px; }
+.input-firstname input, .input-lastname input, .input-telephone input, .input-email input, .input-address input, .input-city input, .input-postcode input, .input-card-type select, .input-cc-number input, .select-expiration select, .varification input, .input-password input { margin-bottom: 5px; width: 92%; }
+#products-list .col1 { float: left; height: auto; width: 150px; }
+#products-list .col1 a { color: rgb(75, 74, 74); text-decoration: none; }
+#products-list .col1 img { border: 5px solid rgb(255, 255, 255); box-shadow: rgb(166, 166, 166) 1px 1px 2px; }
+#products-list .col2 .row1 { color: rgb(17, 107, 146); float: left; font-size: 14px; height: 50px; position: relative; width: 400px; }
+#products-list .col2 .row1 .btn-view-offer { background: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/btn-view-product.jpg") 0px 0px no-repeat scroll transparent; height: 28px; left: 255px; position: absolute; top: 3px; width: 148px; }
+#products-list .col2 .row1 .offer { color: rgb(204, 0, 0); font-size: 12px; }
+#products-list .col2 .row2 { float: left; font-size: 12px; line-height: 15px; margin-top: 10px; max-height: 55px; padding: 0px; width: 400px; }
+.col-main { float: left; padding: 0px 0px 1px; width: 100%; }
+.col1-layout .col-main { width: 98%; margin: 0px 1%; }
+.col2-right-layout .col-main { padding: 0px 0px 1%; width: 76.5%; margin: 0px 1%; }
+#products-list .col2 .row1 .rrp-savings { font-size: 12px; color: rgb(85, 85, 85); line-height: 12px; margin-bottom: 0px; }
+#products-list .col2 .row1 .rrp-savings span { text-decoration: line-through; font-size: inherit; line-height: inherit; }
+#products-list .col2 .row1 .rrp-savings strong { font-weight: bold; text-transform: uppercase; color: rgb(204, 0, 0) !important; }
+.main .col-main .checkout-wrap #future-orders .order-panel { background-color: rgb(255, 255, 255); border: 1px solid rgb(0, 0, 0); border-radius: 5px; float: left !important; padding: 10px !important; width: 458px !important; }
+.basket-date-change input.input-text { padding: 3px 5px; font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; font-size: 18px; line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: rgb(20, 125, 175); width: 100px; text-align: center; }
+.basket-date-change input.input-text { padding: 3px 2%; font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; font-size: 18px; line-height: 18px; font-family: Arial, Helvetica, sans-serif; color: rgb(20, 125, 175); text-align: center; float: left; max-width: 100px !important; width: 76% !important; }
+.delivery-date .orange-button { margin-right: 2%; margin-top: 0px; margin-bottom: 3px; width: 18% !important; }
+.boxed-content.icon { padding-left: 70px; background-position: 10px 10px; background-attachment: scroll; background-repeat: no-repeat; min-height: 40px; width: 453px; }
+.thirds-cta-holder.facebook { width: 300px; height: 318px; background: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/christmas2012/6742-facebook-cta-bg.jpg") 5px 5px no-repeat scroll rgb(255, 255, 255); }
+.thirds-cta-holder.facebook .facebook-holder { width: 294px; height: 255px; margin: 60px auto 0px; overflow: hidden; }
+#products-list .col2 .row1 .btn-view-offer2 { background: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/btn-view-product2.jpg") 0px 0px no-repeat scroll transparent; height: 28px; left: 195px; position: absolute; top: 3px; width: 72px; }
+#products-list .col2 .row1 .btn-add-to-cart { background: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/btn-add-to-cart.jpg") 0px 0px no-repeat scroll transparent; height: 28px; left: 270px; position: absolute; top: 3px; width: 132px; }
+#comp-holder .comp-panel.christmas .holly.right { bottom: -30px; right: -30px; }
+#homepage .cta-row .right { max-width: 374px; width: 49%; float: right; margin-left: 0.5%; margin-right: 0.5%; margin-top: 1px; }
+#nav ul li, #nav ul li.active, #nav ul li.over { float: none; border: none; background: none; margin: 0px; padding: 0px 0px 1px; text-transform: none; }
+#nav ul li.active { margin: 0px; border: 0px; background: none; }
+#nav ul li .active { text-decoration: none; border: none; color: rgb(255, 255, 255); background: rgb(116, 156, 191) !important; }
+.ratings .rating-links .separator { margin: 0px -4px 0px 2px !important; }
+#chicken-offer .right { width: 288px; float: right; }
+#kgb-deal .right { width: 288px; float: right; }
+.homepage-panel-holder .product-panel .ratings { width: 100%; margin: 0px auto 0px -6px; clear: both; max-width: 168px !important; }
+.product-panel .ratings { width: 100%; margin: 0px auto 0px 0px; clear: both; max-width: 168px !important; }
+.product-panel .ratings .amount { font-size: 8px; padding-top: 2px; float: right !important; }
+.headerinfo-wrap { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; height: 149px; line-height: 21px; padding-right: 3%; text-align: right; max-width: 220px; width: 40%; float: right; }
+.quick-access .headerlifestylepic { float: left; height: 149px; max-width: 386px; width: 57%; position: relative; }
+.header-logo { float: left; margin: 5px 3px 0px; }
+.hdr-logo-txt { background: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/7292-hdr-text-BG.png") left top no-repeat scroll; width: 159px; height: 78px; position: absolute; top: 70px; }
+.hdr-small-txt { font-style: italic; font-variant: normal; font-weight: bold; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Arial, Helvetica, sans-serif; color: rgb(42, 34, 25); text-align: center; margin: 0px; width: 130px; height: 45px; position: relative; top: 21px; left: 14px; }
+#gff { left: -40px; display: none; }
+#sa { display: none; left: 40px !important; }
+#blq { display: none; left: 115px !important; }
+#gta { display: none; left: 195px !important; }
+#rspca { display: none; margin-top: 60px; z-index: 1000; left: 180px !important; }
+#rspca .hdr-small-txt { width: 123px !important; left: 18px !important; }
+#gfb { left: -40px; top: 135px; z-index: 1000; display: none; }
+#bb { left: 42px; top: 135px; z-index: 1000; display: none; }
+#redt { top: 130px; z-index: 1000; display: none; left: 100px !important; }
+#ftr-gff-wrap.footer-logo { margin-top: 25px; }
+.add-to-basket-wrap .col1 { width: 15%; height: 40px; padding-top: 5px; float: left; font-size: 18px; font-weight: bold; color: rgb(0, 0, 0); }
+fto-maincol-wrap-stb { max-width: 940px; width: 100%; margin-left: 2%; float: left; }
+.fto-offer-wrap .fto-fine-details .col1 { width: 25%; float: left; text-align: right; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: rgb(255, 255, 255); min-height: 26px !important; }
+.fto-offer-wrap-stb .fto-fine-details-stb .col1 { width: 25%; float: left; text-align: right; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: rgb(255, 255, 255); min-height: 26px !important; }
+.fto-offer-wrap .fto-fine-details-lab .col1 { width: 30%; float: left; text-align: right; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: rgb(51, 51, 51); min-height: 26px !important; }
+.quick-access .headerlifestylepic2 { float: left; height: 149px; max-width: 312px; width: 100%; position: relative; }
+.product-icons-holder { margin-left: 5px; }
+.product-icons-holder div[class^="product-icon"] { display: inline-block; float: left; width: 28px; height: 28px; margin: 0px 5px 0px 0px; background-repeat: no-repeat; }
+.product-icons-holder div[class^="product-icon-active"] { background-image: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/153694800-ny-twice-as-nice/153694800-prod-icons.png"); background-size: 1887px 46px; }
+.product-icon-active-236, .product-icon-inactive-236 { background-position: -49px -10px; }
+.product-icon-active-444 { background-position: -553px -10px; }
+.product-icon-active-495, .product-icon-inactive-495 { background-position: -588px -10px; }
+.product-icon-active-gta, .product-icon-inactive-gta { background-position: -1785px -10px; }
+.product-icon-active-producer, .product-icon-inactive-producer { background-position: -1820px -10px; }
+.product-icon-active-brc, .product-icon-inactive-brc { background-position: -1855px -10px; }
+p.nutrition-serving { padding-left: 10px; margin-bottom: 4px; }
+input#coupon-code { font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; font-size: 18px; line-height: 20px; font-family: Arial, Helvetica, sans-serif; text-align: center; width: 85%; }
+#discountcode .input-box { width: 62%; float: left; margin-left: 2%; }
+.more-deals-img { width: 20%; float: left; }
+.more-deals-img img { width: 100%; height: 100% !important; }
+.more-deals-content { width: 54%; min-height: 130px; padding: 2%; margin-left: 1.5%; float: left; background-color: rgb(255, 255, 255); position: relative; }
+.upsell-price-wrap { width: 100%; }
+.more-deals-content .rrp { font-size: 14px; color: rgb(102, 102, 102); font-weight: bold; text-align: left; float: left; margin-left: 0px; margin-top: 10px; }
+.more-deals-content .save { font-size: 14px; color: rgb(213, 76, 1); font-weight: bold; text-align: left; float: left; margin-left: 5px; margin-top: 10px; }
+.more-deals-content .price { font-size: 21px; color: rgb(0, 119, 0); float: right; font-weight: bold; text-align: left; margin-left: 5px; }
+.more-deals-content .hide { font-size: 21px; color: rgb(0, 119, 0); font-weight: bold; text-align: left; float: left; margin-left: 5px; }
+.more-deals-content .just { font-size: 21px; color: rgb(0, 119, 0); font-weight: bold; text-align: left; float: left; margin-left: 5px; margin-right: 5px; }
+.more-deals-content .price-total { float: left; }
+.orange-button { padding: 5px; margin: 5px 0px 0px auto; display: block; cursor: pointer; border: 0px; border-radius: 4px; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 2px; color: rgb(255, 255, 255); text-align: center; font-weight: bold; text-transform: uppercase; line-height: 20px; font-size: 18px; background: linear-gradient(rgb(250, 146, 21), rgb(227, 83, 21)); text-decoration: none !important; }
+#billing_cp_button_id.button, #shipping_cp_button_id { margin-top: 10px; margin-left: 10px; }
+li.clearfix { height: auto; }
+#_cp_result_display.input-box select { width: 520px; }
+.form-list .field.extra-width textarea, .form-list .field.extra-width .input-box { width: 100%; }
+table.stock-update tr .col1 { width: 430px; background: rgb(67, 127, 175); padding: 0px 10px; text-align: left; }
+#jobs-list.products-list li.item { border-bottom: 1px solid rgb(239, 239, 239); border-radius: 6px; }
+.form-list-recruitment .input-box { float: right; clear: none; display: inline-block; width: 200px; }
+#menu-button.hamburger { width: 12%; max-width: 113px; float: left; display: inline-block; text-align: center; border-right: 1px solid rgb(190, 190, 190); }
+.mobilelogo { width: 44%; max-width: 450px; float: left; display: inline-block; text-align: center; border-right: 1px solid rgb(190, 190, 190); }
+.search-mobile { width: 12%; float: left; display: inline-block; text-align: center; border-right: 1px solid rgb(190, 190, 190); }
+.basket { width: 10%; max-width: 110px; float: left; display: inline-block; text-align: center; border-right: 1px solid rgb(190, 190, 190); }
+.icon { width: 10%; max-width: 107px; float: left; display: inline-block; text-align: center; }
+.hamburger img, .search-mobile img, .basket img, .icon img { max-height: 40px; }
+.mobilelogo img { max-height: 35px; margin-top: 2px; }
+.mobile-search-bar-wrapper { background-color: rgb(241, 241, 241); margin-top: 40px; padding: 2%; z-index: 999999; border-bottom: 1px solid rgb(218, 218, 218); width: 96%; position: fixed; left: 0px; top: 0px; }
+.mobile-search-bar-wrapper .orange-button { display: inline-block; width: 20%; }
+.mobile-search-bar-wrapper #mobile-search-field { width: 74%; font-size: 18px; line-height: 20px; margin-top: 5px; margin-right: 1%; padding: 3px; border: 1px solid rgb(221, 221, 221); border-radius: 4px; }
+#response-nav li a:hover, #response-nav li a.active { background: rgb(255, 255, 255); color: rgb(17, 107, 146); text-shadow: none; }
+#myGallery img.active { display: block; }
+.upsells-wrapper-v2 .more-deals-panel .more-deals-content { background: none transparent; width: 90%; min-height: 100%; margin-top: 10px; }
+.upsells-wrapper-v2 .more-deals-panel .more-deals-img { width: 96%; background-color: rgb(255, 255, 255); padding: 4px; box-shadow: rgba(0, 0, 0, 0.45) 2px 2px 4px; }
+.upsells-wrapper-v2 .more-deals-panel .more-deals-img img { width: 100%; }
+.img100 { width: 100%; }
+br.clearfix { padding: 0px; margin: 0px; height: 0px; clear: both; float: none; }
+.footer-signup-small-panel { padding: 10px; background-color: rgb(241, 245, 248); }
+.footer-signup-small-panel input.textfield { background: none 0px 0px repeat scroll rgb(199, 219, 228); border: medium none; border-radius: 5px; height: 25px; margin: 3px 0px; outline: none medium; padding-left: 10px; padding-right: 10px; width: 90%; }
+.ratings span img { width: 20px; margin-top: 4px; }
+.weekly-offer-config .ratings .ammount { padding-left: 5px !important; }
+.serving-info.col1, .price-per-serving.col2 { background-color: rgb(255, 255, 255); border-radius: 3px; color: rgb(75, 74, 74); float: left; font-size: 12px; font-weight: normal; min-height: 28px; line-height: 28px; margin-left: 2px; padding: 0px 2%; text-align: center; width: 45%; }
+.serving-info.col1 { margin-left: 0px !important; }
+.ratings .rating-links { float: left; width: auto; }
+.informed-sport { width: 100%; max-width: 115px; float: right; margin: 4px 0px 0px; }
+.discount-form .buttons-set .orange-button { left: 0px !important; top: -6px !important; }
+.ratings .rating-box { float: none !important; }
+#product-description #productreviews .ratings .rating-box { float: left !important; }
+#article-list-holder .article-blurb { display: none; }
+#article-list-holder .article-social { float: none; clear: both; width: 95%; }
+#article-list-holder .article-read { float: none; clear: both; width: 95%; text-align: center; margin: 0px auto; }
+#article-list-holder p.txt-lnk { display: none; }
+#article-list-holder .article-wrap { float: left; }
+#article-list-holder .article-image { max-height: 90px; overflow: hidden; }
+#article-list-holder .article-title { height: 85px; overflow: hidden; }
+#article-list-holder .article-wrap:hover { outline: rgb(196, 196, 196) solid 1px; box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 5px; }
+.three-col-holder ul#response-nav li a.active:hover { background-color: rgb(255, 255, 255) !important; }
+#article p { font-family: Maxima-Lig; font-size: 16px; line-height: 22px; }
+#article p strong { font-family: Maxima-Med; font-size: 16px; line-height: 22px; }
+#article h2, #article #middlecol h2, .col-wrapper #article #middlecol h2 { font-family: Maxima-Bol; color: rgb(0, 102, 153); font-size: 20px !important; line-height: 26px !important; text-transform: none !important; background: none !important; padding-left: 0px !important; border: none !important; width: 98% !important; }
+#article h1, .col-wrapper #article #middlecol h1, #article #middlecol h1, .article-hdr1 { font-family: Maxima-Bol !important; color: rgb(0, 102, 153) !important; }
+#article li { font-family: Maxima-Lig; }
+#article h2.article-hdr { font-family: Maxima-Bol !important; color: rgb(0, 102, 153) !important; }
+.col-wrapper #article #middlecol h1 strong { font-family: Maxima-Med; color: rgb(0, 102, 153) !important; }
+#FGXseal img { width: 1px; height: 1px; visibility: hidden; }
+.small-upsell-holder { width: 80%; margin: 0px 10%; }
+.upsells-small { width: 100%; outline: rgb(79, 138, 190) solid 1px; padding: 0.5%; }
+.upsells-small .more-deals-img { width: 96%; padding: 2%; float: none; }
+.upsells-small .more-deals-choose { float: none; font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; font-size: 14px; line-height: 18px; font-family: Arial, Helvetica, sans-serif; background: none; width: 100%; margin-left: 0px; }
+.upsells-small .more-deals-choose select { margin-top: 0px; }
+.upsells-small .more-deals-content { width: 96%; min-height: 56px; margin-left: 0px; }
+.upsells-small .more-deals-content h3 { text-align: center; margin-bottom: 0px; }
+.upsells-small .upsell-price-wrap { float: none; clear: both; }
+.upsells-small .price { text-align: center; font-size: 21px; color: rgb(0, 119, 0); font-weight: bold; margin-left: 0px; }
+.upsells-small .sml-upsell-ratings { width: 80%; margin: 0px auto; text-align: center; }
+.basket-contents-wrap .col1 { width: 50%; float: left; text-align: left; border-bottom: 1px solid rgb(228, 239, 244); padding: 30px 0px; color: rgb(20, 125, 175); font-size: 20px; font-weight: bold; }
+offers-category-code span { color: rgb(34, 136, 1); }
+p { line-height: 20px; font-size: 13px; }
+.col { display: block; float: left; margin: 1% 0px 1% 1.6%; }
+.col:first-child { margin-left: 0px; }
+.billing-lastorder-index #productreviews .review-right span, .billing-lastorder-index #productreviews .ratings span { position: relative; top: -52px; }
+.billing-pastorders-index #productreviews .review-right span, .billing-pastorders-index #productreviews .ratings span { position: relative; top: -52px; }
+.billing-frequently-index #productreviews .review-right span, .billing-frequently-index #productreviews .ratings span { position: relative; top: -52px; }
+.billing-cancelledorders-index #productreviews .review-right span, .billing-cancelledorders-index #productreviews .ratings span { position: relative; top: -52px; }
+.popup-basket-item:last-child, .popup-basket-panel:last-child, div.billingajax-confirm h4 { display: block; }
+#billing_ajax_confirm.billingajax-confirm { }
+#billing_ajax_confirm.billingajax-confirm { overflow: hidden; }
+#maxima-lp { font-family: Maxima-Lig; font-size: 16px; line-height: 22px; }
+#article .discount-code-list { font-size: 16px !important; }
+.col-wrapper #article #middlecol h3 { font-size: 18px; font-family: Maxima-Bol !important; line-height: 22px !important; }
+#article #middlecol ul strong, #article .discount-code-list strong, .discount-code-list strong { }
+.med-maxima { font-family: maxima-Med; }
+.cover { position: fixed; top: 0px; left: 0px; background: rgba(0, 0, 0, 0.6); width: 100%; height: 100%; z-index: -1; }
+.billing-checkout-index .nav-container { display: none !important; }
+.billing-checkout-index #search_mini_form { display: none !important; }
+.billing-checkout-index .footer-container #article { display: none !important; }
+.billing-checkout-index #footer-row3-wrap { background: rgb(255, 255, 255); }
+.billing-checkout-index #footer-row2-wrap { display: none; }
+.billing-checkout-index .header .logo { margin-top: 37px; }
+.billing-checkout-index #article .col .articlelink2 { color: rgb(0, 0, 0); }
+.billing-checkout-index #article .col .articlelink2:nth-child(1) { display: none; }
+.billing-checkout-index #article .col .articlelink2:nth-child(2) { display: none; }
+.billing-checkout-index #article .col .articlelink2:nth-child(3) { display: none; }
+.billing-checkout-index #article .col .articlelink2:nth-child(4) { display: none; }
+.billing-checkout-index #article .col .articlelink2:nth-child(5) { display: none; }
+.billing-checkout-index #article .col .articlelink2:nth-child(7) { display: none; }
+.billing-checkout-index #article .col .articlelink2:nth-child(8) { display: none; }
+.billing-checkout-index #article .col .articlelink2:nth-child(9) { display: none; }
+.billing-checkout-index #article .col .articlelink2:nth-child(10) { display: none; }
+.billing-checkout-index #article .col .articlelink2:nth-child(11) { display: none; }
+.billing-checkout-index #article .col .articlelink2:nth-child(12) { display: none; }
+.billing-checkout-index .footer-container #article { background: rgb(255, 255, 255) !important; min-height: 0px !important; display: block !important; }
+.billing-checkout-index #article h4 { display: none; }
+.billing-checkout-index .billing-checkout-index .footer-container #article { min-height: 0px; }
+.billing-checkout-index #article .col { width: 100%; min-height: 0px; }
+.billing-checkout-index #article .col:nth-child(2) { display: none; }
+.billing-checkout-index #article .col:nth-child(3) { display: none; }
+.billing-checkout-index #article .col:nth-child(4) { display: none; }
+.billing-checkout-index #article .col .articlelink2 { padding-left: 0px; text-align: center; margin: 0px auto !important; }
+.delivery-date .orange-button { display: none !important; }
+.minspend-slider-col .ratings { width: 60% !important; margin: 0px auto !important; }
+.minspend-slider-col .ratings .rating-box { float: left !important; }
+.billing-cart-index #fancybox-content { min-height: 875px; }
+.cart-tableflex > .cellc .input-text { height: 26px; padding: 0px 2px; border-radius: 4px; font-size: 12px; }
+.topup-offer-wrap .ratings { float: none !important; }
+.topup-offer-wrap .ratings .rating-box { margin: 0px auto !important; }
+.button-empty-all button.button span span { text-decoration: underline; padding: 0px !important; border: none !important; text-transform: uppercase !important; font-family: maxima-lig !important; font-weight: normal !important; background: rgb(255, 255, 255) !important; font-size: 14px !important; }
+.basket-date-change input.input-text { color: rgb(69, 164, 209); font-size: 18px; font-weight: normal; }
+.button-empty-all button.button span span { margin-right: 15px; color: rgb(81, 138, 192); margin-top: 0px !important; font-size: 12px !important; }
+.owl-carousel { z-index: 0 !important; }
+.owl-carousel .owl-stage-outer { padding: 5px 0px; }
+.owl-theme .owl-controls { margin-top: 5px !important; top: 0px !important; position: absolute !important; }
+.owl-next:focus, .owl-prev:focus { outline: none !important; }
+.owl-theme .owl-controls { position: absolute; width: 100%; }
+.upsell-offer-wrap .owl-nav .owl-prev { position: absolute; left: -5px; height: 45px; width: 42px; top: 90px; font-size: 0px !important; background-image: url(" \9 https://s3-eu-west-1.amazonaws.com/musclefooduk/images/149373059-Checkout-Changes/149373059-arrows-left.png") !important; background-repeat: no-repeat !important; opacity: 1 !important; }
+.owl-nav .owl-prev { }
+.upsell-offer-wrap .owl-nav .owl-next { position: absolute; right: -25px; height: 45px; width: 42px; top: 90px; font-size: 0px !important; background-image: url(" \9 https://s3-eu-west-1.amazonaws.com/musclefooduk/images/149373059-Checkout-Changes/149373059-arrows-right.png") !important; background-repeat: no-repeat !important; opacity: 1 !important; }
+.upsell-offer-wrap .owl-nav .owl-prev:hover { opacity: 1 !important; }
+.upsell-offer-wrap .owl-nav .owl-next:hover { opacity: 1 !important; }
+.owl-nav .owl-next { background-color: transparent !important; }
+.owl-theme .owl-controls .owl-nav [class*="owl-"] { }
+.owl-controls .owl-nav [class*="owl-"] { background-color: transparent !important; }
+.owl-theme .owl-dots .owl-dot span { background-color: transparent !important; }
+.owl-theme .owl-controls .owl-nav { background-color: transparent !important; }
+.owl-theme .owl-controls .owl-nav [class*="owl-"]:hover { background-color: transparent !important; }
+.cart .discount input.input-text { height: 26px; width: 67% !important; padding: 2px 2% !important; border-radius: 0px !important; float: left !important; }
+.discount .discount-form .buttons-set .orange-button { width: 96%; height: 30px; clear: none; float: left; border-radius: 4px; background: rgb(103, 180, 0); font-size: 14px !important; position: static !important; margin: 0px 0px 0px 4% !important; padding: 0px !important; box-shadow: none !important; }
+.discount .discount-form .buttons-set .orange-button:hover { background: rgb(96, 167, 0); }
+.upsell-offer-wrap .owl-nav .owl-next { right: -1px !important; }
+.billing-cart-cup #livechat-compact-container { display: none !important; }
+.billing-cart-cup #livechat-compact-view { display: none !important; }
+.billing-cart-index .billing-cart-index #fancybox-wrap { height: 550px !important; }
+#menu170 .parentMenu { background: rgb(0, 102, 153); }
+.cms-extra-deals .col2-right-layout .col-main { margin-right: 0px !important; }
+.footer-container #article { background: rgb(128, 168, 189) !important; }
+.quick-access .headerlifestylepic2 { }
+.header-logo img { opacity: 0.85 !important; width: 80% !important; height: 80% !important; }
+.informed-sport { opacity: 0.8 !important; }
+#middlecol-produkt #nutritian-breakdown { width: 51% !important; padding: 2% !important; border-radius: 3px !important; }
+.ratings .rating-links { font-size: 11px !important; }
+.quick-access .secure-shopping { display: none !important; }
+.hdr-logo-txt { z-index: 500 !important; }
+ul#response-nav #nutritian-breakdown { width: 97% !important; }
+.informed-sport { display: none !important; }
+.headerlinks { font-size: 13px; font-family: maxima-lig !important; color: rgb(79, 129, 0) !important; }
+.headerlinks a { font-family: maxima-lig !important; color: rgb(79, 129, 0) !important; }
+#custommenu { font-family: maxima-lig !important; }
+div.menu a span { padding-top: 15px; }
+input, select, textarea, button { font-family: maxima-lig !important; }
+#article .col .articlelink2 { font-family: maxima-lig !important; }
+#footer-row2-wrap { display: none !important; }
+#ftr-gta2013-wrap { display: none !important; }
+#ftr-gta2014-wrap { display: none !important; }
+#ftr-gff-wrap { display: none !important; }
+#ftr-gta2016-wrap { display: none !important; }
+#ftr-gta2014-wrap { display: none !important; }
+.ftr-paypal { display: none !important; }
+#footer-row3-wrap #footer-row3 { padding-right: 0px !important; right: 0px !important; }
+.ftr-twitter, .ftr-facebook, .ftr-youtube, .ftr-instagram { display: inline; position: unset; }
+#footer-row2-wrap { display: none !important; }
+#ftr-gta2013-wrap { display: none !important; }
+#ftr-gta2014-wrap { display: none !important; }
+#ftr-gff-wrap { display: none !important; }
+#ftr-gta2016-wrap { display: none !important; }
+#ftr-gta2014-wrap { display: none !important; }
+.ftr-paypal { display: none !important; }
+#footer-row3-wrap #footer-row3 { padding-right: 0px !important; right: 0px !important; margin: 5px auto !important; }
+.ftr-twitter, .ftr-facebook, .ftr-youtube, .ftr-instagram { display: inline-table; position: unset !important; }
+#footer-row3-wrap #footer-row3 { text-align: center !important; height: auto !important; }
+#footer-row4 { margin: 0px auto !important; }
+#footer-row3-wrap #footer-response .gtas { display: none !important; }
+#footer-row3-wrap #footer-response .twitter { float: none; display: inline; }
+#footer-row3-wrap #footer-response .facebook { float: none; display: inline; }
+#footer-row3-wrap #footer-response .youtube { float: none; display: inline; }
+#footer-row3-wrap #footer-response .instagram { float: none; display: inline; }
+#footer-row3-wrap #footer-response { text-align: center; }
+#footer-row3-wrap #footer-response .gtas { display: none !important; }
+#footer-row3-wrap #footer-response .paypal { display: none !important; }
+#footer-row3-wrap #footer-response .twitter { float: none; display: inline; }
+#footer-row3-wrap #footer-response .facebook { float: none; display: inline; }
+#footer-row3-wrap #footer-response .youtube { float: none; display: inline; }
+#footer-row3-wrap #footer-response .instagram { float: none; display: inline; }
+#footer-row3-wrap #footer-response .twitter img { float: none; width: 40px; }
+#footer-row3-wrap #footer-response .facebook img { float: none; width: 40px; }
+#footer-row3-wrap #footer-response .youtube img { float: none; width: 40px; }
+#footer-row3-wrap #footer-response .instagram img { float: none; width: 40px; }
+#product-description #productserving .col1 b { color: rgb(20, 125, 175); }
+#menu73 .parentMenu { background: rgb(172, 44, 37); }
+.owl-carousel .owl-item { min-height: auto !important; padding: 0px !important; }
+.owl-carousel .owl-item br { display: none !important; }
+.owl-carousel .owl-stage { }
+.homepage-panel-holder .owl-nav .owl-prev { position: absolute; left: 0px; height: 45px; width: 42px; top: 90px; font-size: 0px !important; background-image: url(" https://s3-eu-west-1.amazonaws.com/musclefooduk/images/149373059-Checkout-Changes/149373059-arrows-left.png") !important; background-repeat: no-repeat !important; opacity: 1 !important; }
+.homepage-panel-holder .owl-nav .owl-next { position: absolute; right: 0px; height: 45px; width: 42px; top: 90px; font-size: 0px !important; background-image: url(" https://s3-eu-west-1.amazonaws.com/musclefooduk/images/149373059-Checkout-Changes/149373059-arrows-right.png") !important; background-repeat: no-repeat !important; opacity: 1 !important; }
+.owl-theme .owl-controls .owl-nav [class*="owl-"] { padding: 0px !important; margin: 0px 0px 0px 3px !important; }
+.owl-carousel { margin: 5px 0px 10px !important; }
+#custommenu { font-size: 14px; }
+#billing_ajax_confirm.billingajax-confirm { overflow-y: scroll !important; overflow-x: hidden !important; }
+.header-container { height: auto !important; }
+.quick-access .headerlifestylepic { }
+.header .col1 { max-width: 100%; width: 65% !important; margin-top: 25px !important; }
+.header .col1 .row1 { padding: 0px !important; width: 40% !important; }
+.row1 .logo img { max-width: 225px; }
+.header .col1 .row2 { padding: 0px !important; width: 60% !important; }
+.quick-access { width: 35% !important; height: auto !important; }
+.headerinfo-wrap { padding-top: 30px; height: 100% !important; max-width: 100% !important; width: 100% !important; }
+.form-search { margin-top: 15px; margin-left: 5% !important; }
+.headerlinks { text-align: left !important; padding-top: 4px !important; }
+.headerlinks a { padding: 0px 10px; border-right: 1px solid rgb(209, 224, 237); float: right !important; color: rgb(68, 68, 68) !important; text-decoration: none !important; }
+.headerlinks a span { font-size: 14px; font-weight: bold; color: rgb(79, 138, 190); }
+.headerlinks a img { float: left; }
+.quick-access .headerlifestylepic { display: none !important; }
+.headerlinks .basket { width: auto; padding: 17px 0px; text-align: left; border-right: none; float: right; }
+.headerlinks .basket a { border-right: none; }
+.headerlinks .basket span { display: block; font-weight: bold; font-size: 16px; }
+.headerlinks .basket img { margin: -15px -10px -5px 0px; max-height: 35px !important; }
+.headerlinks .basket .ms-basket-count { background: rgb(79, 138, 190); color: rgb(255, 255, 255); border-radius: 25px; float: left; font-size: 12px; width: 20px; text-align: center; height: 20px; line-height: 20px; margin-top: -14px; }
+.header .logo { margin-top: 1px !important; }
+#custommenu-mobile { z-index: 4000; top: 0px; background: rgb(245, 245, 245); position: fixed !important; box-shadow: none !important; width: 100% !important; }
+#footer-row3-wrap { min-height: auto !important; }
+#footer-row3-wrap #footer-row3 { min-height: auto !important; padding: 10px 0px !important; }
+#footer-row3-wrap #footer-response { padding: 10px 0px !important; }
+.ftr-twitter, .ftr-facebook, .ftr-youtube, .ftr-instagram { width: auto !important; height: auto !important; }
+.ftr-twitter { left: 0px !important; }
+.ftr-twitter img { margin: 0px 7px; width: 100% !important; max-width: 40px !important; }
+.ftr-facebook { left: 0px !important; }
+.ftr-facebook img { margin: 0px 7px; width: 100% !important; max-width: 40px !important; }
+.ftr-youtube { left: 0px !important; }
+.ftr-youtube img { margin: 0px 7px; width: 100% !important; max-width: 40px !important; }
+.ftr-instagram { left: 0px !important; }
+.ftr-instagram img { margin: 0px 7px; width: 100% !important; max-width: 40px !important; }
+.cms-home .main { padding-bottom: 0px !important; }
+.cms-home .page { padding-bottom: 0px !important; }
+.col1 .row2 .button { background-image: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/151535249-new-header/151535249-search.png"); background-position: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: initial; background-size: 45px !important; }
+#custommenu-mobile { position: fixed; top: 0px; background: rgb(245, 245, 245); width: 100%; box-shadow: none !important; padding: 4px 0px 0px !important; }
+#menu-button.hamburger { border-right: none; width: 14% !important; }
+.search-mobile { border-right: none; width: 14% !important; }
+.mobilelogo { border-right: none; max-width: 100%; width: 43% !important; }
+.mobilelogo img { margin-top: 1px !important; max-width: 120px !important; }
+#custommenu-mobile .basket { border-right: none; width: 14% !important; }
+.icon { width: 14% !important; }
+#menu-button a:link, #menu-button a:visited { text-align: center !important; float: none !important; }
+#custommenu-mobile .hamburger img, #custommenu-mobile .search-mobile img, #custommenu-mobile .basket img, #custommenu-mobile .icon img { max-width: 25px !important; margin-top: 5px !important; }
+.owl-theme .owl-controls .owl-nav [class*="owl-"] { margin-left: -2px !important; }
+#article h4 { font-weight: normal !important; font-family: maxima-med !important; }
+#footer-row4 { font-weight: normal !important; font-family: maxima-lig !important; }
+.ratings .rating-links { font-weight: normal !important; font-family: maxima-lig !important; }
+.category-description.std { padding: 0px 8px; font-weight: normal !important; font-family: maxima-lig !important; }
+.col-wrapper .col-main, .col2-left-layout .main .col-wrapper .col-main { font-weight: normal !important; font-family: maxima-lig !important; }
+p.nutrition-serving strong { font-family: maxima-med; font-weight: normal !important; }
+.owl-item .product-panel { width: 98% !important; }
+.owl-nav .owl-prev { position: absolute; left: -5px; height: 45px; width: 42px; top: 90px; font-size: 0px !important; background-image: url(" \9 https://s3-eu-west-1.amazonaws.com/musclefooduk/images/149373059-Checkout-Changes/149373059-arrows-left.png") !important; background-repeat: no-repeat !important; opacity: 1 !important; }
+.owl-nav .owl-next { position: absolute; right: -25px; height: 45px; width: 42px; top: 90px; font-size: 0px !important; background-image: url(" \9 https://s3-eu-west-1.amazonaws.com/musclefooduk/images/149373059-Checkout-Changes/149373059-arrows-right.png") !important; background-repeat: no-repeat !important; opacity: 1 !important; }
+.product-view .owl-nav .owl-prev { left: 0px !important; }
+.product-view .owl-nav .owl-next { right: 0px !important; }
+.product-view .ratings span img { width: 20px !important; }
+.cms-extra-deals .col-main .topup-slider-col { outline: rgb(235, 235, 235) solid 1px !important; margin-bottom: 0px !important; }
+#custommenu-mobile #menu-content { overflow-y: scroll; position: fixed; top: 43px; height: 100%; padding-bottom: 43px; z-index: 10000; }
+.customer-account-login .form-search, .cms-favourites .form-search { display: none !important; }
+.customer-account-login .nav-container, .cms-favourites .nav-container { display: none !important; }
+.customer-account-login .col-wrapper .col-main, .cms-favourites .col-wrapper .col-main { padding: 20px; border: 1px solid rgb(141, 181, 199); float: none !important; margin: 0px auto !important; border-radius: 3px !important; }
+.customer-account-login #article .col .articlelink2, .cms-favourites #article .col .articlelink2 { color: rgb(0, 0, 0); }
+.customer-account-login #article .col .articlelink2:nth-child(1), .cms-favourites #article .col .articlelink2:nth-child(1) { display: none; }
+.customer-account-login #article .col .articlelink2:nth-child(2), .cms-favourites #article .col .articlelink2:nth-child(2) { display: none; }
+.customer-account-login #article .col .articlelink2:nth-child(3), .cms-favourites #article .col .articlelink2:nth-child(3) { display: none; }
+.customer-account-login #article .col .articlelink2:nth-child(4), .cms-favourites #article .col .articlelink2:nth-child(4) { display: none; }
+.customer-account-login #article .col .articlelink2:nth-child(5), .cms-favourites #article .col .articlelink2:nth-child(5) { display: none; }
+.customer-account-login #article .col .articlelink2:nth-child(7), .cms-favourites #article .col .articlelink2:nth-child(7) { display: none; }
+.customer-account-login #article .col .articlelink2:nth-child(8), .cms-favourites #article .col .articlelink2:nth-child(8) { display: none; }
+.customer-account-login #article .col .articlelink2:nth-child(9), .cms-favourites #article .col .articlelink2:nth-child(9) { display: none; }
+.customer-account-login #article .col .articlelink2:nth-child(10), .cms-favourites #article .col .articlelink2:nth-child(10) { display: none; }
+.customer-account-login #article .col .articlelink2:nth-child(11), .cms-favourites #article .col .articlelink2:nth-child(11) { display: none; }
+.customer-account-login #article .col .articlelink2:nth-child(12), .cms-favourites #article .col .articlelink2:nth-child(12) { display: none; }
+.customer-account-login .footer-container #article, .cms-favourites .footer-container #article { background: rgb(255, 255, 255) !important; min-height: 0px !important; display: block !important; }
+.customer-account-login #article h4, .cms-favourites #article h4 { display: none; }
+.customer-account-login .billing-checkout-index .footer-container #article, .cms-favourites .billing-checkout-index .footer-container #article { min-height: 0px; }
+.customer-account-login #article .col, .cms-favourites #article .col { width: 100%; min-height: 0px; background: rgb(255, 255, 255) !important; }
+.customer-account-login #article .col:nth-child(2), .cms-favourites #article .col:nth-child(2) { display: none; }
+.customer-account-login #article .col:nth-child(3), .cms-favourites #article .col:nth-child(3) { display: none; }
+.customer-account-login #article .col:nth-child(4), .cms-favourites #article .col:nth-child(4) { display: none; }
+.customer-account-login #article .col .articlelink2, .cms-favourites #article .col .articlelink2 { padding-left: 0px; text-align: center; margin: 0px auto !important; }
+.customer-account-login #footer-row3-wrap, .cms-favourites #footer-row3-wrap { display: none !important; }
+.customer-account-login .form-list input.input-text, .cms-favourites .form-list input.input-text { padding: 4% 2% !important; width: 96% !important; }
+.customer-account-login .form-list .input-box, .cms-favourites .form-list .input-box { width: 100%; }
+.content .form-list li:nth-child(3) .input-box { }
+.content .form-list li:nth-child(3) .input-box::after { content: "Keep me signed in."; margin-left: 20px; font-weight: bold; color: rgb(85, 85, 85) !important; float: left !important; margin-top: -20px !important; }
+.customer-account-login .orange-button, .cms-favourites .orange-button { width: 100%; margin: 0px auto; background: rgb(103, 180, 0) !important; max-width: 340px !important; }
+.customer-account-login .orange-button:hover, .cms-favourites .orange-button:hover { background: rgb(96, 167, 0) !important; }
+.orange-button { -webkit-appearance: none; font-weight: normal !important; font-family: maxima-med !important; background: rgb(242, 141, 3) !important; box-shadow: none !important; }
+.orange-button:hover { background: rgb(231, 134, 1) !important; }
+.perfect-for.clearer { width: 100%; display: block; clear: both; padding-left: 1px; border-bottom: 1px solid rgb(220, 220, 220); overflow: hidden; }
+.owl-carousel .owl-item { cursor: pointer !important; }
+.owl-theme { cursor: pointer !important; }
+.owl-theme .owl-controls { opacity: 0; transition: 0.5s; cursor: pointer !important; }
+.owl-stage-outer + .owl-controls { opacity: 0 !important; }
+.owl-stage-outer:hover + .owl-controls { opacity: 9 !important; cursor: pointer !important; }
+.owl-controls:hover { opacity: 9 !important; cursor: pointer !important; }
+.col-main #middlecol-produkt #product-description .product-button-holder .but-oos, .col-main #middlecol-produkt #product-description .product-button-holder .but-oos:hover, .weekly-cost-details .add-to-cart .product-button-holder .but-oos, .weekly-cost-details .add-to-cart .product-button-holder .but-oos:hover { padding-bottom: 0px; border-radius: 3px; background: rgb(175, 175, 175) !important; font-size: 0px !important; }
+.col-main #middlecol-produkt #product-description .product-button-holder .but-oos::after, .weekly-cost-details .add-to-cart .product-button-holder .but-oos::after { content: "OUT OF STOCK"; font-size: 16px !important; }
+.cms-extra-deals .col-main .topup-slider-col .but-oos { border-radius: 3px; pointer-events: none; background: rgb(175, 175, 175) !important; font-size: 0px !important; }
+.cms-extra-deals .col-main .topup-slider-col .but-oos::after { content: "UNAVAILABLE"; pointer-events: none; font-size: 12px !important; }
+.col-main #middlecol-produkt #product-description .product-button-holder .but-coming, .col-main #middlecol-produkt #product-description .product-button-holder .but-coming:hover, .weekly-cost-details .add-to-cart .product-button-holder .but-coming, .weekly-cost-details .add-to-cart .product-button-holder .but-coming:hover { padding-bottom: 0px; border-radius: 3px; background: rgb(175, 175, 175) !important; font-size: 0px !important; }
+.col-main #middlecol-produkt #product-description .product-button-holder .but-coming::after, .weekly-cost-details .add-to-cart .product-button-holder .but-coming::after { content: "COMING SOON"; font-size: 16px !important; }
+.cms-extra-deals .col-main .topup-slider-col .but-coming { border-radius: 3px; pointer-events: none; background: rgb(175, 175, 175) !important; font-size: 0px !important; }
+.cms-extra-deals .col-main .topup-slider-col .but-coming::after { content: "UNAVAILABLE"; pointer-events: none; font-size: 12px !important; }
+.col-main #middlecol-produkt #product-description .product-button-holder .but-soldout, .col-main #middlecol-produkt #product-description .product-button-holder .but-soldout:hover, .weekly-cost-details .add-to-cart .product-button-holder .but-soldout, .weekly-cost-details .add-to-cart .product-button-holder .but-soldout:hover { padding-bottom: 0px; border-radius: 3px; background: rgb(175, 175, 175) !important; font-size: 0px !important; }
+.col-main #middlecol-produkt #product-description .product-button-holder .but-soldout::after, .weekly-cost-details .add-to-cart .product-button-holder .but-soldout::after { content: "SOLD OUT"; font-size: 16px !important; }
+.cms-extra-deals .col-main .topup-slider-col .but-soldout { border-radius: 3px; pointer-events: none; background: rgb(175, 175, 175) !important; font-size: 0px !important; }
+.cms-extra-deals .col-main .topup-slider-col .but-soldout::after { content: "UNAVAILABLE"; pointer-events: none; font-size: 12px !important; }
+#custommenu { height: 40px !important; }
+#custommenu-mobile { z-index: 9999; }
+.nav-container { box-sizing: border-box; border-left: 10px solid rgb(255, 255, 255); border-right: 10px solid rgb(255, 255, 255); width: 100% !important; }
+.form-search { margin-top: 10px; }
+#search { outline: none; border-radius: 3px; height: 40px; line-height: 40px; font-size: 14px; background: rgb(241, 245, 248); width: 90%; color: rgb(153, 153, 153); border: 1px solid rgb(167, 196, 222) !important; font-family: maxima-lig !important; }
+.col1 .row2 .button { background-image: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/152511473-Header-Tweaks/145829433-search.png"); background-position: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: initial; margin: 8px 0px 0px -35px; background-repeat: no-repeat; background-size: 60% !important; }
+.header .col1 { margin-top: 20px !important; }
+.headerinfo-wrap { padding-top: 26px; }
+.headerlinks .basket { padding: 0px; text-align: center; }
+.headerlinks .basket img { margin: -3px 0px -5px !important; max-height: 22px !important; }
+.headerlinks .basket a span { color: rgb(79, 138, 190); }
+.headerlinks a img { float: none; }
+.headerlinks .basket .ms-basket-count { float: right; font-size: 11px !important; width: 17px !important; height: 17px !important; line-height: 17px !important; margin-top: -40px !important; }
+.headerlinks .basket .ms-basket-count:empty { display: none; }
+.main .col-main .checkout-wrap #future-orders .order-panel { width: 395px !important; }
+.cms-page-view .nav-container { position: absolute !important; }
+.cms-page-view .header-container { position: absolute !important; }
+.customer-account-login .footer-signup-small-panel { display: none !important; }
+.billing-cart-index .footer-signup-small-panel { display: none !important; }
+.billing-checkout-index .footer-signup-small-panel { display: none !important; }
+#new-form-wrap-full-footer { display: none !important; }
+form#review-form div.buttons-set button.button { background: url("../../images/5832-submit-review-button.png") left top no-repeat scroll; height: 25px; overflow: hidden; }
+form#review-form div.buttons-set button:hover.button { background-position: left -25px; }
+form#review-form div.buttons-set button.button span { background: none !important; }
+form#review-form div.buttons-set button.button span span { visibility: hidden; }
+.owl-carousel .animated { animation-duration: 1000ms; animation-fill-mode: both; }
+.owl-carousel .owl-animated-in { z-index: 0; }
+.owl-carousel .owl-animated-out { z-index: 1; }
+.owl-carousel .fadeOut { animation-name: fadeOut; }
+.owl-carousel { display: none; width: 100%; -webkit-tap-highlight-color: transparent; position: relative; z-index: 1; }
+.owl-carousel .owl-stage { position: relative; }
+.owl-carousel .owl-stage::after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0px; }
+.owl-carousel .owl-stage-outer { position: relative; overflow: hidden; transform: translate3d(0px, 0px, 0px); }
+.owl-carousel .owl-controls .owl-nav .owl-prev, .owl-carousel .owl-controls .owl-nav .owl-next, .owl-carousel .owl-controls .owl-dot { cursor: pointer; user-select: none; }
+.owl-carousel.owl-loaded { display: block; }
+.owl-carousel.owl-hidden { opacity: 0; }
+.owl-carousel .owl-refresh .owl-item { display: none; }
+.owl-carousel .owl-item { position: relative; min-height: 1px; float: left; backface-visibility: hidden; -webkit-tap-highlight-color: transparent; user-select: none; }
+.owl-carousel .owl-item img { display: block; width: 100%; transform-style: preserve-3d; }
+.owl-carousel.owl-text-select-on .owl-item { user-select: auto; }
+.owl-carousel .owl-grab { cursor: -webkit-grab; }
+.owl-carousel.owl-rtl .owl-item { float: right; }
+.no-js .owl-carousel { display: block; }
+.owl-carousel .owl-item .owl-lazy { opacity: 0; transition: opacity 400ms ease; }
+.owl-carousel .owl-item img { transform-style: preserve-3d; }
+.owl-carousel .owl-video-wrapper { position: relative; height: 100%; background: rgb(0, 0, 0); }
+.owl-carousel .owl-video-play-icon { position: absolute; height: 80px; width: 80px; left: 50%; top: 50%; margin-left: -40px; margin-top: -40px; background: url("owl.video.play.png") no-repeat; cursor: pointer; z-index: 1; backface-visibility: hidden; transition: scale 100ms ease; }
+.owl-carousel .owl-video-play-icon:hover { }
+.owl-carousel .owl-video-playing .owl-video-tn, .owl-carousel .owl-video-playing .owl-video-play-icon { display: none; }
+.owl-carousel .owl-video-tn { opacity: 0; height: 100%; background-position: center center; background-repeat: no-repeat; background-size: contain; transition: opacity 400ms ease; }
+.owl-carousel .owl-video-frame { position: relative; z-index: 1; }
+.owl-theme .owl-controls { margin-top: 10px; text-align: center; -webkit-tap-highlight-color: transparent; }
+.owl-theme .owl-controls .owl-nav [class*="owl-"] { color: rgb(255, 255, 255); font-size: 14px; margin: 5px; padding: 4px 7px; background-color: rgb(214, 214, 214); display: inline-block; cursor: pointer; border-radius: 3px; }
+.owl-theme .owl-controls .owl-nav [class*="owl-"]:hover { background: rgb(134, 151, 145); color: rgb(255, 255, 255); text-decoration: none; }
+.owl-theme .owl-controls .owl-nav .disabled { opacity: 0.5; cursor: default; }
+.owl-theme .owl-dots .owl-dot { display: inline-block; zoom: 1; }
+.owl-theme .owl-dots .owl-dot span { width: 10px; height: 10px; margin: 5px 7px; background-color: rgb(214, 214, 214); display: block; backface-visibility: visible; transition: opacity 200ms ease; border-radius: 30px; }
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span { background: rgb(134, 151, 145); }
+#fancybox-loading { position: fixed; top: 50%; left: 50%; width: 40px; height: 40px; margin-top: -20px; margin-left: -20px; cursor: pointer; overflow: hidden; z-index: 1104; display: none; }
+#fancybox-loading div { position: absolute; top: 0px; left: 0px; width: 40px; height: 480px; background-image: url("fancybox.png"); }
+#fancybox-overlay { position: absolute; top: 0px; left: 0px; width: 100%; z-index: 1100; display: none; }
+#fancybox-tmp { padding: 0px; margin: 0px; border: 0px; overflow: auto; display: none; }
+#fancybox-wrap { position: absolute; top: 0px; left: 0px; padding: 20px; z-index: 1101; outline: none; display: none; }
+#fancybox-outer { position: relative; height: 100%; background: rgb(255, 255, 255); width: 100% !important; }
+#fancybox-content { height: 0px; padding: 0px; outline: none; position: relative; overflow: hidden; z-index: 1102; border: 0px solid rgb(255, 255, 255); width: 100% !important; }
+#fancybox-close { position: absolute; top: -15px; right: -15px; width: 30px; height: 30px; background: url("fancybox.png") -40px 0px transparent; cursor: pointer; z-index: 1103; display: none; }
+#fancybox-left, #fancybox-right { position: absolute; bottom: 0px; height: 100%; width: 35%; cursor: pointer; outline: none; background: url("blank.gif") transparent; z-index: 1102; display: none; }
+#fancybox-left { left: 0px; }
+#fancybox-right { right: 0px; }
+#fancybox-left-ico, #fancybox-right-ico { position: absolute; top: 50%; left: -9999px; width: 30px; height: 30px; margin-top: -15px; cursor: pointer; z-index: 1102; display: block; }
+#fancybox-left-ico { background-image: url("fancybox.png"); background-position: -40px -30px; }
+#fancybox-right-ico { background-image: url("fancybox.png"); background-position: -40px -60px; }
+#fancybox-left:hover, #fancybox-right:hover { visibility: visible; }
+#fancybox-left:hover span { left: 20px; }
+#fancybox-right:hover span { left: auto; right: 20px; }
+.fancybox-bg { position: absolute; padding: 0px; margin: 0px; border: 0px; width: 20px; height: 20px; z-index: 1001; }
+#fancybox-bg-n { top: -20px; left: 0px; width: 100%; background-image: url("fancybox-x.png"); }
+#fancybox-bg-ne { top: -20px; right: -20px; background-image: url("fancybox.png"); background-position: -40px -162px; }
+#fancybox-bg-e { top: 0px; right: -20px; height: 100%; background-image: url("fancybox-y.png"); background-position: -20px 0px; }
+#fancybox-bg-se { bottom: -20px; right: -20px; background-image: url("fancybox.png"); background-position: -40px -182px; }
+#fancybox-bg-s { bottom: -20px; left: 0px; width: 100%; background-image: url("fancybox-x.png"); background-position: 0px -20px; }
+#fancybox-bg-sw { bottom: -20px; left: -20px; background-image: url("fancybox.png"); background-position: -40px -142px; }
+#fancybox-bg-w { top: 0px; left: -20px; height: 100%; background-image: url("fancybox-y.png"); }
+#fancybox-bg-nw { top: -20px; left: -20px; background-image: url("fancybox.png"); background-position: -40px -122px; }
+#fancybox-title { font-family: Helvetica; font-size: 12px; z-index: 1102; }
+#fancybox-title-over { padding: 10px; background-image: url("fancy_title_over.png"); display: block; }
+#fancybox-title-float-wrap { border: none; border-collapse: collapse; width: auto; }
+#fancybox-title-float-wrap td { border: none; white-space: nowrap; }
+#fancybox-title-float-left { padding: 0px 0px 0px 15px; background: url("fancybox.png") -40px -90px no-repeat; }
+#fancybox-title-float-main { color: rgb(255, 255, 255); line-height: 29px; font-weight: bold; padding: 0px 0px 3px; background: url("fancybox-x.png") 0px -40px; }
+#fancybox-title-float-right { padding: 0px 0px 0px 15px; background: url("fancybox.png") -55px -90px no-repeat; }
+.fancybox-ie6 #fancybox-close { background: transparent; }
+.fancybox-ie6 #fancybox-left-ico { background: transparent; }
+.fancybox-ie6 #fancybox-right-ico { background: transparent; }
+.fancybox-ie6 #fancybox-title-over { background: transparent; zoom: 1; }
+.fancybox-ie6 #fancybox-title-float-left { background: transparent; }
+.fancybox-ie6 #fancybox-title-float-main { background: transparent; }
+.fancybox-ie6 #fancybox-title-float-right { background: transparent; }
+.fancybox-ie6 #fancybox-bg-w, .fancybox-ie6 #fancybox-bg-e, .fancybox-ie6 #fancybox-left, .fancybox-ie6 #fancybox-right, #fancybox-hide-sel-frame { }
+#fancybox-loading.fancybox-ie6 { position: absolute; margin-top: 0px; }
+#fancybox-loading.fancybox-ie6 div { background: transparent; }
+.fancybox-ie .fancybox-bg { background: transparent !important; }
+.fancybox-ie #fancybox-bg-n { }
+.fancybox-ie #fancybox-bg-ne { }
+.fancybox-ie #fancybox-bg-e { }
+.fancybox-ie #fancybox-bg-se { }
+.fancybox-ie #fancybox-bg-s { }
+.fancybox-ie #fancybox-bg-sw { }
+.fancybox-ie #fancybox-bg-w { }
+.fancybox-ie #fancybox-bg-nw { }
+.upsells-small { width: 100%; outline: rgb(79, 138, 190) solid 1px; padding: 0.5% 0.5% 10px; }
+.upsells-small .more-deals-img { width: 96%; padding: 2%; float: none; }
+.upsells-small .more-deals-choose { float: none; font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; font-size: 14px; line-height: 18px; font-family: Arial, Helvetica, sans-serif; background: none; width: 100%; margin-left: 0px; }
+.upsells-small .more-deals-choose select { margin-top: 0px; }
+.upsells-small .more-deals-content { width: 96%; min-height: 56px; margin-left: 0px; }
+.upsells-small .more-deals-content h3 { text-align: center; margin-bottom: 0px; }
+.upsells-small .upsell-price-wrap { float: none; clear: both; }
+.upsells-small .price { text-align: center; font-size: 21px; color: rgb(0, 119, 0); font-weight: bold; margin-left: 0px; }
+.upsells-small .sml-upsell-ratings { width: 90%; margin: 0px auto; text-align: center; }
+.ratings .rating-box { margin: 0px auto !important; }
+.small-upsell-holder { width: 100%; margin: 0px; }
+.upsells-small .review-left, .upsells-small .review-right { width: 50%; margin-right: 0px; text-align: center; float: left; clear: none !important; }
+.three-col-holder ul#response-nav li a.active:hover { background-color: rgb(255, 255, 255) !important; }
+.twenty-percent-holder-gandg { width: 23%; margin: 1%; float: left; }
+.upsells-small { outline: rgb(204, 204, 204) solid 1px !important; }
+.upsells-small .more-deals-content h3 { font-weight: normal; font-size: 16px; min-height: 57px; font-family: maxima-lig !important; }
+.upsells-small .price { font-size: 18px; }
+.exit-pop-wrap { padding: 20px; background: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.54) 0px 0px 100px 0px; }
+.exit-cross { width: 35px; height: 35px; position: relative; right: 15px; top: -15px; cursor: pointer; float: right; }
+.hdc-ctatext-small { text-align: center; color: rgb(0, 102, 153); font-size: 20px; line-height: 35px; margin-bottom: 0px; }
+#recpoint { position: relative; padding-top: 5px; padding-left: 8px; padding-bottom: 5px; line-height: 14px; font-size: 12px; color: rgb(255, 255, 255); width: 150px; border-radius: 5px; background-color: rgb(247, 142, 30) !important; }
+#recpoint::after, #recpoint::after { position: absolute; top: -8.5px; left: 149px; content: ""; width: 0px; height: 0px; border-right: 10px solid rgb(255, 255, 255); border-bottom: 20px solid transparent; border-top: 20px solid transparent; }
+#recpoint.ohtwo-tag { position: relative; padding-top: 5px; width: 90px; font-family: maxima-lig; border-radius: 0px; }
+#recpoint.ohtwo-tag::after, #recpoint.ohtwo-tag::after { position: absolute; top: -8.5px; left: 89px; content: ""; width: 0px; height: 0px; border-right: 10px solid rgb(255, 255, 255); border-bottom: 20px solid transparent; border-top: 20px solid transparent; }
+.socialimg-xmas-wrap-x.clearer { max-width: 85%; }
+.upsells-small .more-deals-img.age18 { position: relative; }
+.upsells-small .more-deals-img.age18::after { content: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/151757954-age-verification/151757954-18cert-prod.png"); position: absolute; top: 14px; right: 14px; }
+.twomo-ctatext { text-align: center; color: rgb(0, 102, 153); font-size: 27px; line-height: 31px; margin-bottom: 0px; }
+#recpoint.ohtwo-tag.abm-fg { width: 120px; }
+#recpoint.ohtwo-tag.abm-fg::after, #recpoint.ohtwo-tag.abm-fg::after { left: 123px; }
+.padding-top-ny { min-height: 45px !important; }
+.newyear-normally span { text-decoration: line-through; }
+.bluepalebg { background: rgb(239, 243, 247); }
+.cta-boxshadow { box-shadow: rgba(0, 0, 0, 0.09) 0px 0px 5px 0px; }
+.padding-top-ny { margin-top: 10px; }
+.quantity-dropdown { text-align: center; overflow: hidden; }
+.qty-wrap { display: inline-block; text-transform: uppercase; margin-top: -16px; padding: 0px 3% 4% 0%; font-size: 15px; font-family: maxima-med; color: rgb(111, 111, 111) !important; }
+.bg-dropdown { background: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/153688941-ny-hamper/153688941-bluedropdown.png") 96% 0px no-repeat; margin: 0px auto; width: 30%; display: inline-block; height: 28px; }
+.bg-dropdown select { background: transparent; border: none; font-size: 14px; height: 29px; padding: 5px; width: 152px; -webkit-appearance: none; }
+.roundedcorners { border-radius: 5px; }
+.colorblue { background-color: rgb(237, 243, 247); border: 1px solid rgb(220, 233, 239); }
+.colorblue select { color: rgb(66, 66, 66); }
+.newyear-price { text-align: center; font-size: 21px; color: rgb(68, 126, 186); margin-bottom: 20px; font-weight: bold; margin-left: 0px; text-transform: uppercase; }
+.newyear-normally { color: rgb(196, 54, 70); font-size: 13px; text-transform: uppercase; text-align: center; font-weight: bold; margin-bottom: 2px; }
+.wrapper-ny .header-wrap { overflow-x: hidden !important; }
+.small-upsell-holder.wrapper2k18 { width: 94.5%; margin: 0px auto 3%; }
+.tpcarousel-wrap { padding: 4% 0px 1%; }
+.code-box-wrap { width: 46%; float: left; margin-top: 4px; }
+.upsells-twoeight { padding: 2% 0% 4%; margin: 26px 0px 0px; background: rgb(239, 243, 247); width: 100%; }
+.upsells-twoeight h2 { text-align: center; width: 90%; color: rgb(74, 74, 74); padding-left: 4%; font-size: 18px; margin: 2% 0px; }
+.separator2k18 { height: 1px; background: rgb(215, 227, 238); width: 94%; margin: 0px auto 20px; }
+.upsells-small.ny2k18 { padding-top: 2%; padding-right: 2%; padding-left: 2%; background: white; outline: rgb(222, 232, 242) solid 1px !important; padding-bottom: 15px !important; }
+.code-box-twoeight img { position: absolute; left: 7%; top: -20%; }
+.prod-img-twoeight img { max-width: 154px; }
+a.cta218 { text-decoration: none !important; }
+.ctaurgency-twoeight { position: relative; z-index: 100; display: block; width: 70%; margin: -13% auto 15px; border: 1px solid transparent; border-radius: 0px; }
+.urgencyred-timer { z-index: 100; margin-bottom: 10px; }
+.timer-twoeight { width: 90%; margin-right: auto; margin-left: auto; text-align: center; padding-top: 1%; padding-bottom: 1%; border-style: solid; border-width: 3px; border-color: rgb(201, 63, 80); border-radius: 6px; background: rgb(205, 66, 83); color: rgb(255, 255, 255); font-size: 14px; text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 6px; font-family: maxima-lig; }
+.triang-twoeight { width: 0px; height: 0px; margin: 0px auto; border-style: solid; border-width: 10px 10px 0px; border-color: rgb(205, 66, 83) transparent transparent; }
+.timer-twoeight { width: 90%; margin-right: auto; margin-left: auto; text-align: center; padding-top: 1%; padding-bottom: 1%; border-style: solid; border-width: 3px; border-color: rgb(201, 63, 80); border-radius: 6px; background: rgb(205, 66, 83); color: rgb(255, 255, 255); font-size: 14px; text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 6px; font-family: maxima-lig; }
+.triang-twoeight { width: 0px; height: 0px; margin: 0px auto; border-style: solid; border-width: 10px 10px 0px; border-color: rgb(205, 66, 83) transparent transparent; }
+.cta-wrapper-twoeight { margin-top: 11px; margin-bottom: 0px; padding: 3.2%; border-color: transparent; border-radius: 3px; background: rgb(255, 255, 255); }
+input.herobut { width: 51%; border: 1px solid rgb(239, 243, 247); -webkit-appearance: none; float: right; margin-top: 2px; }
+.ctabutton { border: 0px; cursor: pointer; text-align: center; width: 40%; min-height: 60px; margin-right: auto; font-weight: bold; border-radius: 5px; font-family: maxima-Med; font-size: 1.5em; text-transform: uppercase; -webkit-appearance: none; color: rgb(255, 255, 255) !important; background: rgb(103, 180, 0) !important; }
+.ticks-ny-eighteen.clearer { background: rgb(239, 243, 247); padding: 0px; margin: 0px; width: 100%; }
+ul.ticks-twoeight { padding: 4% 0px 3%; }
+.ticks-twoeight li { background-image: url("//s3-eu-west-1.amazonaws.com/musclefooduk/images/20614-green-ticks-bullet-points.png"); background-size: 1em; background-repeat: no-repeat; background-position: 0px 0px; padding-left: 27px; padding-right: 1.5em; line-height: 20px; color: rgb(75, 75, 75); }
+.maintxt-wrapper { display: block; margin-right: auto; margin-left: auto; padding: 3%; }
+.maintxt-wrapper.extra-text { margin-bottom: 15px; border-bottom: 1px solid rgb(245, 245, 245); background: rgb(253, 253, 254); }
+.headertxt-twoeight { color: rgb(74, 74, 74); font-size: 19px; padding: 0% 4%; line-height: 34px; text-align: center; }
+.product-row-twoeight { padding: 2px 31px 1px; }
+.leftprod-row { padding-bottom: 25px; width: 48%; border-width: 1.4px; margin: 2% 0px; border-color: rgb(225, 234, 244); border-bottom-style: solid; float: left; box-sizing: border-box; }
+.product-row-twoeight > div:nth-child(1) { margin-right: 3%; }
+.prod-img-twoeight { width: 40%; float: left; }
+.prod-desc-wrap-twoeight { width: 60%; float: left; left: 0px; top: 0px; right: 0px; padding-left: 0px; }
+.prodhead-twoeight { margin-top: 0px; margin-bottom: 0px; color: rgb(74, 74, 74); font-size: 16.5px; line-height: 25px; font-weight: 400; text-align: left; }
+.starreview-wraptwoeight { padding-top: 10px; padding-bottom: 10px; }
+.star-wrap { color: rgb(247, 229, 59); font-size: 21px; text-align: left; display: inline-block; margin-right: 3%; }
+.reviewblock-twoeight { color: rgb(82, 139, 192); font-size: 15px; text-decoration: underline; display: inline-block; }
+.prod-description-txt { color: rgb(83, 83, 83); font-size: 13px; font-weight: 400; text-align: left; }
+.prodsecondrow-twoeight { padding-top: 8px; }
+.logos-wrap { float: left; width: 40%; }
+.product-icons-holder.cent-logo { margin-top: 15px; margin-left: -11%; float: none; text-align: center !important; }
+.product-icons-holder.cent-logo > div { float: none !important; }
+.ingredients-dropdown.clearer { float: right; width: 60%; padding: 2% 0px; position: relative; box-sizing: border-box; }
+.nutr-block-twoeight { border: 1px solid rgb(189, 209, 229); border-radius: 3px; }
+.ibut-twoeight { width: 22px; height: 22px; margin-top: 7px; margin-left: 19px; float: left; }
+.nutritional-p { width: 70%; padding-top: 8px; padding-bottom: 8px; padding-left: 14px; float: left; text-align: center; font-size: 14px; font-family: maxima-med; color: rgb(81, 138, 192); }
+.ctamidpage-block { margin-bottom: 3%; text-align: center; }
+.chilled-delivery-twoeight { width: 95%; margin-right: auto; margin-left: auto; padding: 0.5%; margin-top: 20px; box-sizing: border-box; border: 1px solid rgb(189, 209, 229); border-radius: 4px; background: rgb(241, 245, 248); }
+.del-img { float: left; margin-left: 1%; width: 39%; padding: 0.5% 1%; box-sizing: border-box; }
+.delivery-text { float: left; width: 60%; padding: 3% 2.5% 3% 2%; box-sizing: border-box; }
+.chilled-del-txt { color: rgb(74, 74, 74); font-size: 16px; line-height: 28px; text-align: left; margin-top: -5px; }
+.tcs-twoeight { border-top: 1px solid rgb(221, 221, 221); padding: 4% 0px 0px; }
+.tcs-twoeight p { width: 70%; text-align: center; margin: 0px auto; color: rgb(156, 156, 156); line-height: 23px; font-size: 12px; }
+.nutritionals-callout-twoeight { position: absolute; min-width: 300px; z-index: 100; width: 20%; margin-top: 6px; padding: 3.2%; border: 1px solid rgb(190, 210, 229); background-color: rgb(255, 255, 255); border-radius: 3px; }
+.nutritionals-callout-twoeight > div p { display: none !important; }
+.nutrition-table-twoeight th { background-color: rgb(217, 229, 240); color: rgb(97, 99, 101); border-bottom: 1px solid rgb(228, 239, 244); padding: 8px 10px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; white-space: nowrap; font-family: maxima-med; }
+.nutrition-table-twoeight td { background-color: rgb(245, 248, 252); border-top: 1px solid rgb(255, 255, 255); border-bottom: 2px solid rgb(255, 255, 255); padding: 8px 10px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; color: rgb(75, 75, 75) !important; }
+.nutritionals-callout-twoeight > div:nth-child(2) { display: none !important; }
+table.nutrition-table-twoeight { background-color: rgb(228, 239, 244); border: none; color: rgb(255, 255, 255); font-style: normal !important; font-variant: normal !important; font-weight: bold !important; font-stretch: normal !important; font-size: 11px !important; line-height: 13px !important; font-family: maxima-lig !important; }
+.rowtwoeight > div:nth-child(1) { border-left: 0px !important; }
+.ticks-twoeight.rowtwoeight { text-align: center; }
+.viewall-items { display: none; border: 1px solid rgb(189, 209, 229); border-radius: 3px; width: 83%; padding: 3%; text-align: center; font-size: 4.1vw; font-family: maxima-med; color: rgb(81, 138, 192); margin: 1% auto 4%; }
+.main-prod-wrapper { position: relative; }
+.ticks-static { padding: 2% 0% 1%; margin: 0px 0%; background: rgb(239, 243, 247); width: 100%; }
+.ticks-static-twoeight.rowtwoeight { text-align: center; width: 100%; }
+ul.ticksstatic-twoeight { display: inline-block; width: 29%; margin-left: 0px; font-size: 15px; text-align: left; margin-bottom: 1em; color: rgb(75, 75, 75); }
+.ticksstatic-twoeight li { background-image: url("//s3-eu-west-1.amazonaws.com/musclefooduk/images/20614-green-ticks-bullet-points.png"); background-size: 1em; background-repeat: no-repeat; background-position: 0px 8px; padding-left: 1.7em; padding-right: 1.5em; line-height: 33px; }
+.supermarket-comp.mob.show-in-mobile-view2 { margin-top: 0%; }
+.code-box-wrap { width: 47%; float: left; padding-right: 2%; margin-top: 3px; }
+.code-box-tcs { font-size: 10px; font-family: maxima-lig; color: grey; text-transform: uppercase; width: 155px; position: absolute; top: -37%; left: 50%; margin-left: -77px; }
+.code-box-twoeight { background: rgb(248, 248, 248); min-height: 50px; border-width: 3.8px; border-style: dashed; border-color: rgb(235, 235, 235); margin: 0px auto; font-family: maxima-med; font-size: 1.2em; line-height: 45px; text-align: center; color: rgb(201, 63, 80); border-image-source: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/153688941-ny-hamper/153688941-codebox.png") !important; border-image-slice: 2.5 !important; border-image-width: initial !important; border-image-outset: initial !important; border-image-repeat: round !important; -webkit-border-image: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/153688941-ny-hamper/153688941-codebox.png") 2.5 fill round !important; }
+.ctamidpage-block { width: 70%; margin: 0px auto; text-align: center; }
+.midpage-wrap.clearer { margin-top: 17px; margin-bottom: 11px; }
+.code-box-wrap { width: 47%; position: relative; float: left; padding-right: 2%; margin-top: 3px; }
+.midpage-wrap .code-box-wrap .code-box-tcs { font-size: 10px; font-family: maxima-lig; color: grey; text-transform: uppercase; top: -37%; width: 155px; position: absolute; left: 50%; margin-left: -77px; }
+.midpage-wrap .code-box-wrap .code-box-twoeight img { position: absolute; left: 7%; top: -19%; }
+input.wider-footer { width: 70%; }
+.exo-timer-NYpink { text-align: center; color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.27) 1px 1px 4px; padding: 20px 10px 15px; box-sizing: border-box; width: 98%; z-index: 100; margin: 1.2% auto; min-height: 87px; background-color: rgb(208, 76, 93); border-radius: 6px; background-image: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/153694800-ny-twice-as-nice/153694800-pinkheader.jpg"); background-position-y: -15px; background-size: 147px; background-repeat: no-repeat; }
+.exo-timer-NYpink span.exo-timer-LrgText { font-size: 16px; font-family: maxima-Med; }
+.exo-timer-NYpink span.exo-timer-SmlText { font-size: 14px; font-family: maxima-lig; }
+.exo-timer-NYpink img { width: 6%; margin-left: 4%; float: left; }
+.exo-timer-NYpink > article { width: 86%; float: right; margin-right: 4%; }
+.product-breakdown-twohamp { font-size: 1.5em; }
+.percentage-wrapper { width: 72%; margin: 0px auto; }
+.upsells-twoeight span.hide-in-mobile-view { font-size: 15px; }
+.plschilled-twoeight.long { width: 42%; }
+img.freesash { width: 100%; }
+.plschilled-twoeight.free { background: none; width: 50%; margin: -20px auto; }
+.mobShowFullHamp .main-prod-wrapper::after { display: none; }
+.prod-img-leftcol-2grid img.img100 { max-width: 154px; }
+.ingredients-dropdown-2grid.clearer { float: left; width: 66%; padding: 1% 3% 2%; position: relative; box-sizing: border-box; }
+.mysterybox span.txtline2.MBwhite, .mysterybox span.txtline4.MBwhite, .mysterybox div.plschilled-twoeight { color: rgb(255, 255, 255); }
+.mysterybox div.plschilled-twoeight { background: rgb(47, 99, 144); }
+.header-wrap.mysterybox h1.header-text { width: 100%; }
+.plschilled-twoeight.free.long { width: 60%; margin: -25px auto -32px; }
+.exo-timer-NYpink.gift.clearer { background-image: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/154541680-free-gift-hamper/154541680-pink-banner.jpg"); }
+.bluepalebg.clearer.trustpilotimg { text-align: center; padding-bottom: 4%; }
+.bluepalebg.clearer.trustpilotimg img { max-width: 246px; }
+p.twomo-ctatext.febhamp { font-family: maxima-lig; font-weight: bold; color: rgb(67, 125, 186); padding-bottom: 3%; width: 95%; margin: 0px auto; }
+.twomo-ctatext.febhamp > span { font-family: maxima-lig; color: rgb(111, 111, 111); }
+.feb-header { text-align: center; padding: 2% 0px; font-size: 19px; }
+.feb-header::after { content: ""; width: 75px; height: 2px; background-color: rgb(97, 190, 56); margin: 15px auto 0px; display: block; }
+.header-text.animated { animation-duration: 1s; animation-fill-mode: both; }
+.fadeInUp { animation-name: fadeInUp; }
+.slowcook-headerFloat h1.header-text { margin: 15px auto; }
+.wrapper-ny .recurringSpecialBanner.nyMargin, .wrapper-ny .upsells-twoeight.nyMargin { margin-top: 0px; }
+.logo-moc { max-width: 40%; margin: 0px auto 1%; }
+.ingredient-breakdown-wrapper { width: 100%; }
+.ingredient-breakdown-wrapper h2 { width: 96%; background-color: rgb(217, 229, 240); color: rgb(97, 99, 101); font-family: maxima-med; font-weight: bold; padding: 8px 2%; font-size: 11px; margin-bottom: 0px; }
+.ingredient-breakdown { width: 96%; font-family: maxima-lig; font-weight: normal; font-size: 11px; line-height: 16px; padding: 8px 2%; }
+.ingredient-breakdown strong { font-weight: bold; font-family: maxima-med; }
+* { background: none !important; text-align: left !important; }
+html { margin: 0px !important; padding: 0px !important; }
+body { background: rgb(255, 255, 255) !important; font-size: 9pt !important; padding: 0px !important; margin: 10px !important; }
+a { color: rgb(41, 118, 201) !important; }
+th, td { color: rgb(47, 47, 47) !important; border-color: rgb(204, 204, 204) !important; }
+.header-container, .nav-container, .footer-container, .pager, .toolbar, .actions, .buttons-set { display: none !important; }
+iframe#_hjRemoteVarsFrame { display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important; }
+#livechat-full { width: 270px !important; height: 332px !important; }
+.custommenu-mobile .basket { position: relative; }
+.custommenu-mobile .ms-basket-count { color: rgb(255, 255, 255); position: absolute; top: 5%; right: 5%; min-width: 17px; border-radius: 50%; background: rgb(211, 4, 2); }
+.col1-layout .col-main { width: 100%; margin: 0%; padding: 0px; }
+div#FGXseal { background: rgb(239, 243, 247) !important; }
+.col1-layout .main { padding: 0px !important; }
+.wrapper { background: repeat-x rgb(239, 243, 247); }
+.cms-page-view .footer-container { background: rgb(239, 243, 247); }
+.cms-page-view #article .col:nth-child(3) { width: 100%; margin: 1% 0px; min-height: 0px; text-align: center; display: block !important; background: rgb(239, 243, 247) !important; }
+.cms-page-view #article h4 { max-width: none; color: rgb(85, 85, 85); text-align: center; display: none; }
+.cms-page-view #article .col .articlelink2 { text-align: center; max-width: none; display: inline; color: rgb(156, 156, 156); }
+.cms-page-view #article .col:nth-child(1n+4) { display: none !important; }
+.cms-page-view #article .col:nth-child(3) a:nth-child(-1n+5) { display: none; }
+.cms-page-view #article .col:nth-child(3) a:nth-child(1n+8) { display: none; }
+.cms-page-view.footer-signup-small-panel { display: none !important; }
+.cms-page-view .footer-signup-small-panel { display: none !important; }
+.cms-page-view .footer-signup-small-panel { display: none !important; }
+.footer-container #article { min-height: inherit; background: rgb(239, 243, 247) !important; }
+.cms-page-view .footer-container { min-height: inherit; }
+.cms-page-view #footer-row3-wrap { display: none; }
+.cms-page-view #footer-row4 { color: rgb(156, 156, 156); background: rgb(239, 243, 247); }
+.page { padding-bottom: 0px; }
+.Farmer-infoBox .delivery-text { padding: 3% 1.5% 2% 3%; }
+.Farmer-infoBox .delivery-text p { font-size: 16px; line-height: 28px; }
+#footer-row3 { position: relative; padding-right: 0px; width: 960px !important; margin: 30px auto !important; height: 110px !important; right: -60px !important; }
+.ftr-twitter, .ftr-facebook, .ftr-youtube, .ftr-instagram { width: 73px; height: 70px; position: absolute; }
+.ftr-paypal { height: 56px; width: 140px; padding-top: 14px; position: absolute; }
+.ftr-twitter { left: 140px; top: 0px; }
+.ftr-facebook { left: 205px; top: 0px; }
+.ftr-youtube { left: 271px; top: 0px; }
+.ftr-instagram { left: 336px; top: 0px; }
+.ftr-paypal { left: 0px; top: 0px; }
+#ftr-gta2013-wrap { width: 84px; height: 84px; position: absolute; left: 430px; top: -10px; }
+.ftr-gta2013 { width: 84px; height: 84px; }
+#ftr-gta2013-txt { display: none; top: 15px; left: -23px; width: 110px; z-index: 99; }
+#ftr-gta2014-wrap { width: 84px; height: 84px; position: absolute; left: 542px; top: -10px; }
+.ftr-gta2014 { width: 84px; height: 84px; }
+#ftr-gta2014-txt { display: none; top: 15px; left: -23px; width: 110px; z-index: 99; }
+#ftr-gff-wrap { width: 107px; height: 87px; position: absolute; left: 650px; top: -12px; }
+.ftr-guildfinefood { width: 107px; height: 87px; }
+#ftr-gff-txt { display: none; top: 15px; left: -9px; width: 110px; z-index: 99; }
+#ftr-gta2016-wrap { width: 106px; height: 87px; position: absolute; left: 767px; top: -14px; }
+#ftr-gta2016-txt { display: none; top: 15px; left: -5px; width: 110px; z-index: 99; }
+.rollover-txt-panel { position: absolute; background-color: rgba(255, 255, 255, 0.92); border: 2px solid rgb(213, 76, 1); border-radius: 3px; box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 5px; padding: 4px 6px; }
+.ftr-rollover-txt { font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Arial, Helvetica, sans-serif; text-align: center; color: rgb(51, 51, 51); margin: 0px 0px 2px; }
+#footer-row4 { width: 960px; margin: 10px auto; text-align: center; }
+.upsells-small { width: 100%; outline: rgb(79, 138, 190) solid 1px; padding: 0.5% 0.5% 10px; }
+.upsells-small .more-deals-img { width: 96%; padding: 2%; float: none; }
+.upsells-small .more-deals-choose { float: none; font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; font-size: 14px; line-height: 18px; font-family: Arial, Helvetica, sans-serif; background: none; width: 100%; margin-left: 0px; }
+.upsells-small .more-deals-choose select { margin-top: 0px; }
+.upsells-small .more-deals-content { width: 96%; min-height: 56px; margin-left: 0px; }
+.upsells-small .more-deals-content h3 { text-align: center; margin-bottom: 0px; }
+.upsells-small .upsell-price-wrap { float: none; clear: both; }
+.upsells-small .price { text-align: center; font-size: 21px; color: rgb(0, 119, 0); font-weight: bold; margin-left: 0px; }
+.upsells-small .sml-upsell-ratings { width: 90%; margin: 0px auto; text-align: center; }
+.ratings .rating-box { margin: 0px auto !important; }
+.small-upsell-holder { width: 100%; margin: 0px; }
+.upsells-small .review-left, .upsells-small .review-right { width: 50%; margin-right: 0px; text-align: center; float: left; clear: none !important; }
+.three-col-holder ul#response-nav li a.active:hover { background-color: rgb(255, 255, 255) !important; }
+.twenty-percent-holder-gandg { width: 23%; margin: 1%; float: left; }
+.upsells-small { outline: rgb(204, 204, 204) solid 1px !important; }
+.upsells-small .more-deals-content h3 { font-weight: normal; font-size: 16px; min-height: 57px; font-family: maxima-lig !important; }
+.upsells-small .price { font-size: 18px; }
+.exit-pop-wrap { padding: 20px; background: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.54) 0px 0px 100px 0px; }
+.exit-cross { width: 35px; height: 35px; position: relative; right: 15px; top: -15px; cursor: pointer; float: right; }
+.hdc-ctatext-small { text-align: center; color: rgb(0, 102, 153); font-size: 20px; line-height: 35px; margin-bottom: 0px; }
+#recpoint { position: relative; padding-top: 5px; padding-left: 8px; padding-bottom: 5px; line-height: 14px; font-size: 12px; color: rgb(255, 255, 255); width: 150px; border-radius: 5px; background-color: rgb(247, 142, 30) !important; }
+#recpoint::after, #recpoint::after { position: absolute; top: -8.5px; left: 149px; content: ""; width: 0px; height: 0px; border-right: 10px solid rgb(255, 255, 255); border-bottom: 20px solid transparent; border-top: 20px solid transparent; }
+#recpoint.ohtwo-tag { position: relative; padding-top: 5px; width: 90px; font-family: maxima-lig; border-radius: 0px; }
+#recpoint.ohtwo-tag::after, #recpoint.ohtwo-tag::after { position: absolute; top: -8.5px; left: 89px; content: ""; width: 0px; height: 0px; border-right: 10px solid rgb(255, 255, 255); border-bottom: 20px solid transparent; border-top: 20px solid transparent; }
+.socialimg-xmas-wrap-x.clearer { max-width: 85%; }
+.upsells-small .more-deals-img.age18 { position: relative; }
+.upsells-small .more-deals-img.age18::after { content: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/151757954-age-verification/151757954-18cert-prod.png"); position: absolute; top: 14px; right: 14px; }
+.twomo-ctatext { text-align: center; color: rgb(0, 102, 153); font-size: 27px; line-height: 31px; margin-bottom: 0px; }
+#recpoint.ohtwo-tag.abm-fg { width: 120px; }
+#recpoint.ohtwo-tag.abm-fg::after, #recpoint.ohtwo-tag.abm-fg::after { left: 123px; }
+.padding-top-ny { min-height: 45px !important; }
+.newyear-normally span { text-decoration: line-through; }
+.bluepalebg { background: rgb(239, 243, 247); }
+.cta-boxshadow { box-shadow: rgba(0, 0, 0, 0.09) 0px 0px 5px 0px; }
+.padding-top-ny { margin-top: 10px; }
+.quantity-dropdown { text-align: center; overflow: hidden; }
+.qty-wrap { display: inline-block; text-transform: uppercase; margin-top: -16px; padding: 0px 3% 4% 0%; font-size: 15px; font-family: maxima-med; color: rgb(111, 111, 111) !important; }
+.bg-dropdown { background: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/153688941-ny-hamper/153688941-bluedropdown.png") 96% 0px no-repeat; margin: 0px auto; width: 30%; display: inline-block; height: 28px; }
+.bg-dropdown select { background: transparent; border: none; font-size: 14px; height: 29px; padding: 5px; width: 152px; -webkit-appearance: none; }
+.roundedcorners { border-radius: 5px; }
+.colorblue { background-color: rgb(237, 243, 247); border: 1px solid rgb(220, 233, 239); }
+.colorblue select { color: rgb(66, 66, 66); }
+.newyear-price { text-align: center; font-size: 21px; color: rgb(68, 126, 186); margin-bottom: 20px; font-weight: bold; margin-left: 0px; text-transform: uppercase; }
+.newyear-normally { color: rgb(196, 54, 70); font-size: 13px; text-transform: uppercase; text-align: center; font-weight: bold; margin-bottom: 2px; }
+.wrapper-ny .header-wrap { overflow-x: hidden !important; }
+.small-upsell-holder.wrapper2k18 { width: 94.5%; margin: 0px auto 3%; }
+.tpcarousel-wrap { padding: 4% 0px 1%; }
+.code-box-wrap { width: 46%; float: left; margin-top: 4px; }
+.upsells-twoeight { padding: 2% 0% 4%; margin: 26px 0px 0px; background: rgb(239, 243, 247); width: 100%; }
+.upsells-twoeight h2 { text-align: center; width: 90%; color: rgb(74, 74, 74); padding-left: 4%; font-size: 18px; margin: 2% 0px; }
+.separator2k18 { height: 1px; background: rgb(215, 227, 238); width: 94%; margin: 0px auto 20px; }
+.upsells-small.ny2k18 { padding-top: 2%; padding-right: 2%; padding-left: 2%; background: white; outline: rgb(222, 232, 242) solid 1px !important; padding-bottom: 15px !important; }
+.code-box-twoeight img { position: absolute; left: 7%; top: -20%; }
+.prod-img-twoeight img { max-width: 154px; }
+a.cta218 { text-decoration: none !important; }
+.ctaurgency-twoeight { position: relative; z-index: 100; display: block; width: 70%; margin: -13% auto 15px; border: 1px solid transparent; border-radius: 0px; }
+.urgencyred-timer { z-index: 100; margin-bottom: 10px; }
+.timer-twoeight { width: 90%; margin-right: auto; margin-left: auto; text-align: center; padding-top: 1%; padding-bottom: 1%; border-style: solid; border-width: 3px; border-color: rgb(201, 63, 80); border-radius: 6px; background: rgb(205, 66, 83); color: rgb(255, 255, 255); font-size: 14px; text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 6px; font-family: maxima-lig; }
+.triang-twoeight { width: 0px; height: 0px; margin: 0px auto; border-style: solid; border-width: 10px 10px 0px; border-color: rgb(205, 66, 83) transparent transparent; }
+.timer-twoeight { width: 90%; margin-right: auto; margin-left: auto; text-align: center; padding-top: 1%; padding-bottom: 1%; border-style: solid; border-width: 3px; border-color: rgb(201, 63, 80); border-radius: 6px; background: rgb(205, 66, 83); color: rgb(255, 255, 255); font-size: 14px; text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 6px; font-family: maxima-lig; }
+.triang-twoeight { width: 0px; height: 0px; margin: 0px auto; border-style: solid; border-width: 10px 10px 0px; border-color: rgb(205, 66, 83) transparent transparent; }
+.cta-wrapper-twoeight { margin-top: 11px; margin-bottom: 0px; padding: 3.2%; border-color: transparent; border-radius: 3px; background: rgb(255, 255, 255); }
+input.herobut { width: 51%; border: 1px solid rgb(239, 243, 247); -webkit-appearance: none; float: right; margin-top: 2px; }
+.ctabutton { border: 0px; cursor: pointer; text-align: center; width: 40%; min-height: 60px; margin-right: auto; font-weight: bold; border-radius: 5px; font-family: maxima-Med; font-size: 1.5em; text-transform: uppercase; -webkit-appearance: none; color: rgb(255, 255, 255) !important; background: rgb(103, 180, 0) !important; }
+.ticks-ny-eighteen.clearer { background: rgb(239, 243, 247); padding: 0px; margin: 0px; width: 100%; }
+ul.ticks-twoeight { padding: 4% 0px 3%; }
+.ticks-twoeight li { background-image: url("//s3-eu-west-1.amazonaws.com/musclefooduk/images/20614-green-ticks-bullet-points.png"); background-size: 1em; background-repeat: no-repeat; background-position: 0px 0px; padding-left: 27px; padding-right: 1.5em; line-height: 20px; color: rgb(75, 75, 75); }
+.maintxt-wrapper { display: block; margin-right: auto; margin-left: auto; padding: 3%; }
+.maintxt-wrapper.extra-text { margin-bottom: 15px; border-bottom: 1px solid rgb(245, 245, 245); background: rgb(253, 253, 254); }
+.headertxt-twoeight { color: rgb(74, 74, 74); font-size: 19px; padding: 0% 4%; line-height: 34px; text-align: center; }
+.product-row-twoeight { padding: 2px 31px 1px; }
+.leftprod-row { padding-bottom: 25px; width: 48%; border-width: 1.4px; margin: 2% 0px; border-color: rgb(225, 234, 244); border-bottom-style: solid; float: left; box-sizing: border-box; }
+.product-row-twoeight > div:nth-child(1) { margin-right: 3%; }
+.prod-img-twoeight { width: 40%; float: left; }
+.prod-desc-wrap-twoeight { width: 60%; float: left; left: 0px; top: 0px; right: 0px; padding-left: 0px; }
+.prodhead-twoeight { margin-top: 0px; margin-bottom: 0px; color: rgb(74, 74, 74); font-size: 16.5px; line-height: 25px; font-weight: 400; text-align: left; }
+.starreview-wraptwoeight { padding-top: 10px; padding-bottom: 10px; }
+.star-wrap { color: rgb(247, 229, 59); font-size: 21px; text-align: left; display: inline-block; margin-right: 3%; }
+.reviewblock-twoeight { color: rgb(82, 139, 192); font-size: 15px; text-decoration: underline; display: inline-block; }
+.prod-description-txt { color: rgb(83, 83, 83); font-size: 13px; font-weight: 400; text-align: left; }
+.prodsecondrow-twoeight { padding-top: 8px; }
+.logos-wrap { float: left; width: 40%; }
+.product-icons-holder.cent-logo { margin-top: 15px; margin-left: -11%; float: none; text-align: center !important; }
+.product-icons-holder.cent-logo > div { float: none !important; }
+.ingredients-dropdown.clearer { float: right; width: 60%; padding: 2% 0px; position: relative; box-sizing: border-box; }
+.nutr-block-twoeight { border: 1px solid rgb(189, 209, 229); border-radius: 3px; }
+.ibut-twoeight { width: 22px; height: 22px; margin-top: 7px; margin-left: 19px; float: left; }
+.nutritional-p { width: 70%; padding-top: 8px; padding-bottom: 8px; padding-left: 14px; float: left; text-align: center; font-size: 14px; font-family: maxima-med; color: rgb(81, 138, 192); }
+.ctamidpage-block { margin-bottom: 3%; text-align: center; }
+.chilled-delivery-twoeight { width: 95%; margin-right: auto; margin-left: auto; padding: 0.5%; margin-top: 20px; box-sizing: border-box; border: 1px solid rgb(189, 209, 229); border-radius: 4px; background: rgb(241, 245, 248); }
+.del-img { float: left; margin-left: 1%; width: 39%; padding: 0.5% 1%; box-sizing: border-box; }
+.delivery-text { float: left; width: 60%; padding: 3% 2.5% 3% 2%; box-sizing: border-box; }
+.chilled-del-txt { color: rgb(74, 74, 74); font-size: 16px; line-height: 28px; text-align: left; margin-top: -5px; }
+.tcs-twoeight { border-top: 1px solid rgb(221, 221, 221); padding: 4% 0px 0px; }
+.tcs-twoeight p { width: 70%; text-align: center; margin: 0px auto; color: rgb(156, 156, 156); line-height: 23px; font-size: 12px; }
+.nutritionals-callout-twoeight { position: absolute; min-width: 300px; z-index: 100; width: 20%; margin-top: 6px; padding: 3.2%; border: 1px solid rgb(190, 210, 229); background-color: rgb(255, 255, 255); border-radius: 3px; }
+.nutritionals-callout-twoeight > div p { display: none !important; }
+.nutrition-table-twoeight th { background-color: rgb(217, 229, 240); color: rgb(97, 99, 101); border-bottom: 1px solid rgb(228, 239, 244); padding: 8px 10px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; white-space: nowrap; font-family: maxima-med; }
+.nutrition-table-twoeight td { background-color: rgb(245, 248, 252); border-top: 1px solid rgb(255, 255, 255); border-bottom: 2px solid rgb(255, 255, 255); padding: 8px 10px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; color: rgb(75, 75, 75) !important; }
+.nutritionals-callout-twoeight > div:nth-child(2) { display: none !important; }
+table.nutrition-table-twoeight { background-color: rgb(228, 239, 244); border: none; color: rgb(255, 255, 255); font-style: normal !important; font-variant: normal !important; font-weight: bold !important; font-stretch: normal !important; font-size: 11px !important; line-height: 13px !important; font-family: maxima-lig !important; }
+.rowtwoeight > div:nth-child(1) { border-left: 0px !important; }
+.ticks-twoeight.rowtwoeight { text-align: center; }
+.viewall-items { display: none; border: 1px solid rgb(189, 209, 229); border-radius: 3px; width: 83%; padding: 3%; text-align: center; font-size: 4.1vw; font-family: maxima-med; color: rgb(81, 138, 192); margin: 1% auto 4%; }
+.main-prod-wrapper { position: relative; }
+.ticks-static { padding: 2% 0% 1%; margin: 0px 0%; background: rgb(239, 243, 247); width: 100%; }
+.ticks-static-twoeight.rowtwoeight { text-align: center; width: 100%; }
+ul.ticksstatic-twoeight { display: inline-block; width: 29%; margin-left: 0px; font-size: 15px; text-align: left; margin-bottom: 1em; color: rgb(75, 75, 75); }
+.ticksstatic-twoeight li { background-image: url("//s3-eu-west-1.amazonaws.com/musclefooduk/images/20614-green-ticks-bullet-points.png"); background-size: 1em; background-repeat: no-repeat; background-position: 0px 8px; padding-left: 1.7em; padding-right: 1.5em; line-height: 33px; }
+.supermarket-comp.mob.show-in-mobile-view2 { margin-top: 0%; }
+.code-box-wrap { width: 47%; float: left; padding-right: 2%; margin-top: 3px; }
+.code-box-tcs { font-size: 10px; font-family: maxima-lig; color: grey; text-transform: uppercase; width: 155px; position: absolute; top: -37%; left: 50%; margin-left: -77px; }
+.code-box-twoeight { background: rgb(248, 248, 248); min-height: 50px; border-width: 3.8px; border-style: dashed; border-color: rgb(235, 235, 235); margin: 0px auto; font-family: maxima-med; font-size: 1.2em; line-height: 45px; text-align: center; color: rgb(201, 63, 80); border-image-source: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/153688941-ny-hamper/153688941-codebox.png") !important; border-image-slice: 2.5 !important; border-image-width: initial !important; border-image-outset: initial !important; border-image-repeat: round !important; -webkit-border-image: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/153688941-ny-hamper/153688941-codebox.png") 2.5 fill round !important; }
+.ctamidpage-block { width: 70%; margin: 0px auto; text-align: center; }
+.midpage-wrap.clearer { margin-top: 17px; margin-bottom: 11px; }
+.code-box-wrap { width: 47%; position: relative; float: left; padding-right: 2%; margin-top: 3px; }
+.midpage-wrap .code-box-wrap .code-box-tcs { font-size: 10px; font-family: maxima-lig; color: grey; text-transform: uppercase; top: -37%; width: 155px; position: absolute; left: 50%; margin-left: -77px; }
+.midpage-wrap .code-box-wrap .code-box-twoeight img { position: absolute; left: 7%; top: -19%; }
+input.wider-footer { width: 70%; }
+.exo-timer-NYpink { text-align: center; color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.27) 1px 1px 4px; padding: 20px 10px 15px; box-sizing: border-box; width: 98%; z-index: 100; margin: 1.2% auto; min-height: 87px; background-color: rgb(208, 76, 93); border-radius: 6px; background-image: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/153694800-ny-twice-as-nice/153694800-pinkheader.jpg"); background-position-y: -15px; background-size: 147px; background-repeat: no-repeat; }
+.exo-timer-NYpink span.exo-timer-LrgText { font-size: 16px; font-family: maxima-Med; }
+.exo-timer-NYpink span.exo-timer-SmlText { font-size: 14px; font-family: maxima-lig; }
+.exo-timer-NYpink img { width: 6%; margin-left: 4%; float: left; }
+.exo-timer-NYpink > article { width: 86%; float: right; margin-right: 4%; }
+.product-breakdown-twohamp { font-size: 1.5em; }
+.percentage-wrapper { width: 72%; margin: 0px auto; }
+.upsells-twoeight span.hide-in-mobile-view { font-size: 15px; }
+.plschilled-twoeight.long { width: 42%; }
+img.freesash { width: 100%; }
+.plschilled-twoeight.free { background: none; width: 50%; margin: -20px auto; }
+.mobShowFullHamp .main-prod-wrapper::after { display: none; }
+.prod-img-leftcol-2grid img.img100 { max-width: 154px; }
+.ingredients-dropdown-2grid.clearer { float: left; width: 66%; padding: 1% 3% 2%; position: relative; box-sizing: border-box; }
+.mysterybox span.txtline2.MBwhite, .mysterybox span.txtline4.MBwhite, .mysterybox div.plschilled-twoeight { color: rgb(255, 255, 255); }
+.mysterybox div.plschilled-twoeight { background: rgb(47, 99, 144); }
+.header-wrap.mysterybox h1.header-text { width: 100%; }
+.plschilled-twoeight.free.long { width: 60%; margin: -25px auto -32px; }
+.exo-timer-NYpink.gift.clearer { background-image: url("https://s3-eu-west-1.amazonaws.com/musclefooduk/images/landing-page/154541680-free-gift-hamper/154541680-pink-banner.jpg"); }
+.bluepalebg.clearer.trustpilotimg { text-align: center; padding-bottom: 4%; }
+.bluepalebg.clearer.trustpilotimg img { max-width: 246px; }
+p.twomo-ctatext.febhamp { font-family: maxima-lig; font-weight: bold; color: rgb(67, 125, 186); padding-bottom: 3%; width: 95%; margin: 0px auto; }
+.twomo-ctatext.febhamp > span { font-family: maxima-lig; color: rgb(111, 111, 111); }
+.feb-header { text-align: center; padding: 2% 0px; font-size: 19px; }
+.feb-header::after { content: ""; width: 75px; height: 2px; background-color: rgb(97, 190, 56); margin: 15px auto 0px; display: block; }
+.header-text.animated { animation-duration: 1s; animation-fill-mode: both; }
+.fadeInUp { animation-name: fadeInUp; }
+.slowcook-headerFloat h1.header-text { margin: 15px auto; }
+.wrapper-ny .recurringSpecialBanner.nyMargin, .wrapper-ny .upsells-twoeight.nyMargin { margin-top: 0px; }
+.logo-moc { max-width: 40%; margin: 0px auto 1%; }
+.ingredient-breakdown-wrapper { width: 100%; }
+.ingredient-breakdown-wrapper h2 { width: 96%; background-color: rgb(217, 229, 240); color: rgb(97, 99, 101); font-family: maxima-med; font-weight: bold; padding: 8px 2%; font-size: 11px; margin-bottom: 0px; }
+.ingredient-breakdown { width: 96%; font-family: maxima-lig; font-weight: normal; font-size: 11px; line-height: 16px; padding: 8px 2%; }
+.ingredient-breakdown strong { font-weight: bold; font-family: maxima-med; }
