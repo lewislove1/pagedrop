@@ -9,7 +9,7 @@
     	{"url":"elements/header4.html","height":660, "thumbnail":"elements/images/thumbs/header4.png"},
     	{"url":"elements/header7.html","height":715, "thumbnail":"elements/images/thumbs/header7.png"}
     ],
-    "Product Section":[
+    "Product Sections":[
       {"url":"elements/team1.html","height":644},
       {"url":"elements/productgrid1.html","height":644}
   ],
@@ -37,6 +37,9 @@
     ],
     "Pricing Tables":[
     	{"url":"elements/pricing_table3.html","height":721, "thumbnail":"elements/images/thumbs/pricing_table3.png"}
+    ],
+    "Urgency Sections":[
+      {"url":"elements/urgency1.html","height":150, "thumbnail":"elements/images/thumbs/urgency1.png"}
     ],
     "Footers":[
     	{"url":"elements/footer1.html","height":294, "thumbnail":"elements/images/thumbs/footer1.png"},
