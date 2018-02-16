@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+* {
+	margin: 0px;
+	padding: 0px;
+}
+html, body {
+	font-family: 'Open Sans', sans-serif;
+	height: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0px;
+	padding: 0px;
+}
+p, a, ul, li, img {
+	outline: none;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+.hamperSection {
+	background: #eff3f7;
+	padding: 80px 0;
+}
+.container {
+	margin: 0 auto;
+	max-width: 1000px;
+}
+.innerSection {
+	background: url(../images/gift_img.jpg) #d04c5d;
+	padding: 20px 10px 8px;
+	width: 100%;
+	display: block;
+	border-radius: 4px;
+	background-repeat: no-repeat;
+	background-position: 0 -15px;
+	text-align: center;
+	min-height: 87px;
+	background-size: 147px;
+	max-width: 98%;
+}
+.innerSection h2 {
+	color: #fff;
+	text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.27);
+	font-size: 16px;
+	margin: 0 0 5px;
+}
+.innerSection p {
+	font-size: 13px;
+	color: #fff;
+	text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.27);
+	line-height: 21px;
+}
+.text_inner_width {
+	max-width: 653px;
+	margin: 0 auto;
+}
