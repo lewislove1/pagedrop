@@ -21,7 +21,7 @@ $lang['loading_saving_data'] = "Saving data...";
 
 // view/shared/nav.php
 $lang['nav_toggle_navigation'] = "Toggle Navigation";
-$lang['nav_name'] = "<b class='text-primary'>SITE</b>BUILDER";
+$lang['nav_name'] = "<b class='text-primary'>PAGE</b>DROP";
 $lang['nav_sites'] = "Sites";
 $lang['nav_imagelibrary'] = "Image Library";
 $lang['nav_users'] = "Users";
@@ -296,7 +296,7 @@ $lang['modal_deleteimage_button_delete'] = "Permanently delete image";
 
 
 // views/auth/login.php
-$lang['login_sitetitle'] = "<b>SITE</b>BUILDER";
+$lang['login_sitetitle'] = "<b>PAGE</b>DROP";
 $lang['login_rememberme'] = "Remember me";
 $lang['login_button_login'] = "Log me in";
 $lang['login_lostpassword'] = "Lost your password?";
@@ -306,7 +306,7 @@ $lang['login_button_signup'] = "SIGN UP NOW";
 
 
 // views/auth/create_user.php
-$lang['createuser_heading'] = "<b>Site</b>Builder Signup";
+$lang['createuser_heading'] = "<b>PAGE</b>DROP Signup";
 $lang['createuser_placeholder_firstname'] = "First name *";
 $lang['createuser_placeholder_lastname'] = "Last name *";
 $lang['createuser_placeholder_email'] = "Email *";
