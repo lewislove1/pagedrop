@@ -1,6 +1,8 @@
+AddType x-httpd-php53 .php
+
 RewriteEngine on
 
-#RewriteCond $1 !^(index\.php|boostrap|css|elements|fonts|images|js|robots\.txt)
+#RewriteCond $1 !^(index\.php|bootstrap|css|elements|fonts|images|js|robots\.txt)
 #RewriteCond %{REQUEST_FILENAME} !-f
 #RewriteCond %{REQUEST_FILENAME} !-d
 #RewriteRule ^(.*)$ index.php/$1 [L]
