@@ -1,8 +1,5 @@
 {"elements": {
     "Headers":[
-    	{"url":"elements/header10.html","height":567, "thumbnail":"elements/images/thumbs/header10.png"},
-    	{"url":"elements/header5.html","height":694, "thumbnail":"elements/images/thumbs/header5.png"},
-    	{"url":"elements/header11.html","height":708, "thumbnail":"elements/images/thumbs/header11.png"},
     	{"url":"elements/header1.html","height":481, "thumbnail":"elements/images/thumbs/header1.png"},
     	{"url":"elements/header6.html","height":491, "thumbnail":"elements/images/thumbs/header6.png"},
     	{"url":"elements/header2.html","height":498, "thumbnail":"elements/images/thumbs/header2.png"},
